@@ -3,16 +3,19 @@
 <html>
 <head>
 <title>Home</title>
+
 <link rel="stylesheet" type="text/css"
-	href="<c:url value='/css/foundation.min.css' />" />
-<link rel="stylesheet" type="text/css"
-	href="<c:url value='/css/wedding.css' />" />
+	href="//cdn.jsdelivr.net/foundation/4.3.2/css/foundation.min.css" />
 <link href='http://fonts.googleapis.com/css?family=Fjalla+One'
 	rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Six+Caps'
 	rel='stylesheet' type='text/css'>
-
-<title>Home</title>
+<link rel="stylesheet" type="text/css"
+	href="<c:url value='/css/wedding.css' />" />
+	
+<script src="<c:url value='/js/jquery-1.10.2.min.js' />"></script>
+<script src="<c:url value='/js/jquery.smooth-scroll.js' />"></script>
+<script src="<c:url value='/js/wedding.js' />"></script>
 </head>
 <body>
 	<div id="content">
