@@ -4,6 +4,9 @@
 <head>
 	<title>Home</title>
 	<link rel="stylesheet" type="text/css" href="<c:url value='/css/wedding.css' />" />
+	<script src="<c:url value='/js/jquery-1.10.2.min.js' />"></script>
+	<script src="<c:url value='/js/jquery.smooth-scroll.js' />"></script>
+	<script src="<c:url value='/js/wedding.js' />"></script>
 </head>
 <body>
 <h1>
