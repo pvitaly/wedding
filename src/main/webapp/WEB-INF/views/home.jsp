@@ -6,6 +6,8 @@
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/foundation/4.3.2/css/foundation.min.css" />
 <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Six+Caps' rel='stylesheet' type='text/css'>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="<c:url value='/css/wedding.css' />" />
 </head>
 <body>
 	<div id="header" class="fixed">
