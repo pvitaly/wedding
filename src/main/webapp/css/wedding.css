@@ -1,0 +1,37 @@
+.brandonrow {
+	padding-top: 45px;
+	width: 900px;
+	margin: 0 auto 0 auto;
+	height: 800px;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-family: "Fjalla One", sans-serif;
+}
+
+#innernav {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#fixednav li a {
+	font-family: "Fjalla One", sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+body {
+	background: url(/wedding/images/bg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#content {
+	background: url(/wedding/images/stripes.png) no-repeat center center;
+}
+	
+}
