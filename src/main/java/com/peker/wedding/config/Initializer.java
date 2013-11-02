@@ -11,11 +11,13 @@ import org.springframework.web.servlet.DispatcherServlet;
 
 public class Initializer implements WebApplicationInitializer {
 
+	private static final String CONFIG_PACKAGE = "com.peker.wedding.config";
+
 	@Override
 	public void onStartup(ServletContext servletContext)
 			throws ServletException {
 		AnnotationConfigWebApplicationContext ctx = new AnnotationConfigWebApplicationContext();  
-        ctx.register(WebAppConfig.class);  
+        ctx.scan(CONFIG_PACKAGE);
           
         ctx.setServletContext(servletContext);    
         
