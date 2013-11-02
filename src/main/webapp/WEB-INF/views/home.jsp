@@ -3,6 +3,7 @@
 <html>
 <head>
 	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="<c:url value='/css/wedding.css' />" />
 </head>
 <body>
 <h1>
