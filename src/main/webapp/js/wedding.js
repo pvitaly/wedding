@@ -1,5 +1,13 @@
-$(document).ready(function(){
-	
-	$('a').smoothScroll({offset: -50});
-	
+$(document).ready(function() {
+
+	$('a').smoothScroll();
+
+	$('#accepted').on('click', function() {
+		$('#response').val("accepted");
+	});
+
+	$('#declined').on('click', function() {
+		$('#response').val("declined");
+	});
+
 });
