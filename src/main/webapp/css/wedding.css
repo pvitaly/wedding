@@ -10,7 +10,7 @@ h1 {
 	font-family: "Fjalla One", sans-serif;
 }
 
-#innernav {
+.innernav {
 	width: 900px;
 	margin-left: auto;
 	margin-right: auto;
@@ -33,5 +33,13 @@ body {
 #content {
 	background: url(/wedding/images/stripes.png) no-repeat center center;
 }
-	
+
+.hidden {
+	display: none;
+	visibility: none;
+}
+
+#rsvpModal .modal-body {
+	max-width: 400px;
+	margin:auto;
 }
