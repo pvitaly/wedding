@@ -6,4 +6,6 @@ import com.peker.wedding.entities.Guest;
 
 public interface IGuestRepository extends JpaRepository<Guest, Integer> {
 
+	Guest findByUniqueId(String uniqueId);
+
 }

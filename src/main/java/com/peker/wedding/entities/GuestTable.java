@@ -9,15 +9,21 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import org.hibernate.annotations.Type;
+
 @Entity
 @Table(name = "GUEST_TABLE")
 public class GuestTable implements Serializable {
 
-	private static final long serialVersionUID = 3473217873021430988L;
-	
-	private Integer id;
-	
-	private Integer tableNum;
+	private static final long	serialVersionUID	= 3473217873021430988L;
+
+	private Integer				id;
+
+	private Integer				tableNum;
+
+	private Integer				availableSeats;
+
+	private Boolean				reserved;
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
@@ -37,6 +43,25 @@ public class GuestTable implements Serializable {
 
 	public void setTableNum(Integer tableNum) {
 		this.tableNum = tableNum;
+	}
+
+	@Column(name = "AVAILABLE_SEATS")
+	public Integer getAvailableSeats() {
+		return availableSeats;
+	}
+
+	public void setAvailableSeats(Integer availableSeats) {
+		this.availableSeats = availableSeats;
+	}
+
+	@Type(type = "yes_no")
+	@Column(name = "RESERVED")
+	public Boolean getReserved() {
+		return reserved;
+	}
+
+	public void setReserved(Boolean reserved) {
+		this.reserved = reserved;
 	}
 
 }
