@@ -3,31 +3,49 @@
 <html>
 <head>
 <title>Vitaly and Kendra's Wedding | 6.7.13</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" type="text/css"
-	href="<c:url value='/css/foundation.min.css' />"  />
 <link href='http://fonts.googleapis.com/css?family=Fjalla+One'
 	rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Six+Caps'
 	rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css"
+	href="<c:url value='/css/normalize.css' />" />
+<link rel="stylesheet"
+	href="//netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css"
 	href="<c:url value='/css/wedding.css' />" />
-	
-<script src="<c:url value='/js/jquery-1.10.2.min.js' />"></script>
-<script src="<c:url value='/js/jquery.smooth-scroll.js' />"></script>
-<script src="<c:url value='/js/wedding.js' />"></script>
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 <body>
 	<div id="content">
-		<div id="header" class="fixed">
-			<nav id="fixedbar" class="top-bar">
-				<div id="innernav">
-					<ul id="fixednav">
+
+		<div class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="innernav">
+					<ul id="fixednav" class="nav navbar-nav">
 						<li><a href="<c:url value='/' />">Go Back</a></li>
 					</ul>
 				</div>
-			</nav>
+			</div>
 		</div>
+
 	</div>
+
+
+	<script type="text/javascript"
+		src="<c:url value='/js/vendor/jquery.js' />"></script>
+	<script
+		src="//netdna.bootstrapcdn.com/bootstrap/3.0.1/js/bootstrap.min.js"></script>
+	<script type="text/javascript"
+		src="<c:url value='/js/jquery.smooth-scroll.js' />"></script>
+	<script type="text/javascript" src="<c:url value='/js/wedding.js' />"></script>
 </body>
 </html>
