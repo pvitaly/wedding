@@ -6,8 +6,31 @@
 }
 
 h1 {
+	font-family: "Montserrat", sans-serif;
 	text-transform: uppercase;
-	font-family: "Fjalla One", sans-serif;
+	font-size: 50px;
+	letter-spacing: 8px;
+	font-weight: bold;
+}
+
+h1 .amp {
+	font-size: 80px;
+}
+
+h2 {
+	font-family: "Montserrat", sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	letter-spacing: 4px;
+	font-weight: bold;
+	margin-bottom: -25px;
+}
+
+.amp {
+	font-family: Baskerville, 'Goudy Old Style', Palatino, 'Book Antiqua',
+		serif;
+	font-style: italic;
+	font-weight: normal;
 }
 
 .innernav {
@@ -17,9 +40,11 @@ h1 {
 }
 
 #fixednav li a {
-	font-family: "Fjalla One", sans-serif;
+	font-family: "Montserrat", sans-serif;
 	text-transform: uppercase;
-	font-size: 20px;
+	font-size: 12px;
+	letter-spacing: 4px;
+	font-weight: bold;
 }
 
 body {
@@ -28,10 +53,111 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	font-family: 'Garamond', 'Georgia', serif;
 }
 
 #content {
 	background: url(/wedding/images/stripes.png) no-repeat center center;
+}
+
+/*Page Elements*/
+.sectionhead,.bodytext {
+	position: relative;
+}
+
+/*Ceremony Page*/
+#ceremony .sectionhead {
+	color: #ece9e2;
+	left: 320px;
+	top: 50px;
+	width: 450px;
+}
+
+#ceremony h2 {
+	color: #202020;
+}
+
+#ceremony .bodytext {
+	color: #ece9e2;
+	width: 450px;
+	left: 320px;
+	top: 50px;
+}
+
+/*Reception Page*/
+#reception .sectionhead {
+	color: #aab180;
+	left: 520px;
+	top: 114px;
+	width: 380px;
+}
+
+#reception h2 {
+	color: #ece9e2;
+}
+
+#reception .bodytext {
+	color: #202020;
+	width: 370px;
+	left: 520px;
+	top: 114px;
+}
+
+/*Wedding Party Page*/
+#weddingparty .sectionhead {
+	color: #ece9e2;
+	left: 320px;
+	top: 50px;
+	width: 450px;
+}
+
+#weddingparty h2 {
+	color: #73207c;
+}
+
+#weddingparty .bodytext {
+	color: #ece9e2;
+	width: 450px;
+	left: 320px;
+	top: 50px;
+}
+
+/*Hotel Page*/
+#hotel .sectionhead {
+	color: #ece9e2;
+	left: 0px;
+	top: 85px;
+	width: 450px;
+}
+
+#hotel h2 {
+	color: #aab180;
+}
+
+#hotel .bodytext {
+	color: #ece9e2;
+	width: 450px;
+	left: 0px;
+	top: 85px;
+}
+
+/*Registry Page*/
+#registry .sectionhead {
+	color: #202020;
+	left: 480px;
+	top: 50px;
+	width: 350px;
+}
+
+#registry h2 {
+	color: #ece9e2;
+}
+
+#registry .bodytext {
+	color: #202020;
+	width: 400px;
+	left: 480px;
+	top: 50px;
 }
 
 .hidden {
@@ -41,5 +167,5 @@ body {
 
 #rsvpModal .modal-body {
 	max-width: 400px;
-	margin:auto;
+	margin: auto;
 }
