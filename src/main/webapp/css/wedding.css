@@ -272,16 +272,20 @@ body {
 	background: #202020;
 }
 
-.ch-img-1 {
+.brandon-img {
 	background-image: url(../images/brandon.jpg);
 }
 
-.ch-img-2 {
-	background-image: url(../images/brandon.jpg);
+.jason-img {
+	background-image: url(../images/jason.jpg);
 }
 
-.ch-img-3 {
-	background-image: url(../images/brandon.jpg);
+.nate-img {
+	background-image: url(../images/nate.jpg);
+}
+
+.ryan-img {
+	background-image: url(../images/ryan.jpg);
 }
 
 .ch-info h3 {

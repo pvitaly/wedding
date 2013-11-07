@@ -130,10 +130,10 @@
 						<div class="container">
 							<ul class="ch-grid">
 								<li>
-									<div class="ch-item ch-img-1">
+									<div class="ch-item shelby-img">
 										<div class="ch-info-wrap">
 											<div class="ch-info">
-												<div class="ch-info-front ch-img-1"></div>
+												<div class="ch-info-front shelby-img"></div>
 												<div class="ch-info-back">
 													<h3>
 														Shelby<br>Jaynes
@@ -145,10 +145,10 @@
 									</div>
 								</li>
 								<li>
-									<div class="ch-item ch-img-2">
+									<div class="ch-item jason-img">
 										<div class="ch-info-wrap">
 											<div class="ch-info">
-												<div class="ch-info-front ch-img-2"></div>
+												<div class="ch-info-front jason-img"></div>
 												<div class="ch-info-back">
 													<h3>
 														Jason<br>Sydor
@@ -167,9 +167,10 @@
 							<ul class="ch-grid">
 								<li>
 									<div class="ch-item ch-img-3">
+									<div class="ch-item melissa-img">
 										<div class="ch-info-wrap">
 											<div class="ch-info">
-												<div class="ch-info-front ch-img-3"></div>
+												<div class="ch-info-front melissa-img"></div>
 												<div class="ch-info-back">
 													<h3>
 														Melissa<br>Beals
@@ -182,9 +183,10 @@
 								</li>
 								<li>
 									<div class="ch-item ch-img-4">
+									<div class="ch-item brandon-img">
 										<div class="ch-info-wrap">
 											<div class="ch-info">
-												<div class="ch-info-front ch-img-4"></div>
+												<div class="ch-info-front brandon-img"></div>
 												<div class="ch-info-back">
 													<h3>
 														Brandon<br>Lynn
@@ -203,9 +205,10 @@
 							<ul class="ch-grid">
 								<li>
 									<div class="ch-item ch-img-5">
+									<div class="ch-item bailey-img">
 										<div class="ch-info-wrap">
 											<div class="ch-info">
-												<div class="ch-info-front ch-img-5"></div>
+												<div class="ch-info-front bailey-img"></div>
 												<div class="ch-info-back">
 													<h3>
 														Bailey<br>Hall
@@ -218,9 +221,10 @@
 								</li>
 								<li>
 									<div class="ch-item ch-img-6">
+									<div class="ch-item nate-img">
 										<div class="ch-info-wrap">
 											<div class="ch-info">
-												<div class="ch-info-front ch-img-6"></div>
+												<div class="ch-info-front nate-img"></div>
 												<div class="ch-info-back">
 													<h3>
 														Nate<br>Jackson
@@ -239,9 +243,10 @@
 							<ul class="ch-grid">
 								<li>
 									<div class="ch-item ch-img-7">
+									<div class="ch-item brittany-img">
 										<div class="ch-info-wrap">
 											<div class="ch-info">
-												<div class="ch-info-front ch-img-7"></div>
+												<div class="ch-info-front brittany-img"></div>
 												<div class="ch-info-back">
 													<h3>
 														Brittany<br>Hernandez
@@ -254,9 +259,10 @@
 								</li>
 								<li>
 									<div class="ch-item ch-img-8">
+									<div class="ch-item devon-img">
 										<div class="ch-info-wrap">
 											<div class="ch-info">
-												<div class="ch-info-front ch-img-8"></div>
+												<div class="ch-info-front devon-img"></div>
 												<div class="ch-info-back">
 													<h3>
 														Devon<br>Jaynes
@@ -275,9 +281,10 @@
 							<ul class="ch-grid">
 								<li>
 									<div class="ch-item ch-img-9">
+									<div class="ch-item lindsay-img">
 										<div class="ch-info-wrap">
 											<div class="ch-info">
-												<div class="ch-info-front ch-img-9"></div>
+												<div class="ch-info-front lindsay-img"></div>
 												<div class="ch-info-back">
 													<h3>
 														Lindsay<br>Ferguson
@@ -290,9 +297,10 @@
 								</li>
 								<li>
 									<div class="ch-item ch-img-10">
+									<div class="ch-item ryan-img">
 										<div class="ch-info-wrap">
 											<div class="ch-info">
-												<div class="ch-info-front ch-img-10"></div>
+												<div class="ch-info-front ryan-img"></div>
 												<div class="ch-info-back">
 													<h3>
 														Ryan<br>Balbaugh
@@ -311,9 +319,10 @@
 							<ul class="ch-grid">
 								<li>
 									<div class="ch-item ch-img-11">
+									<div class="ch-item andrea-img">
 										<div class="ch-info-wrap">
 											<div class="ch-info">
-												<div class="ch-info-front ch-img-11"></div>
+												<div class="ch-info-front andrea-img"></div>
 												<div class="ch-info-back">
 													<h3>
 														Andrea<br>Sydor
