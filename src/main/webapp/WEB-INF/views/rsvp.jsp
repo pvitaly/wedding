@@ -31,7 +31,7 @@
 			<div class="container">
 				<div class="innernav">
 					<ul id="fixednav" class="nav navbar-nav">
-						<li><a href="">Go Back</a></li>
+						<li><a href="/">Go Back</a></li>
 					</ul>
 				</div>
 			</div>
