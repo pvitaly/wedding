@@ -122,6 +122,8 @@
 					<li data-target="#myCarousel" data-slide-to="1"></li>
 					<li data-target="#myCarousel" data-slide-to="2"></li>
 					<li data-target="#myCarousel" data-slide-to="3"></li>
+					<li data-target="#myCarousel" data-slide-to="4"></li>
+					<li data-target="#myCarousel" data-slide-to="5"></li>
 				</ol>
 				<div class="carousel-inner">
 					<div class="item active">
@@ -157,8 +159,14 @@
 										</div>
 									</div>
 								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="item">
+						<div class="container">
+							<ul class="ch-grid">
 								<li>
-									<div class="ch-item ch-img-3">
+									<div class="ch-item ch-img-1">
 										<div class="ch-info-wrap">
 											<div class="ch-info">
 												<div class="ch-info-front ch-img-3"></div>
@@ -167,6 +175,21 @@
 														Melissa<br>Beals
 													</h3>
 													<p>Matron of Honor</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="ch-item ch-img-2">
+										<div class="ch-info-wrap">
+											<div class="ch-info">
+												<div class="ch-info-front ch-img-4"></div>
+												<div class="ch-info-back">
+													<h3>
+														Brandon<br>Lynn
+													</h3>
+													<p>Groomsman</p>
 												</div>
 											</div>
 										</div>
@@ -182,22 +205,7 @@
 									<div class="ch-item ch-img-1">
 										<div class="ch-info-wrap">
 											<div class="ch-info">
-												<div class="ch-info-front ch-img-1"></div>
-												<div class="ch-info-back">
-													<h3>
-														Brandon<br>Lynn
-													</h3>
-													<p>Groomsman</p>
-												</div>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li>
-									<div class="ch-item ch-img-2">
-										<div class="ch-info-wrap">
-											<div class="ch-info">
-												<div class="ch-info-front ch-img-2"></div>
+												<div class="ch-info-front ch-img-5"></div>
 												<div class="ch-info-back">
 													<h3>
 														Bailey<br>Hall
@@ -209,10 +217,10 @@
 									</div>
 								</li>
 								<li>
-									<div class="ch-item ch-img-3">
+									<div class="ch-item ch-img-2">
 										<div class="ch-info-wrap">
 											<div class="ch-info">
-												<div class="ch-info-front ch-img-3"></div>
+												<div class="ch-info-front ch-img-6"></div>
 												<div class="ch-info-back">
 													<h3>
 														Nate<br>Jackson
@@ -233,7 +241,7 @@
 									<div class="ch-item ch-img-1">
 										<div class="ch-info-wrap">
 											<div class="ch-info">
-												<div class="ch-info-front ch-img-1"></div>
+												<div class="ch-info-front ch-img-7"></div>
 												<div class="ch-info-back">
 													<h3>
 														Brittany<br>Hernandez
@@ -248,27 +256,12 @@
 									<div class="ch-item ch-img-2">
 										<div class="ch-info-wrap">
 											<div class="ch-info">
-												<div class="ch-info-front ch-img-2"></div>
+												<div class="ch-info-front ch-img-8"></div>
 												<div class="ch-info-back">
 													<h3>
 														Devon<br>Jaynes
 													</h3>
 													<p>Groomsman</p>
-												</div>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li>
-									<div class="ch-item ch-img-3">
-										<div class="ch-info-wrap">
-											<div class="ch-info">
-												<div class="ch-info-front ch-img-3"></div>
-												<div class="ch-info-back">
-													<h3>
-														Lindsay<br>Fergeson
-													</h3>
-													<p>Bridesmaid</p>
 												</div>
 											</div>
 										</div>
@@ -284,7 +277,22 @@
 									<div class="ch-item ch-img-1">
 										<div class="ch-info-wrap">
 											<div class="ch-info">
-												<div class="ch-info-front ch-img-1"></div>
+												<div class="ch-info-front ch-img-9"></div>
+												<div class="ch-info-back">
+													<h3>
+														Lindsay<br>Ferguson
+													</h3>
+													<p>Bridesmaid</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="ch-item ch-img-2">
+										<div class="ch-info-wrap">
+											<div class="ch-info">
+												<div class="ch-info-front ch-img-10"></div>
 												<div class="ch-info-back">
 													<h3>
 														Ryan<br>Balbaugh
@@ -295,11 +303,17 @@
 										</div>
 									</div>
 								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="item">
+						<div class="container">
+							<ul class="ch-grid">
 								<li>
-									<div class="ch-item ch-img-2">
+									<div class="ch-item ch-img-1">
 										<div class="ch-info-wrap">
 											<div class="ch-info">
-												<div class="ch-info-front ch-img-2"></div>
+												<div class="ch-info-front ch-img-11"></div>
 												<div class="ch-info-back">
 													<h3>
 														Andrea<br>Sydor
@@ -311,10 +325,10 @@
 									</div>
 								</li>
 								<li>
-									<div class="ch-item ch-img-3">
+									<div class="ch-item ch-img-2">
 										<div class="ch-info-wrap">
 											<div class="ch-info">
-												<div class="ch-info-front ch-img-3"></div>
+												<div class="ch-info-front ch-img-12"></div>
 												<div class="ch-info-back">
 													<h3>
 														?<br>?
@@ -329,10 +343,10 @@
 						</div>
 					</div>
 				</div>
-				<a class="left carousel-control" href="#myCarousel"
+				<a class="left carousel-control" data-target="#myCarousel"
 					data-slide="prev"><span
 					class="glyphicon glyphicon-chevron-left"></span></a> <a
-					class="right carousel-control" href="#myCarousel" data-slide="next"><span
+					class="right carousel-control" data-target="#myCarousel" data-slide="next"><span
 					class="glyphicon glyphicon-chevron-right"></span></a>
 			</div>
 			<!-- /.carousel -->
