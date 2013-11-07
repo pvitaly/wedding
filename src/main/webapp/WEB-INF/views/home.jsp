@@ -93,59 +93,277 @@
 				<h2>the</h2>
 				<h1>reception</h1>
 			</div>
-			<div class="bodytext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-			commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-			et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-			felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
-			consequat massa quis enim. Donec pede justo, fringilla vel, aliquet
-			nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
-			venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
-			Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
-			Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu,
-			consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in,
-			viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus
-			varius laoreet.</div>
+			<div class="bodytext">Lorem ipsum dolor sit amet, consectetuer
+				adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+				sociis natoque penatibus et magnis dis parturient montes, nascetur
+				ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+				pretium quis, sem. Nulla consequat massa quis enim. Donec pede
+				justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim
+				justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam
+				dictum felis eu pede mollis pretium. Integer tincidunt. Cras
+				dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend
+				tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend
+				ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
+				tellus. Phasellus viverra nulla ut metus varius laoreet.</div>
 		</div>
 		<div id="weddingparty" class="brandonrow">
 			<div class="sectionhead">
 				<h2>the</h2>
-				<h1>wedding party</h1>
+				<h1>
+					<span class="purple">wedding</span> party
+				</h1>
 			</div>
-			<div class="bodytext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-			commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-			et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-			felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
-			consequat massa quis enim. Donec pede justo, fringilla vel, aliquet
-			nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
-			venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
-			Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
-			Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu,
-			consequat vitae, eleifend ac, enim.</div>
+
+
+			<!-- Carousel
+    ================================================== -->
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="3"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="item active">
+						<div class="container">
+							<ul class="ch-grid">
+								<li>
+									<div class="ch-item ch-img-1">
+										<div class="ch-info-wrap">
+											<div class="ch-info">
+												<div class="ch-info-front ch-img-1"></div>
+												<div class="ch-info-back">
+													<h3>
+														Shelby<br>Jaynes
+													</h3>
+													<p>Maid of Honor</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="ch-item ch-img-2">
+										<div class="ch-info-wrap">
+											<div class="ch-info">
+												<div class="ch-info-front ch-img-2"></div>
+												<div class="ch-info-back">
+													<h3>
+														Jason<br>Sydor
+													</h3>
+													<p>Best Man</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="ch-item ch-img-3">
+										<div class="ch-info-wrap">
+											<div class="ch-info">
+												<div class="ch-info-front ch-img-3"></div>
+												<div class="ch-info-back">
+													<h3>
+														Melissa<br>Beals
+													</h3>
+													<p>Matron of Honor</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="item">
+						<div class="container">
+							<ul class="ch-grid">
+								<li>
+									<div class="ch-item ch-img-1">
+										<div class="ch-info-wrap">
+											<div class="ch-info">
+												<div class="ch-info-front ch-img-1"></div>
+												<div class="ch-info-back">
+													<h3>
+														Brandon<br>Lynn
+													</h3>
+													<p>Groomsman</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="ch-item ch-img-2">
+										<div class="ch-info-wrap">
+											<div class="ch-info">
+												<div class="ch-info-front ch-img-2"></div>
+												<div class="ch-info-back">
+													<h3>
+														Bailey<br>Hall
+													</h3>
+													<p>Bridesmaid</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="ch-item ch-img-3">
+										<div class="ch-info-wrap">
+											<div class="ch-info">
+												<div class="ch-info-front ch-img-3"></div>
+												<div class="ch-info-back">
+													<h3>
+														Nate<br>Jackson
+													</h3>
+													<p>Groomsman</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="item">
+						<div class="container">
+							<ul class="ch-grid">
+								<li>
+									<div class="ch-item ch-img-1">
+										<div class="ch-info-wrap">
+											<div class="ch-info">
+												<div class="ch-info-front ch-img-1"></div>
+												<div class="ch-info-back">
+													<h3>
+														Brittany<br>Hernandez
+													</h3>
+													<p>Bridesmaid</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="ch-item ch-img-2">
+										<div class="ch-info-wrap">
+											<div class="ch-info">
+												<div class="ch-info-front ch-img-2"></div>
+												<div class="ch-info-back">
+													<h3>
+														Devon<br>Jaynes
+													</h3>
+													<p>Groomsman</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="ch-item ch-img-3">
+										<div class="ch-info-wrap">
+											<div class="ch-info">
+												<div class="ch-info-front ch-img-3"></div>
+												<div class="ch-info-back">
+													<h3>
+														Lindsay<br>Fergeson
+													</h3>
+													<p>Bridesmaid</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="item">
+						<div class="container">
+							<ul class="ch-grid">
+								<li>
+									<div class="ch-item ch-img-1">
+										<div class="ch-info-wrap">
+											<div class="ch-info">
+												<div class="ch-info-front ch-img-1"></div>
+												<div class="ch-info-back">
+													<h3>
+														Ryan<br>Balbaugh
+													</h3>
+													<p>Groomsman</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="ch-item ch-img-2">
+										<div class="ch-info-wrap">
+											<div class="ch-info">
+												<div class="ch-info-front ch-img-2"></div>
+												<div class="ch-info-back">
+													<h3>
+														Andrea<br>Sydor
+													</h3>
+													<p>Bridesmaid</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="ch-item ch-img-3">
+										<div class="ch-info-wrap">
+											<div class="ch-info">
+												<div class="ch-info-front ch-img-3"></div>
+												<div class="ch-info-back">
+													<h3>
+														?<br>?
+													</h3>
+													<p>Groomsman</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<a class="left carousel-control" href="#myCarousel"
+					data-slide="prev"><span
+					class="glyphicon glyphicon-chevron-left"></span></a> <a
+					class="right carousel-control" href="#myCarousel" data-slide="next"><span
+					class="glyphicon glyphicon-chevron-right"></span></a>
+			</div>
+			<!-- /.carousel -->
+
 		</div>
 		<div id="hotel" class="brandonrow">
 			<div class="sectionhead">
 				<h2>the</h2>
 				<h1>hotel</h1>
 			</div>
-			<div class="bodytext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-			commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-			et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-			felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
-			consequat massa quis enim. Donec pede justo, fringilla vel, aliquet
-			nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
-			venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
-			Integer tincidunt.</div>
+			<div class="bodytext">Lorem ipsum dolor sit amet, consectetuer
+				adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+				sociis natoque penatibus et magnis dis parturient montes, nascetur
+				ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+				pretium quis, sem. Nulla consequat massa quis enim. Donec pede
+				justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim
+				justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam
+				dictum felis eu pede mollis pretium. Integer tincidunt.</div>
 		</div>
 		<div id="registry" class="brandonrow">
 			<div class="sectionhead">
 				<h2>the</h2>
 				<h1>registry</h1>
 			</div>
-			<div class="bodytext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-			commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-			et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-			felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
-			consequat massa quis enim.</div>
+			<div class="bodytext">Lorem ipsum dolor sit amet, consectetuer
+				adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+				sociis natoque penatibus et magnis dis parturient montes, nascetur
+				ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+				pretium quis, sem. Nulla consequat massa quis enim.</div>
 		</div>
 	</div>
 
@@ -198,5 +416,12 @@
 	<script type="text/javascript"
 		src="<c:url value='/js/jquery.smooth-scroll.js' />"></script>
 	<script type="text/javascript" src="<c:url value='/js/wedding.js' />"></script>
+
+	<script type="text/javascript">
+		$('.carousel').carousel({
+			interval : false
+		})
+	</script>
+
 </body>
 </html>
