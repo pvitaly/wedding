@@ -4,6 +4,7 @@
 <html>
 <head>
 <title>Vitaly and Kendra's Wedding | 6.7.13</title>
+<%-- <base href="${pageContext.request.contextPath}/"> --%>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <link href='http://fonts.googleapis.com/css?family=Fjalla+One'
@@ -11,11 +12,10 @@
 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700'
 	rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css"
-	href="<c:url value='/css/normalize.css' />" />
+	href="<c:url value='css/normalize.css' />" />
 <link rel="stylesheet"
 	href="//netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css"
-	href="<c:url value='/css/wedding.css' />" />
+<link rel="stylesheet" type="text/css" href="css/wedding.css" />
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -93,59 +93,60 @@
 				<h2>the</h2>
 				<h1>reception</h1>
 			</div>
-			<div class="bodytext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-			commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-			et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-			felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
-			consequat massa quis enim. Donec pede justo, fringilla vel, aliquet
-			nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
-			venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
-			Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
-			Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu,
-			consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in,
-			viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus
-			varius laoreet.</div>
+			<div class="bodytext">Lorem ipsum dolor sit amet, consectetuer
+				adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+				sociis natoque penatibus et magnis dis parturient montes, nascetur
+				ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+				pretium quis, sem. Nulla consequat massa quis enim. Donec pede
+				justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim
+				justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam
+				dictum felis eu pede mollis pretium. Integer tincidunt. Cras
+				dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend
+				tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend
+				ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
+				tellus. Phasellus viverra nulla ut metus varius laoreet.</div>
 		</div>
 		<div id="weddingparty" class="brandonrow">
 			<div class="sectionhead">
 				<h2>the</h2>
 				<h1>wedding party</h1>
 			</div>
-			<div class="bodytext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-			commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-			et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-			felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
-			consequat massa quis enim. Donec pede justo, fringilla vel, aliquet
-			nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
-			venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
-			Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
-			Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu,
-			consequat vitae, eleifend ac, enim.</div>
+			<div class="bodytext">Lorem ipsum dolor sit amet, consectetuer
+				adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+				sociis natoque penatibus et magnis dis parturient montes, nascetur
+				ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+				pretium quis, sem. Nulla consequat massa quis enim. Donec pede
+				justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim
+				justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam
+				dictum felis eu pede mollis pretium. Integer tincidunt. Cras
+				dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend
+				tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend
+				ac, enim.</div>
 		</div>
 		<div id="hotel" class="brandonrow">
 			<div class="sectionhead">
 				<h2>the</h2>
 				<h1>hotel</h1>
 			</div>
-			<div class="bodytext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-			commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-			et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-			felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
-			consequat massa quis enim. Donec pede justo, fringilla vel, aliquet
-			nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
-			venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
-			Integer tincidunt.</div>
+			<div class="bodytext">Lorem ipsum dolor sit amet, consectetuer
+				adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+				sociis natoque penatibus et magnis dis parturient montes, nascetur
+				ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+				pretium quis, sem. Nulla consequat massa quis enim. Donec pede
+				justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim
+				justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam
+				dictum felis eu pede mollis pretium. Integer tincidunt.</div>
 		</div>
 		<div id="registry" class="brandonrow">
 			<div class="sectionhead">
 				<h2>the</h2>
 				<h1>registry</h1>
 			</div>
-			<div class="bodytext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-			commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-			et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-			felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
-			consequat massa quis enim.</div>
+			<div class="bodytext">Lorem ipsum dolor sit amet, consectetuer
+				adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+				sociis natoque penatibus et magnis dis parturient montes, nascetur
+				ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+				pretium quis, sem. Nulla consequat massa quis enim.</div>
 		</div>
 	</div>
 
@@ -192,11 +193,11 @@
 	<!-- /.modal -->
 
 	<script type="text/javascript"
-		src="<c:url value='/js/vendor/jquery.js' />"></script>
+		src="<c:url value='js/vendor/jquery.js' />"></script>
 	<script
 		src="//netdna.bootstrapcdn.com/bootstrap/3.0.1/js/bootstrap.min.js"></script>
 	<script type="text/javascript"
-		src="<c:url value='/js/jquery.smooth-scroll.js' />"></script>
-	<script type="text/javascript" src="<c:url value='/js/wedding.js' />"></script>
+		src="<c:url value='js/jquery.smooth-scroll.js' />"></script>
+	<script type="text/javascript" src="<c:url value='js/wedding.js' />"></script>
 </body>
 </html>
