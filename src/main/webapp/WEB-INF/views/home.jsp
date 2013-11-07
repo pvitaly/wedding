@@ -4,6 +4,7 @@
 <html>
 <head>
 <title>Vitaly and Kendra's Wedding | 6.7.13</title>
+<%-- <base href="${pageContext.request.contextPath}/"> --%>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <link href='http://fonts.googleapis.com/css?family=Fjalla+One'
@@ -11,11 +12,10 @@
 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700'
 	rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css"
-	href="<c:url value='/css/normalize.css' />" />
+	href="<c:url value='css/normalize.css' />" />
 <link rel="stylesheet"
 	href="//netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css"
-	href="<c:url value='/css/wedding.css' />" />
+<link rel="stylesheet" type="text/css" href="css/wedding.css" />
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -113,8 +113,6 @@
 					<span class="purple">wedding</span> party
 				</h1>
 			</div>
-
-
 			<!-- Carousel
     ================================================== -->
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -338,7 +336,6 @@
 					class="glyphicon glyphicon-chevron-right"></span></a>
 			</div>
 			<!-- /.carousel -->
-
 		</div>
 		<div id="hotel" class="brandonrow">
 			<div class="sectionhead">
@@ -410,18 +407,11 @@
 	<!-- /.modal -->
 
 	<script type="text/javascript"
-		src="<c:url value='/js/vendor/jquery.js' />"></script>
+		src="<c:url value='js/vendor/jquery.js' />"></script>
 	<script
 		src="//netdna.bootstrapcdn.com/bootstrap/3.0.1/js/bootstrap.min.js"></script>
 	<script type="text/javascript"
-		src="<c:url value='/js/jquery.smooth-scroll.js' />"></script>
-	<script type="text/javascript" src="<c:url value='/js/wedding.js' />"></script>
-
-	<script type="text/javascript">
-		$('.carousel').carousel({
-			interval : false
-		})
-	</script>
-
+		src="<c:url value='js/jquery.smooth-scroll.js' />"></script>
+	<script type="text/javascript" src="<c:url value='js/wedding.js' />"></script>
 </body>
 </html>

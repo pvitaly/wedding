@@ -48,7 +48,7 @@ h2 {
 }
 
 body {
-	background: url(/images/bg.jpg) no-repeat center center fixed;
+	background: url(../images/bg.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -57,7 +57,7 @@ body {
 }
 
 #content {
-	background: url(/images/stripes.png) no-repeat center center;
+	background: url(../images/stripes.png) no-repeat center center;
 }
 
 /*Page Elements*/
@@ -273,22 +273,23 @@ body {
 }
 
 .ch-img-1 {
-	background-image: url(/images/brandon.jpg);
+	background-image: url(../images/brandon.jpg);
 }
 
 .ch-img-2 {
-	background-image: url(/images/brandon.jpg);
+	background-image: url(../images/brandon.jpg);
 }
 
 .ch-img-3 {
-	background-image: url(/images/brandon.jpg);
+	background-image: url(../images/brandon.jpg);
 }
 
 .ch-info h3 {
 	color: #fff;
 	text-transform: uppercase;
 	letter-spacing: 6px;
-	line-height: 18px; font-size : 14px;
+	line-height: 18px;
+	font-size: 14px;
 	margin: 0 15px;
 	padding: 40px 0 0 0;
 	height: 90px;
@@ -386,7 +387,7 @@ body {
 	width: 50px;
 }
 
-.carousel-control.left .glyphicon, .carousel-control.right .glyphicon {
+.carousel-control.left .glyphicon,.carousel-control.right .glyphicon {
 	top: 140px;
 	font-size: 30px;
 }

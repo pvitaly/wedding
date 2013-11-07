@@ -10,11 +10,11 @@
 <link href='http://fonts.googleapis.com/css?family=Six+Caps'
 	rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css"
-	href="<c:url value='/css/normalize.css' />" />
+	href="<c:url value='css/normalize.css' />" />
 <link rel="stylesheet"
 	href="//netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css"
-	href="<c:url value='/css/wedding.css' />" />
+	href="<c:url value='css/wedding.css' />" />
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -31,7 +31,7 @@
 			<div class="container">
 				<div class="innernav">
 					<ul id="fixednav" class="nav navbar-nav">
-						<li><a href="<c:url value='/' />">Go Back</a></li>
+						<li><a href="">Go Back</a></li>
 					</ul>
 				</div>
 			</div>
@@ -41,11 +41,11 @@
 
 
 	<script type="text/javascript"
-		src="<c:url value='/js/vendor/jquery.js' />"></script>
+		src="<c:url value='js/vendor/jquery.js' />"></script>
 	<script
 		src="//netdna.bootstrapcdn.com/bootstrap/3.0.1/js/bootstrap.min.js"></script>
 	<script type="text/javascript"
-		src="<c:url value='/js/jquery.smooth-scroll.js' />"></script>
-	<script type="text/javascript" src="<c:url value='/js/wedding.js' />"></script>
+		src="<c:url value='js/jquery.smooth-scroll.js' />"></script>
+	<script type="text/javascript" src="<c:url value='js/wedding.js' />"></script>
 </body>
 </html>

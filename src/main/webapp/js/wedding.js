@@ -9,5 +9,8 @@ $(document).ready(function() {
 	$('#declined').on('click', function() {
 		$('#response').val("declined");
 	});
-
+	
+	$('.carousel').carousel({
+		interval : false
+	});
 });
