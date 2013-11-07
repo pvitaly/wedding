@@ -166,7 +166,7 @@
 						<div class="container">
 							<ul class="ch-grid">
 								<li>
-									<div class="ch-item ch-img-1">
+									<div class="ch-item ch-img-3">
 										<div class="ch-info-wrap">
 											<div class="ch-info">
 												<div class="ch-info-front ch-img-3"></div>
@@ -181,7 +181,7 @@
 									</div>
 								</li>
 								<li>
-									<div class="ch-item ch-img-2">
+									<div class="ch-item ch-img-4">
 										<div class="ch-info-wrap">
 											<div class="ch-info">
 												<div class="ch-info-front ch-img-4"></div>
@@ -202,7 +202,7 @@
 						<div class="container">
 							<ul class="ch-grid">
 								<li>
-									<div class="ch-item ch-img-1">
+									<div class="ch-item ch-img-5">
 										<div class="ch-info-wrap">
 											<div class="ch-info">
 												<div class="ch-info-front ch-img-5"></div>
@@ -217,7 +217,7 @@
 									</div>
 								</li>
 								<li>
-									<div class="ch-item ch-img-2">
+									<div class="ch-item ch-img-6">
 										<div class="ch-info-wrap">
 											<div class="ch-info">
 												<div class="ch-info-front ch-img-6"></div>
@@ -238,7 +238,7 @@
 						<div class="container">
 							<ul class="ch-grid">
 								<li>
-									<div class="ch-item ch-img-1">
+									<div class="ch-item ch-img-7">
 										<div class="ch-info-wrap">
 											<div class="ch-info">
 												<div class="ch-info-front ch-img-7"></div>
@@ -253,7 +253,7 @@
 									</div>
 								</li>
 								<li>
-									<div class="ch-item ch-img-2">
+									<div class="ch-item ch-img-8">
 										<div class="ch-info-wrap">
 											<div class="ch-info">
 												<div class="ch-info-front ch-img-8"></div>
@@ -274,7 +274,7 @@
 						<div class="container">
 							<ul class="ch-grid">
 								<li>
-									<div class="ch-item ch-img-1">
+									<div class="ch-item ch-img-9">
 										<div class="ch-info-wrap">
 											<div class="ch-info">
 												<div class="ch-info-front ch-img-9"></div>
@@ -289,7 +289,7 @@
 									</div>
 								</li>
 								<li>
-									<div class="ch-item ch-img-2">
+									<div class="ch-item ch-img-10">
 										<div class="ch-info-wrap">
 											<div class="ch-info">
 												<div class="ch-info-front ch-img-10"></div>
@@ -310,7 +310,7 @@
 						<div class="container">
 							<ul class="ch-grid">
 								<li>
-									<div class="ch-item ch-img-1">
+									<div class="ch-item ch-img-11">
 										<div class="ch-info-wrap">
 											<div class="ch-info">
 												<div class="ch-info-front ch-img-11"></div>
@@ -325,7 +325,7 @@
 									</div>
 								</li>
 								<li>
-									<div class="ch-item ch-img-2">
+									<div class="ch-item ch-img-12">
 										<div class="ch-info-wrap">
 											<div class="ch-info">
 												<div class="ch-info-front ch-img-12"></div>
