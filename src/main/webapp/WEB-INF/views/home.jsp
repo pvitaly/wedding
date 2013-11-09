@@ -1,10 +1,11 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <%@ page session="false"%>
+<!DOCTYPE html>
 <html>
 <head>
 <title>Vitaly and Kendra's Wedding | 6.7.13</title>
-<%-- <base href="${pageContext.request.contextPath}/"> --%>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <link href='http://fonts.googleapis.com/css?family=Fjalla+One'
@@ -37,7 +38,7 @@
 						<li><a href="#weddingparty">wedding party</a></li>
 						<li><a href="#hotel">hotel</a></li>
 						<li><a href="#registry">registry</a></li>
-						<li><a href="" data-toggle="modal" data-target="#rsvpModal">RSVP</a></li>
+						<li><a href="javascript:void(0)" data-toggle="modal" data-target="#rsvpModal">RSVP</a></li>
 					</ul>
 				</div>
 			</div>
@@ -202,136 +203,136 @@
 						<div class="container">
 							<ul class="ch-grid">
 								<li>
-										<div class="ch-item bailey-img">
-											<div class="ch-info-wrap">
-												<div class="ch-info">
-													<div class="ch-info-front bailey-img"></div>
-													<div class="ch-info-back">
-														<h3>
-															Bailey<br>Hall
-														</h3>
-														<p>Bridesmaid</p>
-													</div>
-												</div>
-											</div>
-										</div>
-								</li>
-								<li>
-										<div class="ch-item nate-img">
-											<div class="ch-info-wrap">
-												<div class="ch-info">
-													<div class="ch-info-front nate-img"></div>
-													<div class="ch-info-back">
-														<h3>
-															Nate<br>Jackson
-														</h3>
-														<p>Groomsman</p>
-													</div>
-												</div>
-											</div>
-										</div>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="item">
-						<div class="container">
-							<ul class="ch-grid">
-								<li>
-										<div class="ch-item brittany-img">
-											<div class="ch-info-wrap">
-												<div class="ch-info">
-													<div class="ch-info-front brittany-img"></div>
-													<div class="ch-info-back">
-														<h3>
-															Brittany<br>Hernandez
-														</h3>
-														<p>Bridesmaid</p>
-													</div>
-												</div>
-											</div>
-										</div>
-								</li>
-								<li>
-										<div class="ch-item devon-img">
-											<div class="ch-info-wrap">
-												<div class="ch-info">
-													<div class="ch-info-front devon-img"></div>
-													<div class="ch-info-back">
-														<h3>
-															Devon<br>Jaynes
-														</h3>
-														<p>Groomsman</p>
-													</div>
-												</div>
-											</div>
-										</div>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="item">
-						<div class="container">
-							<ul class="ch-grid">
-								<li>
-										<div class="ch-item lindsay-img">
-											<div class="ch-info-wrap">
-												<div class="ch-info">
-													<div class="ch-info-front lindsay-img"></div>
-													<div class="ch-info-back">
-														<h3>
-															Lindsay<br>Ferguson
-														</h3>
-														<p>Bridesmaid</p>
-													</div>
-												</div>
-											</div>
-										</div>
-								</li>
-								<li>
-										<div class="ch-item ryan-img">
-											<div class="ch-info-wrap">
-												<div class="ch-info">
-													<div class="ch-info-front ryan-img"></div>
-													<div class="ch-info-back">
-														<h3>
-															Ryan<br>Balbaugh
-														</h3>
-														<p>Groomsman</p>
-													</div>
-												</div>
-											</div>
-										</div>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="item">
-						<div class="container">
-							<ul class="ch-grid">
-								<li>
-										<div class="ch-item andrea-img">
-											<div class="ch-info-wrap">
-												<div class="ch-info">
-													<div class="ch-info-front andrea-img"></div>
-													<div class="ch-info-back">
-														<h3>
-															Andrea<br>Sydor
-														</h3>
-														<p>Bridesmaid</p>
-													</div>
-												</div>
-											</div>
-										</div>
-								</li>
-								<li>
-									<div class="ch-item ch-img-12">
+									<div class="ch-item bailey-img">
 										<div class="ch-info-wrap">
 											<div class="ch-info">
-												<div class="ch-info-front ch-img-12"></div>
+												<div class="ch-info-front bailey-img"></div>
 												<div class="ch-info-back">
 													<h3>
-														?<br>?
+														Bailey<br>Hall
+													</h3>
+													<p>Bridesmaid</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="ch-item nate-img">
+										<div class="ch-info-wrap">
+											<div class="ch-info">
+												<div class="ch-info-front nate-img"></div>
+												<div class="ch-info-back">
+													<h3>
+														Nate<br>Jackson
+													</h3>
+													<p>Groomsman</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="item">
+						<div class="container">
+							<ul class="ch-grid">
+								<li>
+									<div class="ch-item brittany-img">
+										<div class="ch-info-wrap">
+											<div class="ch-info">
+												<div class="ch-info-front brittany-img"></div>
+												<div class="ch-info-back">
+													<h3>
+														Brittany<br>Hernandez
+													</h3>
+													<p>Bridesmaid</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="ch-item devon-img">
+										<div class="ch-info-wrap">
+											<div class="ch-info">
+												<div class="ch-info-front devon-img"></div>
+												<div class="ch-info-back">
+													<h3>
+														Devon<br>Jaynes
+													</h3>
+													<p>Groomsman</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="item">
+						<div class="container">
+							<ul class="ch-grid">
+								<li>
+									<div class="ch-item lindsay-img">
+										<div class="ch-info-wrap">
+											<div class="ch-info">
+												<div class="ch-info-front lindsay-img"></div>
+												<div class="ch-info-back">
+													<h3>
+														Lindsay<br>Welsh
+													</h3>
+													<p>Bridesmaid</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="ch-item ryan-img">
+										<div class="ch-info-wrap">
+											<div class="ch-info">
+												<div class="ch-info-front ryan-img"></div>
+												<div class="ch-info-back">
+													<h3>
+														Ryan<br>Balbaugh
+													</h3>
+													<p>Groomsman</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="item">
+						<div class="container">
+							<ul class="ch-grid">
+								<li>
+									<div class="ch-item andrea-img">
+										<div class="ch-info-wrap">
+											<div class="ch-info">
+												<div class="ch-info-front andrea-img"></div>
+												<div class="ch-info-back">
+													<h3>
+														Andrea<br>Sydor
+													</h3>
+													<p>Bridesmaid</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="ch-item ian-img">
+										<div class="ch-info-wrap">
+											<div class="ch-info">
+												<div class="ch-info-front ian-img"></div>
+												<div class="ch-info-back">
+													<h3>
+														Ian<br>Beals
 													</h3>
 													<p>Groomsman</p>
 												</div>
@@ -357,14 +358,17 @@
 				<h2>the</h2>
 				<h1>hotel</h1>
 			</div>
-			<div class="bodytext">Lorem ipsum dolor sit amet, consectetuer
-				adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-				sociis natoque penatibus et magnis dis parturient montes, nascetur
-				ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-				pretium quis, sem. Nulla consequat massa quis enim. Donec pede
-				justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim
-				justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam
-				dictum felis eu pede mollis pretium. Integer tincidunt.</div>
+			<div class="bodytext">
+				To help you enjoy our wedding to the fullest, we have reserved a
+				block of rooms at the Courtyard Detroit Brighton. Click <strong><a
+					href="http://cwp.marriott.com/dtwbr/jaynespekerwedding/"
+					target="_blank">here</a></strong> to reserve your room or call <strong>(810)
+					225-9200</strong> and mention the <strong>Peker/Jaynes Wedding</strong> and
+				receive a special rate! For your convenience, we are providing a
+				shuttle that will take you from the hotel to the ceremony, from the
+				ceremony to the reception, and from the reception back to the hotel!
+				<img src="../images/hotel.jpg">
+			</div>
 		</div>
 		<div id="registry" class="brandonrow">
 			<div class="sectionhead">

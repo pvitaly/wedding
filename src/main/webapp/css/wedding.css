@@ -112,7 +112,7 @@ body {
 }
 
 .sectionhead .purple {
-	color: 73207c;
+	color: #73207c;
 }
 
 #weddingparty h2 {
@@ -129,7 +129,7 @@ body {
 /*Hotel Page*/
 #hotel .sectionhead {
 	color: #ece9e2;
-	left: 0px;
+	left: 0;
 	top: 85px;
 	width: 450px;
 }
@@ -141,7 +141,7 @@ body {
 #hotel .bodytext {
 	color: #ece9e2;
 	width: 450px;
-	left: 0px;
+	left: 0;
 	top: 85px;
 }
 
@@ -164,11 +164,6 @@ body {
 	top: 50px;
 }
 
-.hidden {
-	display: none;
-	visibility: none;
-}
-
 #rsvpModal .modal-body {
 	max-width: 400px;
 	margin: auto;
@@ -176,8 +171,8 @@ body {
 
 /*Circles Common*/
 .ch-grid {
-	margin: 20px 0px 0px 0px;
-	padding: 0px;
+	margin: 20px 0 0 0;
+	padding: 0;
 	list-style: none;
 	display: block;
 	text-align: center;
@@ -219,7 +214,7 @@ body {
 	-moz-perspective: 800px;
 	-o-perspective: 800px;
 	-ms-perspective: 800px;
-	perspective: 800px;
+/* 	perspective: 800px; */
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
 	-o-transition: all 0.4s ease-in-out;
@@ -246,7 +241,7 @@ body {
 	-moz-transform-style: preserve-3d;
 	-o-transform-style: preserve-3d;
 	-ms-transform-style: preserve-3d;
-	transform-style: preserve-3d;
+/* 	transform-style: preserve-3d; */
 }
 
 .ch-info>div {
@@ -260,7 +255,7 @@ body {
 	-moz-backface-visibility: hidden;
 	-o-backface-visibility: hidden;
 	-ms-backface-visibility: hidden;
-	backface-visibility: hidden;
+/* 	backface-visibility: hidden; */
 }
 
 .ch-info .ch-info-back {
@@ -286,6 +281,34 @@ body {
 
 .ryan-img {
 	background-image: url(../images/ryan.jpg);
+}
+
+.lindsay-img {
+	background-image: url(../images/lindsay.jpg);
+}
+
+.brittany-img {
+	background-image: url(../images/brittany.jpg);
+}
+
+.shelby-img {
+	background-image: url(../images/shelby.jpg);
+}
+
+.andrea-img {
+	background-image: url(../images/andrea.jpg);
+}
+
+.bailey-img {
+	background-image: url(../images/bailey.jpg);
+}
+
+.melissa-img {
+	background-image: url(../images/melissa.jpg);
+}
+
+.ian-img {
+/* 	background-image: url(../images/ian.jpg); */
 }
 
 .ch-info h3 {
@@ -350,7 +373,7 @@ body {
 /* Carousel base class */
 .carousel {
 	height: 420px;
-	margin: 0px;
+	margin: 0;
 	border: none;
 	padding: 0;
 	position: relative;
@@ -380,9 +403,9 @@ body {
 }
 
 .container {
-	border: 0px;
+	border: 0;
 	width: 900px;
-	padding: 0px;
+	padding: 0;
 }
 
 .carousel-control.left,.carousel-control.right {
@@ -398,7 +421,6 @@ body {
 }
 
 .carousel-indicators {
-	bottom: 0px;
+	bottom: 0;
 	color: #202020;
 }
-
