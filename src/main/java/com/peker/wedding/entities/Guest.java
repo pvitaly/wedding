@@ -46,6 +46,12 @@ public class Guest implements Serializable {
 
 	private GuestTable			guestTable;
 
+	private Boolean				kidsAllowed;
+
+	private Boolean				bringingKids;
+
+	private String				kidNames;
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name = "ID", unique = true, nullable = false)
@@ -150,6 +156,35 @@ public class Guest implements Serializable {
 
 	public void setGuestTable(GuestTable guestTable) {
 		this.guestTable = guestTable;
+	}
+
+	@Type(type = "yes_no")
+	@Column(name = "KIDS_ALLOWED")
+	public Boolean getKidsAllowed() {
+		return kidsAllowed;
+	}
+
+	public void setKidsAllowed(Boolean kidsAllowed) {
+		this.kidsAllowed = kidsAllowed;
+	}
+
+	@Type(type = "yes_no")
+	@Column(name = "BRINGING_KIDS")
+	public Boolean getBringingKids() {
+		return bringingKids;
+	}
+
+	public void setBringingKids(Boolean bringingKids) {
+		this.bringingKids = bringingKids;
+	}
+
+	@Column(name = "KIDS_NAMES")
+	public String getKidNames() {
+		return kidNames;
+	}
+
+	public void setKidNames(String kidNames) {
+		this.kidNames = kidNames;
 	}
 
 }

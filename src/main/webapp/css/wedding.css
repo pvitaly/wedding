@@ -39,6 +39,15 @@ h2 {
 	margin-right: auto;
 }
 
+.purple-emphasis {
+	color: #73207c;
+	font-weight: 400 !important;
+}
+
+.radio-margin {
+	margin-right: 5px !important;
+}
+
 #fixednav li a {
 	font-family: "Montserrat", sans-serif;
 	text-transform: uppercase;

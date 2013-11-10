@@ -23,8 +23,6 @@ public class GuestService implements IGuestService {
 		guest.setGuestStatusEnum(GuestStatusEnum.ACCEPTED);
 		this.guestRepository.save(guest);
 
-		guestTableService.guestAccept(guest);
-
 	}
 
 	@Override
@@ -37,6 +35,17 @@ public class GuestService implements IGuestService {
 	@Override
 	public Guest findByUniqueId(String uniqueId) {
 		return this.guestRepository.findByUniqueId(uniqueId);
+	}
+
+	@Override
+	@Transactional
+	public Guest save(Guest guest) {
+		return this.guestRepository.saveAndFlush(guest);
+	}
+
+	@Override
+	public Guest findOne(Integer id) {
+		return this.guestRepository.findOne(id);
 	}
 
 }

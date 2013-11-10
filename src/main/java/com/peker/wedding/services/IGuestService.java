@@ -10,4 +10,8 @@ public interface IGuestService {
 
 	void regretGuest(Guest guest);
 
+	Guest save(Guest guest);
+
+	Guest findOne(Integer id);
+
 }

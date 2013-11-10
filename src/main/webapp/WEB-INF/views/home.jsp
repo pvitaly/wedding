@@ -38,7 +38,7 @@
 						<li><a href="#weddingparty">wedding party</a></li>
 						<li><a href="#hotel">hotel</a></li>
 						<li><a href="#registry">registry</a></li>
-						<li><a href="javascript:void(0)" data-toggle="modal" data-target="#rsvpModal">RSVP</a></li>
+						<li><a href="" data-toggle="modal" data-target="#rsvpModal">RSVP</a></li>
 					</ul>
 				</div>
 			</div>
@@ -402,14 +402,17 @@
 								placeholder="RSVP CODE FROM INVITATION"
 								style="text-align: center;">
 						</div>
-						<div class="form-group">
-							<div class="btn-group">
-								<input type="hidden" name="response" id="response">
-								<button type="button" id="accepted" class="btn btn-default">Accept
-									With Pleasure</button>
-								<button type="button" id="declined" class="btn btn-default">Decline
-									With Regret</button>
+						<div class="form-group" align="center">
+							<input type="hidden" name="response" id="response">
+
+							<div class="input-group">
+								<span class="input-group-addon"> <input id="accepted"
+									name="rsvpResponse" type="radio" class="radio-margin">Accept With Pleasure
+								</span> <span class="input-group-addon"> <input id="declined"
+									name="rsvpResponse" type="radio" class="radio-margin">Reject With Regret
+								</span>
 							</div>
+							<!-- /input-group -->
 						</div>
 						<div class="form-group" align="center">
 							<button type="reset" class="btn" data-dismiss="modal">Close</button>

@@ -13,4 +13,112 @@ $(document).ready(function() {
 	$('.carousel').carousel({
 		interval : false
 	});
+
+	$('#plusOne').click(function() {
+		$.ajax({
+			url : "rsvp/setPlusOne",
+			type : "POST",
+			data : {
+				id : $(this).data('id'),
+				plusOne : true
+			},
+			dataType : "json"
+		}).done(function(data) {
+			$('#plusOneFirstName').val(data.plusOneFirstName);
+			$('#plusOneLastName').val(data.plusOneLastName);
+			$('#plusOneForm').fadeIn("fast", "linear");
+		});
+	});
+
+	$('#comingAlone').click(function() {
+		$('#plusOneForm').fadeOut("fast", "linear");
+
+		$.ajax({
+			url : "rsvp/setPlusOne",
+			type : "POST",
+			data : {
+				id : $(this).data('id'),
+				plusOne : false
+			}
+		});
+
+	});
+
+	$('#plusOneFirstName').on('blur', function() {
+		$.ajax({
+			url : "rsvp/addPlusOneFirstName",
+			type : "POST",
+			data : {
+				id : $(this).data('id'),
+				firstName : $(this).val()
+			}
+		});
+	});
+
+	$('#plusOneLastName').on('blur', function() {
+		$.ajax({
+			url : "rsvp/addPlusOneLastName",
+			type : "POST",
+			data : {
+				id : $(this).data('id'),
+				lastName : $(this).val()
+			}
+		});
+	});
+
+	$('#yesKids').click(function() {
+		$.ajax({
+			url : "rsvp/setKids",
+			type : "POST",
+			data : {
+				id : $(this).data('id'),
+				bringingKids : true
+			}
+		}).done(function() {
+			$('#kids').fadeIn("fast", "linear");
+		});
+	});
+
+	$('#noKids').click(function() {
+		$.ajax({
+			url : "rsvp/setKids",
+			type : "POST",
+			data : {
+				id : $(this).data('id'),
+				bringingKids : false
+			}
+		}).done(function() {
+			$('#kids').fadeOut("fast", "linear");
+		});
+	});
+
+	$('#numberOfKids').on('change', function() {
+		$('#kidsNames').text("");
+		if ($(this).val() != 'How Many Kids?') {
+			for ( var i = 0; i < $(this).val(); i++) {
+				$('#kidsNames').append("<div class='form-group' style='margin-top:5px;'><input class='kidName' type='text' placeholder='Full Name' style='text-align: center;'></div>");
+			}
+			$('#kidsNames').append("<div style='margin-top:5px;'><button type='button' id='saveNames' class='btn btn-primary'>Save Names</button></div>");
+			$('#kidsNames').fadeIn("fast", "linear");
+		} 
+	});
+	
+	$('#kidsNames').on('click', '#saveNames', function() {
+		
+		var names = "";
+		$('.kidName').each(function() {
+			names += $(this).val() + ",";
+		});
+		names = names.substring(0,names.length-1);
+		
+		$.ajax({
+			url: 'rsvp/saveKidsNames',
+			type: "POST",
+			data: {id:$('#kids').data('id'), names: names}
+		}).done(function(){
+			$('#kidsNames').append("<div><h4><span class='purple-emphasis'>Names saved!</span></h4></div>");
+		});
+		
+	});
+
 });
