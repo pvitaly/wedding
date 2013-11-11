@@ -66,26 +66,18 @@ public class HomeController {
 		return json;
 	}
 
-	@RequestMapping(value = "rsvp/addPlusOneFirstName", method = RequestMethod.POST)
+	@RequestMapping(value = "rsvp/savePlusOneName", method = RequestMethod.POST)
 	public @ResponseBody
-	String addPlusOneFirstName(Integer id, String firstName) {
+	String addPlusOneFirstName(Integer id, String firstName, String lastName) {
 		Guest guest = this.guestService.findOne(id);
 		guest.setPlusOneFirstName(firstName);
-
-		this.guestService.save(guest);
-
-		return null;
-	}
-
-	@RequestMapping(value = "rsvp/addPlusOneLastName", method = RequestMethod.POST)
-	public @ResponseBody
-	String addPlusOneLastName(Integer id, String lastName) {
-		Guest guest = this.guestService.findOne(id);
 		guest.setPlusOneLastName(lastName);
 
 		this.guestService.save(guest);
 
-		return null;
+		String name = guest.getPlusOneFirstName() + " " + guest.getPlusOneLastName();
+
+		return name;
 	}
 
 	@RequestMapping(value = "rsvp/setKids", method = RequestMethod.POST)

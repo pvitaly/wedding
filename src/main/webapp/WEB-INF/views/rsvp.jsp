@@ -39,7 +39,7 @@
 			</div>
 		</div>
 
-		<div class="row brandonrow">
+		<div class="rsvprow">
 			<h3>
 				Thank you <strong>${guest.firstName}&nbsp${guest.lastName }</strong>!
 			</h3>
@@ -64,13 +64,17 @@
 				<div id="plusOneForm" style="display: none">
 					<fieldset>
 						<h4>
-							<span class="purple-emphasis">Plus One Information</span>
+							<span class="purple-emphasis">Plus One Name</span>
 						</h4>
 						<div class="form-group">
 							<input id="plusOneFirstName" type="text" data-id="${guest.id }"
 								placeholder="First Name" style="text-align: center;"> <input
 								id="plusOneLastName" type="text" data-id="${guest.id }"
 								placeholder="Last Name" style="text-align: center;">
+						</div>
+						<div style='margin-top: 5px;'>
+							<button type='button' data-id="${guest.id }" id='savePlusOneName'
+								class='btn btn-primary'>Save Name</button>
 						</div>
 					</fieldset>
 				</div>
@@ -104,11 +108,10 @@
 					<div id="kidsNames" style="display: none"></div>
 				</div>
 			</c:if>
-
-			<div id="tableChart" class="row brandonrow">
-				<h1>TABLES GO HERE!!!!</h1>
-			</div>
-
+		</div>
+		
+		<div id="tableChart" class="rsvprow">
+			<h1>TABLES GO HERE!!!!</h1>
 		</div>
 	</div>
 
