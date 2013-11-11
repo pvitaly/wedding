@@ -5,6 +5,12 @@
 	height: 800px;
 }
 
+.rsvprow {
+	padding-top: 45px;
+	width: 900px;
+	margin: 0 auto 0 auto;
+}
+
 h1 {
 	font-family: "Montserrat", sans-serif;
 	text-transform: uppercase;
@@ -223,7 +229,7 @@ body {
 	-moz-perspective: 800px;
 	-o-perspective: 800px;
 	-ms-perspective: 800px;
-/* 	perspective: 800px; */
+	/* 	perspective: 800px; */
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
 	-o-transition: all 0.4s ease-in-out;
@@ -250,7 +256,7 @@ body {
 	-moz-transform-style: preserve-3d;
 	-o-transform-style: preserve-3d;
 	-ms-transform-style: preserve-3d;
-/* 	transform-style: preserve-3d; */
+	/* 	transform-style: preserve-3d; */
 }
 
 .ch-info>div {
@@ -264,7 +270,7 @@ body {
 	-moz-backface-visibility: hidden;
 	-o-backface-visibility: hidden;
 	-ms-backface-visibility: hidden;
-/* 	backface-visibility: hidden; */
+	/* 	backface-visibility: hidden; */
 }
 
 .ch-info .ch-info-back {
@@ -317,7 +323,8 @@ body {
 }
 
 .ian-img {
-/* 	background-image: url(../images/ian.jpg); */
+	/* 	background-image: url(../images/ian.jpg); */
+	
 }
 
 .ch-info h3 {
