@@ -44,28 +44,6 @@ $(document).ready(function() {
 
 	});
 
-	$('#plusOneFirstName').on('blur', function() {
-		$.ajax({
-			url : "rsvp/addPlusOneFirstName",
-			type : "POST",
-			data : {
-				id : $(this).data('id'),
-				firstName : $(this).val()
-			}
-		});
-	});
-
-	$('#plusOneLastName').on('blur', function() {
-		$.ajax({
-			url : "rsvp/addPlusOneLastName",
-			type : "POST",
-			data : {
-				id : $(this).data('id'),
-				lastName : $(this).val()
-			}
-		});
-	});
-
 	$('#yesKids').click(function() {
 		$.ajax({
 			url : "rsvp/setKids",
@@ -98,13 +76,16 @@ $(document).ready(function() {
 			for ( var i = 0; i < $(this).val(); i++) {
 				$('#kidsNames').append("<div class='form-group' style='margin-top:5px;'><input class='kidName' type='text' placeholder='Full Name' style='text-align: center;'></div>");
 			}
-			$('#kidsNames').append("<div style='margin-top:5px;'><button type='button' id='saveNames' class='btn btn-primary'>Save Names</button></div>");
+			var namesBtn = 'Save Names';
+			if ($(this).val() == 1) {
+				namesBtn = 'Save Name';
+			}
+			$('#kidsNames').append("<div style='margin-top:5px;'><button type='button' id='saveNames' class='btn btn-primary'>" + namesBtn + "</button></div>");
 			$('#kidsNames').fadeIn("fast", "linear");
 		} 
 	});
 	
 	$('#kidsNames').on('click', '#saveNames', function() {
-		
 		var names = "";
 		$('.kidName').each(function() {
 			names += $(this).val() + ",";
@@ -116,9 +97,20 @@ $(document).ready(function() {
 			type: "POST",
 			data: {id:$('#kids').data('id'), names: names}
 		}).done(function(){
-			$('#kidsNames').append("<div><h4><span class='purple-emphasis'>Names saved!</span></h4></div>");
+			$('#kidSuccess').remove();
+			$('#kidsNames').append("<div id='kidSuccess' class='alert alert-success' style='margin-top:5px'><button type='button' class='close' data-dismiss='alert'>&times;</button><strong>Success! Names Have Been Saved!</strong></div>");
 		});
-		
+	});
+	
+	$('#savePlusOneName').on('click', function() {
+		$.ajax({
+			url: 'rsvp/savePlusOneName',
+			type: "POST",
+			data: {id:$(this).data('id'), firstName: $('#plusOneFirstName').val(), lastName: $('#plusOneLastName').val()}
+		}).done(function(data){
+			$('#plusOneSuccess').remove();
+			$('#plusOneForm').append("<div id='plusOneSuccess' class='alert alert-success' style='margin-top:5px'><button type='button' class='close' data-dismiss='alert'>&times;</button><strong>Success! " + data +  " is coming with you!</strong></div>");
+		});
 	});
 
 });
