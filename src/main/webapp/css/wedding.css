@@ -5,12 +5,6 @@
 	height: 800px;
 }
 
-.rsvprow {
-	padding-top: 45px;
-	width: 900px;
-	margin: 0 auto 0 auto;
-}
-
 h1 {
 	font-family: "Montserrat", sans-serif;
 	text-transform: uppercase;
@@ -39,6 +33,38 @@ h2 {
 	font-weight: normal;
 }
 
+.rsvpbg {
+	background-image: url(../images/rsvp_bg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top;
+	-webkit-background-size: auto;
+	-moz-background-size: auto;
+	-o-background-size: auto;
+	background-size: auto;
+}
+
+.rsvpNav {
+	width: 850px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(255, 255, 255, .35);
+	border-color: transparent;
+}
+
+.rsvprow {
+	padding: 5px;
+	width: 350px;
+	margin-left: 95px;
+	margin-top: 250px;
+	background-color: rgba(255, 255, 255, .35);
+}
+
+.greetingRow {
+	margin-left: 110px;
+	margin-top: 110px;
+}
+
 .innernav {
 	width: 900px;
 	margin-left: auto;
@@ -55,11 +81,17 @@ h2 {
 }
 
 #fixednav li a {
-	font-family: "Montserrat", sans-serif;
+	font-family: 'Garamond', "Montserrat", sans-serif;
+	font-variant: small-caps;
 	text-transform: uppercase;
 	font-size: 12px;
 	letter-spacing: 4px;
-	font-weight: bold;
+	color: white;
+	/* 	font-weight: bold; */
+}
+
+#fixednav li a:hover {
+	color: #999;
 }
 
 body {
