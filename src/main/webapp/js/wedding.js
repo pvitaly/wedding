@@ -1,5 +1,17 @@
 $(document).ready(function() {
 
+	$(window).scroll(function(){
+		var top = $(this).scrollTop();
+		if (top > 36) {
+			$('#transnav').fadeOut(500);
+			$('#purpnav').fadeIn(500);
+		} else {
+			$('#transnav').fadeIn(500);
+			$('#purpnav').fadeOut(500);
+		}
+	});
+	
+	
 	$('a').smoothScroll();
 
 	$('#accepted').on('click', function() {

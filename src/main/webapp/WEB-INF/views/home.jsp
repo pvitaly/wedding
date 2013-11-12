@@ -28,7 +28,8 @@
 </head>
 <body>
 	<div id="content">
-		<div class="navbar navbar-inverse navbar-fixed-top">
+		<div id="transnav"
+			class="navbar navbar-inverse navbar-fixed-top rsvpNav">
 			<div class="container">
 				<div class="innernav">
 					<ul id="fixednav" class="nav navbar-nav">
@@ -38,56 +39,55 @@
 						<li><a href="#weddingparty">wedding party</a></li>
 						<li><a href="#hotel">hotel</a></li>
 						<li><a href="#registry">registry</a></li>
-						<li><a href="" data-toggle="modal" data-target="#rsvpModal">RSVP</a></li>
+						<li><a href="" data-toggle="modal" data-target="#rsvpModal">rsvp</a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
-
-		<div id="welcome" class="brandonrow">
-			<h1>
-				kendra <span class="amp">&amp;</span> vitaly
-			</h1>
-			Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-			commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-			et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-			felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
-			consequat massa quis enim. Donec pede justo, fringilla vel, aliquet
-			nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
-			venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
-			Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
-			Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu,
-			consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in,
-			viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus
-			varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies
-			nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
-			Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem
-			quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam
-			nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec
-			odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis
-			faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus
-			tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec
-			sodales sagittis magna.
+		<div id="purpnav"
+			class="navbar navbar-inverse navbar-fixed-top rsvpNav">
+			<div class="container">
+				<div class="innernav">
+					<ul id="fixednav" class="nav navbar-nav">
+						<li><a href="#welcome">welcome</a></li>
+						<li><a href="#ceremony">ceremony</a></li>
+						<li><a href="#reception">reception</a></li>
+						<li><a href="#weddingparty">wedding party</a></li>
+						<li><a href="#hotel">hotel</a></li>
+						<li><a href="#registry">registry</a></li>
+						<li><a href="" data-toggle="modal" data-target="#rsvpModal">rsvp</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="welcome" class="brandonrow slide">
+			<div class="welcometitle">
+				<ul class="welcomeheading">
+					<li style="height: 26px;"><span class="purple-emphasis">Kendra</span></li>
+					<li style="height: 60px;"><span
+						class="welcomeand purple-emphasis">and</span></li>
+					<li style="margin-left: 85px; height: 64px"><span
+						class="purple-emphasis">Vitaly</span></li>
+				</ul>
+				<div class="welcometext">
+					<span class="purple-emphasis">Welcome to our wedding
+						website! We met while working at Gordon Food Service in 2007 and
+						were instantly drawn to each other. Vitaly overheard Kendra
+						talking about Grey's Anatomy, so he "prenteded" to love the show
+						in order to start a conversation that was not work related. Months 
+						would go by before they would start dating, which now has turned into
+						six years! On Novermber 21, 2012 Vitaly proposed to Kendra in their home
+						in Ann Arbor and she said yes! </span>
+				</div>
+			</div>
 		</div>
 		<div id="ceremony" class="brandonrow">
-			<div class="sectionhead">
-				<h2>the</h2>
-				<h1>ceremony</h1>
-			</div>
-			<div class="bodytext">Lorem ipsum dolor sit amet, consectetuer
-				adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-				sociis natoque penatibus et magnis dis parturient montes, nascetur
-				ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-				pretium quis, sem. Nulla consequat massa quis enim. Donec pede
-				justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim
-				justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam
-				dictum felis eu pede mollis pretium. Integer tincidunt. Cras
-				dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend
-				tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend
-				ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
-				tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque
-				rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur
-				ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.</div>
+			<ul class="ceremonyheading">
+					<li style="height: 58px;"><span class="ceremonythe purple-emphasis">The</span></li>
+					<li style="height: 65px;"><span
+						class="purple-emphasis">Ceremony</span></li>
+				</ul>
+			<div class="ceremonytext"><span class="purple-emphasis"><span class="largedate">June 7th, 2014</span></span></div>
 		</div>
 		<div id="reception" class="brandonrow">
 			<div class="sectionhead">
@@ -370,7 +370,7 @@
 				<img src="../images/hotel.jpg">
 			</div>
 		</div>
-		<div id="registry" class="brandonrow">
+		<div id="registry" class="brandonrow lastslide">
 			<div class="sectionhead">
 				<h2>the</h2>
 				<h1>registry</h1>
@@ -407,9 +407,11 @@
 
 							<div class="input-group">
 								<span class="input-group-addon"> <input id="accepted"
-									name="rsvpResponse" type="radio" class="radio-margin">Accept With Pleasure
+									name="rsvpResponse" type="radio" class="radio-margin">Accept
+									With Pleasure
 								</span> <span class="input-group-addon"> <input id="declined"
-									name="rsvpResponse" type="radio" class="radio-margin">Reject With Regret
+									name="rsvpResponse" type="radio" class="radio-margin">Reject
+									With Regret
 								</span>
 							</div>
 							<!-- /input-group -->

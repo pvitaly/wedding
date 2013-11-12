@@ -1,20 +1,33 @@
 .brandonrow {
-	padding-top: 45px;
+	padding-top: 110px;
 	width: 900px;
 	margin: 0 auto 0 auto;
-	height: 800px;
+	height: 600px;
 }
 
-h1 {
-	font-family: "Montserrat", sans-serif;
-	text-transform: uppercase;
-	font-size: 50px;
+.slide {
+	height: 525px;
+}
+
+.lastslide {
+	height: 710px;
+}
+
+@font-face {
+	font-family: myFirstFont;
+	src: url('../fonts/sloop-scriptthree-74283.ttf');
+}
+
+.welcometitle {
+	margin-top: 30px;
+	margin-left: 15px;
+	font-family: myFirstFont, "Montserrat", sans-serif;
+	font-size: 85px;
 	letter-spacing: 8px;
-	font-weight: bold;
 }
 
 h1 .amp {
-	font-size: 80px;
+	font-size: 30px;
 }
 
 h2 {
@@ -73,21 +86,33 @@ h2 {
 
 .purple-emphasis {
 	color: #73207c;
-	font-weight: 400 !important;
+	/* 	color: rgba(73, 35, 101, 1); */
 }
 
 .radio-margin {
 	margin-right: 5px !important;
 }
 
+#transnav.navbar-inverse {
+	background-color: rgba(255, 255, 255, 0.30);
+	border-color: transparent;
+}
+
+#purpnav {
+	display: none;
+}
+
+#purpnav.navbar-inverse {
+	background-color: #73207c;
+	border-color: transparent;
+}
+
 #fixednav li a {
 	font-family: 'Garamond', "Montserrat", sans-serif;
 	font-variant: small-caps;
-	text-transform: uppercase;
-	font-size: 12px;
+	font-size: 17px;
 	letter-spacing: 4px;
 	color: white;
-	/* 	font-weight: bold; */
 }
 
 #fixednav li a:hover {
@@ -104,7 +129,9 @@ body {
 }
 
 #content {
-	background: url(../images/stripes.png) no-repeat center center;
+	background-image: url(../images/pics_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
 }
 
 /*Page Elements*/
@@ -112,7 +139,69 @@ body {
 	position: relative;
 }
 
+ul.welcomeheading {
+	margin-top: 204px;
+	margin-left: 75px;
+	list-style-type: none;
+}
+
+.welcomeand {
+	margin-left: 230px;
+	font-family: myFirstFont, "Montserrat", sans-serif;
+	font-size: 35px;
+}
+
+/*Welcome Page*/
+.welcometext {
+	font-family: 'Garamond', "Montserrat", sans-serif;
+	font-size: 13px;
+	font-variant: normal;
+	letter-spacing: 2px;
+	width: 700px;
+	padding-top: 40px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	background-color: rgba(255, 255, 255, 0.50);
+	margin-left: 100px;
+}
+
 /*Ceremony Page*/
+ul.ceremonyheading {
+	font-family: myFirstFont, "Montserrat", sans-serif;
+	font-size: 85px;
+	letter-spacing: 8px;
+	margin-left: 525px;
+	list-style-type: none;
+}
+
+.ceremonythe {
+	margin-left: 12px;
+	font-family: myFirstFont, "Montserrat", sans-serif;
+	font-size: 35px;
+}
+
+.ceremonytext {
+	font-family: 'Garamond', "Montserrat", sans-serif;
+	font-size: 13px;
+	font-variant: normal;
+	letter-spacing: 2px;
+	width: 310px;
+	height: 500px;
+	padding-top: 40px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	margin-left: 550px;
+	background-color: rgba(255, 255, 255, 0.50);
+	padding-top: 40px;
+	text-align: center;
+}
+
+.largedate {
+	font-size: 40px;
+}
+
 #ceremony .sectionhead {
 	color: #ece9e2;
 	left: 320px;
@@ -419,6 +508,18 @@ body {
 -------------------------------------------------- */
 
 /* Carousel base class */
+/* #myCarousel { */
+/* 	width: 800px; */
+/* 	margin-left: auto; */
+/* 	margin-right: auto; */
+/* } */
+
+/* .carousel-inner { */
+/* 	background-color: rgba(255, 255, 255, .35); */
+/* 	margin-left: auto; */
+/* 	margin-right: auto; */
+
+/* } */
 .carousel {
 	height: 420px;
 	margin: 0;
