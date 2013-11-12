@@ -26,10 +26,10 @@
     <![endif]-->
 
 </head>
-<body>
+<body class="rsvpbg">
 	<div>
 
-		<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="navbar navbar-inverse navbar-fixed-top rsvpNav">
 			<div class="container">
 				<div class="innernav">
 					<ul id="fixednav" class="nav navbar-nav">
@@ -39,10 +39,15 @@
 			</div>
 		</div>
 
-		<div class="rsvprow">
+		<div class="greetingRow">
 			<h3>
-				Thank you <strong>${guest.firstName}&nbsp${guest.lastName }</strong>!
+				<span class="purple-emphasis"> Thank you <strong>${guest.firstName}&nbsp${guest.lastName
+						}</strong>!
+				</span>
 			</h3>
+		</div>
+
+		<div class="rsvprow">
 			<h4>
 				We are very <span class="purple-emphasis">excited</span> for you to
 				be a part of our special day!
@@ -109,10 +114,10 @@
 				</div>
 			</c:if>
 		</div>
-		
-		<div id="tableChart" class="rsvprow">
-			<h1>TABLES GO HERE!!!!</h1>
-		</div>
+
+		<!-- 		<div id="tableChart" class="rsvprow"> -->
+		<!-- 			<h1>TABLES GO HERE!!!!</h1> -->
+		<!-- 		</div> -->
 	</div>
 
 	<script type="text/javascript"

@@ -19,8 +19,9 @@ import com.peker.wedding.util.GuestStatusEnum;
 @Controller
 public class HomeController {
 
+	private static final String	REDIRECT	= "redirect:/";
 	@Autowired
-	private IGuestService	guestService;
+	private IGuestService		guestService;
 
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home() {
@@ -31,25 +32,41 @@ public class HomeController {
 	public RedirectView rsvp(String uniqueId, String response, Model model) {
 		RedirectView view = null;
 
-		Guest guest = this.guestService.findByUniqueId(uniqueId);
+		if (uniqueId != null) {
+			Guest guest = this.guestService.findByUniqueId(uniqueId);
 
-		if (response.equalsIgnoreCase(GuestStatusEnum.DECLINED.toString())) {
-			this.guestService.regretGuest(guest);
-			view = new RedirectView("/");
-		} else if (response.equalsIgnoreCase(GuestStatusEnum.ACCEPTED.toString())) {
-			this.guestService.acceptGuest(guest);
-			view = new RedirectView("/rsvp?uniqueId=" + uniqueId);
+			if (guest == null || guest.getId() == null) {
+				view = new RedirectView("/");
+				return view;
+			}
+
+			if (response.equalsIgnoreCase(GuestStatusEnum.DECLINED.toString())) {
+				this.guestService.regretGuest(guest);
+				view = new RedirectView("/");
+			} else if (response.equalsIgnoreCase(GuestStatusEnum.ACCEPTED.toString())) {
+				this.guestService.acceptGuest(guest);
+				view = new RedirectView("/rsvp?uniqueId=" + uniqueId);
+			}
+
+			return view;
 		}
-
+		view = new RedirectView("/");
 		return view;
 	}
 
 	@RequestMapping(value = "/rsvp", method = RequestMethod.GET)
 	public String rsvp(String uniqueId, Model model) {
-		Guest guest = this.guestService.findByUniqueId(uniqueId);
+		if (uniqueId != null) {
+			Guest guest = this.guestService.findByUniqueId(uniqueId);
 
-		model.addAttribute("guest", guest);
-		return "rsvp";
+			if (guest == null || guest.getId() == null) {
+				return REDIRECT;
+			}
+
+			model.addAttribute("guest", guest);
+			return "rsvp";
+		}
+		return REDIRECT;
 	}
 
 	@RequestMapping(value = "rsvp/setPlusOne", method = RequestMethod.POST)
