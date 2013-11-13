@@ -32,9 +32,18 @@
 	-webkit-font-smoothing: antialiased;
 }
 
+.names {
+	height: 40px;
+}
+
+.info {
+	height: 10px;
+}
+
 .garamond {
-	font-family: 'Garamond', "Montserrat", sans-serif;
-	font-variant: normal;
+	font-family: 'Garamond', 'Georgia', serif;
+	font-variant: small-caps;
+	font-size: 24px;
 	color: rgba(219, 249, 162, 1);
 	font-weight: normal;
 	-webkit-font-smoothing: antialiased;
@@ -71,7 +80,9 @@ h1 .amp {
 }
 
 .rsvpNav {
-	text-align: center;
+	padding-top: 8px;
+	width: 850px;
+	margin: auto;
 	background-color: rgba(255, 255, 255, .35);
 	border-color: transparent;
 }
@@ -98,7 +109,7 @@ h1 .amp {
 }
 
 .purple-emphasis {
-	color: #73207c;
+	color: rgba(166, 13, 145, 1);
 	font-weight: 400 !important;
 }
 
@@ -106,23 +117,29 @@ h1 .amp {
 	margin-right: 5px !important;
 }
 
-#fixednav {
-	margin-left: auto;
-	margin-right: auto;
-}
-
 #fixednav li a {
 	font-family: 'Garamond', "Montserrat", sans-serif;
 	font-variant: small-caps;
-	/* 	text-transform: uppercase; */
 	font-size: 16px;
-	letter-spacing: 4px;
+	letter-spacing: 2px;
 	color: white;
-	/* 	font-weight: bold; */
 }
 
 #fixednav li a:hover {
 	color: #999;
+}
+
+.center.navbar .nav,.center.navbar .nav>li {
+	float: none;
+	display: inline-block;
+	*display: inline; /* ie7 fix */
+	*zoom: 1; /* hasLayout ie7 trigger */
+	vertical-align: top;
+}
+
+.center .container {
+	width: 850px;
+	text-align: center;
 }
 
 body {
@@ -145,7 +162,11 @@ body {
 .whitebox {
 	background: rgba(255, 255, 255, 0.5);
 	padding: 15px;
-	margin-top: 170px;
+}
+
+.purpnav {
+	background-color: #73207c;
+	border-color: transparent;
 }
 
 /*Page Elements*/

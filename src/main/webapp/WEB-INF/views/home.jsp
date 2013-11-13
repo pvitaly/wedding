@@ -27,10 +27,10 @@
 
 </head>
 <body>
-	<div class="container">
-
-		<div class="navbar navbar-inverse navbar-fixed-top rsvpNav">
-			<div class="innernav">
+	<div class="navbar navbar-inverse navbar-fixed-top rsvpNav center"
+		role="navigation">
+		<div class="container">
+			<div class="navbar-collapse collapse">
 				<ul id="fixednav" class="nav navbar-nav">
 					<li><a data-id='#welcome' href="javascript:void(0)">welcome</a></li>
 					<li><a data-id='#ceremony' href="javascript:void(0)">ceremony</a></li>
@@ -42,18 +42,43 @@
 					<li><a href="" data-toggle="modal" data-target="#rsvpModal">rsvp</a></li>
 				</ul>
 			</div>
+			<!--/.nav-collapse -->
 		</div>
+	</div>
+
+	<div
+		class="navbar navbar-inverse navbar-fixed-top rsvpNav purpnav center"
+		style="display: none;" role="navigation">
+		<div class="container">
+			<div class="navbar-collapse collapse">
+				<ul id="fixednav" class="nav navbar-nav">
+					<li><a data-id='#welcome' href="javascript:void(0)">welcome</a></li>
+					<li><a data-id='#ceremony' href="javascript:void(0)">ceremony</a></li>
+					<li><a data-id='#reception' href="javascript:void(0)">reception</a></li>
+					<li><a data-id='#weddingparty' href="javascript:void(0)">wedding
+							party</a></li>
+					<li><a data-id='#hotel' href="javascript:void(0)">hotel</a></li>
+					<li><a data-id='#registry' href="javascript:void(0)">registry</a></li>
+					<li><a href="" data-toggle="modal" data-target="#rsvpModal">rsvp</a></li>
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</div>
+
+
+	<div class="container">
 
 		<div class='row bannerbox'>
 			<div class="row" style="text-align: center;">
-				<h1>
+				<h1 class="names">
 					<span class="purple-emphasis sloopy">Kendra &amp; Vitaly</span>
 				</h1>
-				<h2>
+				<h3 class="info">
 					<span class="garamond">June 7, 2014</span>
-				</h2>
+				</h3>
 				<h3>
-					<span class="garamond">Howell, Michigan</span>
+					<span class="garamond">howell, michigan</span>
 				</h3>
 			</div>
 		</div>
@@ -133,12 +158,6 @@
 				tellus. Phasellus viverra nulla ut metus varius laoreet.</div>
 		</div>
 		<div id="weddingparty" class="row whitebox" style="display: none;">
-			<div class="sectionhead">
-				<h2>the</h2>
-				<h1>
-					<span class="purple">wedding</span> party
-				</h1>
-			</div>
 			<!-- Carousel
     ================================================== -->
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">

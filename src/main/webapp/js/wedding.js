@@ -1,7 +1,14 @@
 $(document).ready(function() {
-
-//	$('a').smoothScroll();
 	
+	$(window).scroll(function() {
+		var top = $(this).scrollTop();
+		if (top > 36) {
+			$('.purpnav').fadeIn(500);
+		} else {
+			$('.purpnav').fadeOut(500);
+		}
+	});
+
 	$('#fixednav li a').on('click', function() {
 		$('#fixednav li').each(function() {
 			$($(this).find('a').data('id')).css('display', 'none');
