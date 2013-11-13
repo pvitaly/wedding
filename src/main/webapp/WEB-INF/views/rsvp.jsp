@@ -26,7 +26,7 @@
     <![endif]-->
 
 </head>
-<body class="rsvpbg">
+<body>
 	<div>
 
 		<div class="navbar navbar-inverse navbar-fixed-top rsvpNav">

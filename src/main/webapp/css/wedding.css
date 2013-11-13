@@ -1,8 +1,16 @@
 .brandonrow {
 	padding-top: 45px;
-	width: 900px;
+	width: 1000px;
 	margin: 0 auto 0 auto;
-	height: 800px;
+	height: 600px;
+}
+
+.bannerbox {
+	margin-top: 50px;
+}
+
+#banneritems {
+	list-style-type: none;
 }
 
 h1 {
@@ -14,7 +22,7 @@ h1 {
 }
 
 h1 .amp {
-	font-size: 80px;
+	font-size: 50px;
 }
 
 h2 {
@@ -45,9 +53,7 @@ h2 {
 }
 
 .rsvpNav {
-	width: 850px;
-	margin-left: auto;
-	margin-right: auto;
+	text-align: center;
 	background-color: rgba(255, 255, 255, .35);
 	border-color: transparent;
 }
@@ -66,7 +72,9 @@ h2 {
 }
 
 .innernav {
-	width: 900px;
+	text-align: center;
+	position: relative;
+	width: 940px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -80,11 +88,16 @@ h2 {
 	margin-right: 5px !important;
 }
 
+#fixednav {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 #fixednav li a {
 	font-family: 'Garamond', "Montserrat", sans-serif;
 	font-variant: small-caps;
-	text-transform: uppercase;
-	font-size: 12px;
+	/* 	text-transform: uppercase; */
+	font-size: 16px;
 	letter-spacing: 4px;
 	color: white;
 	/* 	font-weight: bold; */
@@ -95,7 +108,7 @@ h2 {
 }
 
 body {
-	background: url(../images/bg.jpg) no-repeat center center fixed;
+	background: url(../images/rsvp_bg.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -105,6 +118,16 @@ body {
 
 #content {
 	background: url(../images/stripes.png) no-repeat center center;
+}
+
+.hidden {
+	display: none;
+}
+
+.whitebox {
+	background: rgba(255, 255, 255, 0.5);
+	padding: 15px;
+	margin-top: 170px;
 }
 
 /*Page Elements*/

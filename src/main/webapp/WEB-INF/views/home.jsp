@@ -27,27 +27,42 @@
 
 </head>
 <body>
-	<div id="content">
-		<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container">
+		<div class="navbar navbar-inverse navbar-fixed-top rsvpNav">
 			<div class="container">
 				<div class="innernav">
 					<ul id="fixednav" class="nav navbar-nav">
-						<li><a href="#welcome">welcome</a></li>
-						<li><a href="#ceremony">ceremony</a></li>
-						<li><a href="#reception">reception</a></li>
-						<li><a href="#weddingparty">wedding party</a></li>
-						<li><a href="#hotel">hotel</a></li>
-						<li><a href="#registry">registry</a></li>
-						<li><a href="" data-toggle="modal" data-target="#rsvpModal">RSVP</a></li>
+						<li><a data-id='#welcome' href="javascript:void(0)">welcome</a></li>
+						<li><a data-id='#ceremony' href="javascript:void(0)">ceremony</a></li>
+						<li><a data-id='#reception' href="javascript:void(0)">reception</a></li>
+						<li><a data-id='#weddingparty' href="javascript:void(0)">wedding
+								party</a></li>
+						<li><a data-id='#hotel' href="javascript:void(0)">hotel</a></li>
+						<li><a data-id='#registry' href="javascript:void(0)">registry</a></li>
+						<li><a href="" data-toggle="modal" data-target="#rsvpModal">rsvp</a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
 
-		<div id="welcome" class="brandonrow">
-			<h1>
-				kendra <span class="amp">&amp;</span> vitaly
-			</h1>
+		<div class='row bannerbox'>
+			<div class="row">
+				<div class="col-md-4" style="text-align: right;">
+					<h1><span class=" purple-emphasis">kendra</span></h1>
+				</div>
+				<div class="col-md-4" style="text-align: center;">
+					<h1>
+						<span class="amp purple-emphasis">&amp;</span>
+					</h1>
+				</div>
+				<div class="col-md-4" style="text-align: left;">
+					<h1><span class=" purple-emphasis">vitaly</span></h1>
+				</div>
+			</div>
+		</div>
+
+		<div id="welcome" class="row whitebox" style="display: none;">
+
 			Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
 			commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
 			et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
@@ -67,14 +82,27 @@
 			odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis
 			faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus
 			tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec
-			sodales sagittis magna.
-		</div>
-		<div id="ceremony" class="brandonrow">
-			<div class="sectionhead">
-				<h2>the</h2>
-				<h1>ceremony</h1>
-			</div>
-			<div class="bodytext">Lorem ipsum dolor sit amet, consectetuer
+			sodales sagittis magna.</div>
+		<div id="ceremony" class="row whitebox" style="display: none;">
+			<!-- 			<div class="sectionhead"> -->
+			<!-- 				<h2>the</h2> -->
+			<!-- 				<h1>ceremony</h1> -->
+			<!-- 			</div> -->
+			<div class="col-md-6">Lorem ipsum dolor sit amet, consectetuer
+				adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+				sociis natoque penatibus et magnis dis parturient montes, nascetur
+				ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+				pretium quis, sem. Nulla consequat massa quis enim. Donec pede
+				justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim
+				justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam
+				dictum felis eu pede mollis pretium. Integer tincidunt. Cras
+				dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend
+				tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend
+				ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
+				tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque
+				rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur
+				ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.</div>
+			<div class="col-md-6">Lorem ipsum dolor sit amet, consectetuer
 				adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
 				sociis natoque penatibus et magnis dis parturient montes, nascetur
 				ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
@@ -89,12 +117,12 @@
 				rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur
 				ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.</div>
 		</div>
-		<div id="reception" class="brandonrow">
+		<div id="reception" class="row whitebox" style="display: none;">
 			<div class="sectionhead">
 				<h2>the</h2>
 				<h1>reception</h1>
 			</div>
-			<div class="bodytext">Lorem ipsum dolor sit amet, consectetuer
+			<div class="">Lorem ipsum dolor sit amet, consectetuer
 				adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
 				sociis natoque penatibus et magnis dis parturient montes, nascetur
 				ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
@@ -107,7 +135,7 @@
 				ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
 				tellus. Phasellus viverra nulla ut metus varius laoreet.</div>
 		</div>
-		<div id="weddingparty" class="brandonrow">
+		<div id="weddingparty" class="row whitebox" style="display: none;">
 			<div class="sectionhead">
 				<h2>the</h2>
 				<h1>
@@ -353,12 +381,12 @@
 			</div>
 			<!-- /.carousel -->
 		</div>
-		<div id="hotel" class="brandonrow">
+		<div id="hotel" class="row whitebox" style="display: none;">
 			<div class="sectionhead">
 				<h2>the</h2>
 				<h1>hotel</h1>
 			</div>
-			<div class="bodytext">
+			<div class="">
 				To help you enjoy our wedding to the fullest, we have reserved a
 				block of rooms at the Courtyard Detroit Brighton. Click <strong><a
 					href="http://cwp.marriott.com/dtwbr/jaynespekerwedding/"
@@ -370,12 +398,12 @@
 				<img src="../images/hotel.jpg">
 			</div>
 		</div>
-		<div id="registry" class="brandonrow">
+		<div id="registry" class="row whitebox" style="display: none;">
 			<div class="sectionhead">
 				<h2>the</h2>
 				<h1>registry</h1>
 			</div>
-			<div class="bodytext">Lorem ipsum dolor sit amet, consectetuer
+			<div class="">Lorem ipsum dolor sit amet, consectetuer
 				adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
 				sociis natoque penatibus et magnis dis parturient montes, nascetur
 				ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
@@ -407,9 +435,11 @@
 
 							<div class="input-group">
 								<span class="input-group-addon"> <input id="accepted"
-									name="rsvpResponse" type="radio" class="radio-margin">Accept With Pleasure
+									name="rsvpResponse" type="radio" class="radio-margin">Accept
+									With Pleasure
 								</span> <span class="input-group-addon"> <input id="declined"
-									name="rsvpResponse" type="radio" class="radio-margin">Reject With Regret
+									name="rsvpResponse" type="radio" class="radio-margin">Reject
+									With Regret
 								</span>
 							</div>
 							<!-- /input-group -->

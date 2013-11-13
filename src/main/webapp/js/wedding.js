@@ -1,6 +1,13 @@
 $(document).ready(function() {
 
-	$('a').smoothScroll();
+//	$('a').smoothScroll();
+	
+	$('#fixednav li a').on('click', function() {
+		$('#fixednav li').each(function() {
+			$($(this).find('a').data('id')).css('display', 'none');
+		});
+		$($(this).data('id')).fadeIn("slow", "linear");
+	});
 
 	$('#accepted').on('click', function() {
 		$('#response').val("accepted");
