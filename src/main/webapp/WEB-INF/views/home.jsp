@@ -5,7 +5,7 @@
 <html>
 <head>
 <title>Vitaly and Kendra's Wedding | 6.7.13</title>
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <link href='http://fonts.googleapis.com/css?family=Fjalla+One'
@@ -28,36 +28,33 @@
 </head>
 <body>
 	<div class="container">
+
 		<div class="navbar navbar-inverse navbar-fixed-top rsvpNav">
-			<div class="container">
-				<div class="innernav">
-					<ul id="fixednav" class="nav navbar-nav">
-						<li><a data-id='#welcome' href="javascript:void(0)">welcome</a></li>
-						<li><a data-id='#ceremony' href="javascript:void(0)">ceremony</a></li>
-						<li><a data-id='#reception' href="javascript:void(0)">reception</a></li>
-						<li><a data-id='#weddingparty' href="javascript:void(0)">wedding
-								party</a></li>
-						<li><a data-id='#hotel' href="javascript:void(0)">hotel</a></li>
-						<li><a data-id='#registry' href="javascript:void(0)">registry</a></li>
-						<li><a href="" data-toggle="modal" data-target="#rsvpModal">rsvp</a></li>
-					</ul>
-				</div>
+			<div class="innernav">
+				<ul id="fixednav" class="nav navbar-nav">
+					<li><a data-id='#welcome' href="javascript:void(0)">welcome</a></li>
+					<li><a data-id='#ceremony' href="javascript:void(0)">ceremony</a></li>
+					<li><a data-id='#reception' href="javascript:void(0)">reception</a></li>
+					<li><a data-id='#weddingparty' href="javascript:void(0)">wedding
+							party</a></li>
+					<li><a data-id='#hotel' href="javascript:void(0)">hotel</a></li>
+					<li><a data-id='#registry' href="javascript:void(0)">registry</a></li>
+					<li><a href="" data-toggle="modal" data-target="#rsvpModal">rsvp</a></li>
+				</ul>
 			</div>
 		</div>
 
 		<div class='row bannerbox'>
-			<div class="row">
-				<div class="col-md-4" style="text-align: right;">
-					<h1><span class=" purple-emphasis">kendra</span></h1>
-				</div>
-				<div class="col-md-4" style="text-align: center;">
-					<h1>
-						<span class="amp purple-emphasis">&amp;</span>
-					</h1>
-				</div>
-				<div class="col-md-4" style="text-align: left;">
-					<h1><span class=" purple-emphasis">vitaly</span></h1>
-				</div>
+			<div class="row" style="text-align: center;">
+				<h1>
+					<span class="purple-emphasis sloopy">Kendra &amp; Vitaly</span>
+				</h1>
+				<h2>
+					<span class="garamond">June 7, 2014</span>
+				</h2>
+				<h3>
+					<span class="garamond">Howell, Michigan</span>
+				</h3>
 			</div>
 		</div>
 
@@ -409,54 +406,55 @@
 				ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
 				pretium quis, sem. Nulla consequat massa quis enim.</div>
 		</div>
-	</div>
 
-	<div class="modal fade" id="rsvpModal" tabindex="-1" role="dialog"
-		aria-labelledby="myModalLabel" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal"
-						aria-hidden="true">&times;</button>
-					<h4 class="modal-title" id="myModalLabel" align="center">Répondez
-						S'il Vous Plaît</h4>
-				</div>
-				<div class="modal-body" align="center">
 
-					<form:form role="form" action="rsvp" method="put">
-						<div class="form-group" align="center">
-							<input type="text" name="uniqueId"
-								class="form-control input-small" id="rsvpCode"
-								placeholder="RSVP CODE FROM INVITATION"
-								style="text-align: center;">
-						</div>
-						<div class="form-group" align="center">
-							<input type="hidden" name="response" id="response">
+		<div class="modal fade" id="rsvpModal" tabindex="-1" role="dialog"
+			aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal"
+							aria-hidden="true">&times;</button>
+						<h4 class="modal-title" id="myModalLabel" align="center">Répondez
+							S'il Vous Plaît</h4>
+					</div>
+					<div class="modal-body" align="center">
 
-							<div class="input-group">
-								<span class="input-group-addon"> <input id="accepted"
-									name="rsvpResponse" type="radio" class="radio-margin">Accept
-									With Pleasure
-								</span> <span class="input-group-addon"> <input id="declined"
-									name="rsvpResponse" type="radio" class="radio-margin">Reject
-									With Regret
-								</span>
+						<form:form role="form" action="rsvp" method="put">
+							<div class="form-group" align="center">
+								<input type="text" name="uniqueId"
+									class="form-control input-small" id="rsvpCode"
+									placeholder="RSVP CODE FROM INVITATION"
+									style="text-align: center;">
 							</div>
-							<!-- /input-group -->
-						</div>
-						<div class="form-group" align="center">
-							<button type="reset" class="btn" data-dismiss="modal">Close</button>
-							<button type="submit" class="btn btn-primary">Submit</button>
-						</div>
-					</form:form>
+							<div class="form-group" align="center">
+								<input type="hidden" name="response" id="response">
 
+								<div class="input-group">
+									<span class="input-group-addon"> <input id="accepted"
+										name="rsvpResponse" type="radio" class="radio-margin">Accept
+										With Pleasure
+									</span> <span class="input-group-addon"> <input id="declined"
+										name="rsvpResponse" type="radio" class="radio-margin">Reject
+										With Regret
+									</span>
+								</div>
+								<!-- /input-group -->
+							</div>
+							<div class="form-group" align="center">
+								<button type="reset" class="btn" data-dismiss="modal">Close</button>
+								<button type="submit" class="btn btn-primary">Submit</button>
+							</div>
+						</form:form>
+
+					</div>
 				</div>
+				<!-- /.modal-content -->
 			</div>
-			<!-- /.modal-content -->
+			<!-- /.modal-dialog -->
 		</div>
-		<!-- /.modal-dialog -->
+		<!-- /.modal -->
 	</div>
-	<!-- /.modal -->
 
 	<script type="text/javascript"
 		src="<c:url value='js/vendor/jquery.js' />"></script>

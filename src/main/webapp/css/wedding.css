@@ -1,3 +1,9 @@
+@font-face {
+	font-family: mySloopFont;
+	src: url("../fonts/sloop-scriptthree-74283.ttf"),
+		url("../fonts/sloop-scriptthree-74283.eot"); /* EOT file for IE */
+}
+
 .brandonrow {
 	padding-top: 45px;
 	width: 1000px;
@@ -13,27 +19,39 @@
 	list-style-type: none;
 }
 
-h1 {
-	font-family: "Montserrat", sans-serif;
-	text-transform: uppercase;
-	font-size: 50px;
+/* h1 { */
+/* 	font-family: mySloopFont, "Montserrat", sans-serif; */
+/* 	font-size: 75px; */
+/* 	letter-spacing: 8px; */
+/* } */
+.sloopy {
+	font-family: mySloopFont, "Montserrat", sans-serif;
+	font-size: 75px;
 	letter-spacing: 8px;
-	font-weight: bold;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+}
+
+.garamond {
+	font-family: 'Garamond', "Montserrat", sans-serif;
+	font-variant: normal;
+	color: rgba(219, 249, 162, 1);
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
 }
 
 h1 .amp {
 	font-size: 50px;
 }
 
-h2 {
-	font-family: "Montserrat", sans-serif;
-	text-transform: uppercase;
-	font-size: 20px;
-	letter-spacing: 4px;
-	font-weight: bold;
-	margin-bottom: -25px;
-}
-
+/* h2 { */
+/* 	font-family: "Montserrat", sans-serif; */
+/* 	text-transform: uppercase; */
+/* 	font-size: 20px; */
+/* 	letter-spacing: 4px; */
+/* 	font-weight: bold; */
+/* 	margin-bottom: -25px; */
+/* } */
 .amp {
 	font-family: Baskerville, 'Goudy Old Style', Palatino, 'Book Antiqua',
 		serif;
