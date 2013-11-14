@@ -48,35 +48,12 @@
 		</div>
 	</div>
 
-	<div
-		class="navbar navbar-inverse navbar-fixed-top rsvpNav purpnav center"
-		style="display: none;" role="navigation">
-		<div class="container">
-			<div class="navbar-collapse collapse">
-				<ul id="fixednav" class="nav navbar-nav">
-					<li><a data-id='home' href="javascript:void(0)">home</a></li>
-					<li><a data-id='#aboutus' href="javascript:void(0)">about
-							us</a></li>
-					<li><a data-id='#ceremony' href="javascript:void(0)">ceremony</a></li>
-					<li><a data-id='#reception' href="javascript:void(0)">reception</a></li>
-					<li><a data-id='#weddingparty' href="javascript:void(0)">wedding
-							party</a></li>
-					<li><a data-id='#hotel' href="javascript:void(0)">hotel</a></li>
-					<li><a data-id='#registry' href="javascript:void(0)">registry</a></li>
-					<li><a href="" data-toggle="modal" data-target="#rsvpModal">rsvp</a></li>
-				</ul>
-			</div>
-			<!--/.nav-collapse -->
-		</div>
-	</div>
-
-
 	<div class="container">
 
 		<div class='row bannerbox'>
 			<div class="row" style="text-align: center;">
 				<h1 class="names">
-					<span class="purple-emphasis sloopy">Kendra &amp; Vitaly</span>
+					<span class="white-emphasis sloopy">Kendra &amp; Vitaly</span>
 				</h1>
 				<h3 class="info">
 					<span class="garamond">June 7, 2014</span>
@@ -180,220 +157,208 @@
 				</ol>
 				<div class="carousel-inner">
 					<div class="item active">
-						<div class="container">
-							<ul class="ch-grid">
-								<li>
-									<div class="ch-item shelby-img">
-										<div class="ch-info-wrap">
-											<div class="ch-info">
-												<div class="ch-info-front shelby-img"></div>
-												<div class="ch-info-back">
-													<h3>
-														Shelby<br>Jaynes
-													</h3>
-													<p>Maid of Honor</p>
-												</div>
+						<ul class="ch-grid">
+							<li>
+								<div class="ch-item shelby-img">
+									<div class="ch-info-wrap">
+										<div class="ch-info">
+											<div class="ch-info-front shelby-img"></div>
+											<div class="ch-info-back">
+												<h3>
+													Shelby<br>Jaynes
+												</h3>
+												<p>Maid of Honor</p>
 											</div>
 										</div>
 									</div>
-								</li>
-								<li>
-									<div class="ch-item jason-img">
-										<div class="ch-info-wrap">
-											<div class="ch-info">
-												<div class="ch-info-front jason-img"></div>
-												<div class="ch-info-back">
-													<h3>
-														Jason<br>Sydor
-													</h3>
-													<p>Best Man</p>
-												</div>
+								</div>
+							</li>
+							<li>
+								<div class="ch-item jason-img">
+									<div class="ch-info-wrap">
+										<div class="ch-info">
+											<div class="ch-info-front jason-img"></div>
+											<div class="ch-info-back">
+												<h3>
+													Jason<br>Sydor
+												</h3>
+												<p>Best Man</p>
 											</div>
 										</div>
 									</div>
-								</li>
-							</ul>
-						</div>
+								</div>
+							</li>
+						</ul>
 					</div>
 					<div class="item">
-						<div class="container">
-							<ul class="ch-grid">
-								<li>
-									<div class="ch-item melissa-img">
-										<div class="ch-info-wrap">
-											<div class="ch-info">
-												<div class="ch-info-front melissa-img"></div>
-												<div class="ch-info-back">
-													<h3>
-														Melissa<br>Beals
-													</h3>
-													<p>Matron of Honor</p>
-												</div>
+						<ul class="ch-grid">
+							<li>
+								<div class="ch-item melissa-img">
+									<div class="ch-info-wrap">
+										<div class="ch-info">
+											<div class="ch-info-front melissa-img"></div>
+											<div class="ch-info-back">
+												<h3>
+													Melissa<br>Beals
+												</h3>
+												<p>Matron of Honor</p>
 											</div>
 										</div>
 									</div>
-								</li>
-								<li>
-									<div class="ch-item brandon-img">
-										<div class="ch-info-wrap">
-											<div class="ch-info">
-												<div class="ch-info-front brandon-img"></div>
-												<div class="ch-info-back">
-													<h3>
-														Brandon<br>Lynn
-													</h3>
-													<p>Groomsman</p>
-												</div>
+								</div>
+							</li>
+							<li>
+								<div class="ch-item brandon-img">
+									<div class="ch-info-wrap">
+										<div class="ch-info">
+											<div class="ch-info-front brandon-img"></div>
+											<div class="ch-info-back">
+												<h3>
+													Brandon<br>Lynn
+												</h3>
+												<p>Groomsman</p>
 											</div>
 										</div>
 									</div>
-								</li>
-							</ul>
-						</div>
+								</div>
+							</li>
+						</ul>
 					</div>
 					<div class="item">
-						<div class="container">
-							<ul class="ch-grid">
-								<li>
-									<div class="ch-item bailey-img">
-										<div class="ch-info-wrap">
-											<div class="ch-info">
-												<div class="ch-info-front bailey-img"></div>
-												<div class="ch-info-back">
-													<h3>
-														Bailey<br>Hall
-													</h3>
-													<p>Bridesmaid</p>
-												</div>
+						<ul class="ch-grid">
+							<li>
+								<div class="ch-item bailey-img">
+									<div class="ch-info-wrap">
+										<div class="ch-info">
+											<div class="ch-info-front bailey-img"></div>
+											<div class="ch-info-back">
+												<h3>
+													Bailey<br>Hall
+												</h3>
+												<p>Bridesmaid</p>
 											</div>
 										</div>
 									</div>
-								</li>
-								<li>
-									<div class="ch-item nate-img">
-										<div class="ch-info-wrap">
-											<div class="ch-info">
-												<div class="ch-info-front nate-img"></div>
-												<div class="ch-info-back">
-													<h3>
-														Nate<br>Jackson
-													</h3>
-													<p>Groomsman</p>
-												</div>
+								</div>
+							</li>
+							<li>
+								<div class="ch-item nate-img">
+									<div class="ch-info-wrap">
+										<div class="ch-info">
+											<div class="ch-info-front nate-img"></div>
+											<div class="ch-info-back">
+												<h3>
+													Nate<br>Jackson
+												</h3>
+												<p>Groomsman</p>
 											</div>
 										</div>
 									</div>
-								</li>
-							</ul>
-						</div>
+								</div>
+							</li>
+						</ul>
 					</div>
 					<div class="item">
-						<div class="container">
-							<ul class="ch-grid">
-								<li>
-									<div class="ch-item brittany-img">
-										<div class="ch-info-wrap">
-											<div class="ch-info">
-												<div class="ch-info-front brittany-img"></div>
-												<div class="ch-info-back">
-													<h3>
-														Brittany<br>Hernandez
-													</h3>
-													<p>Bridesmaid</p>
-												</div>
+						<ul class="ch-grid">
+							<li>
+								<div class="ch-item brittany-img">
+									<div class="ch-info-wrap">
+										<div class="ch-info">
+											<div class="ch-info-front brittany-img"></div>
+											<div class="ch-info-back">
+												<h3>
+													Brittany<br>Hernandez
+												</h3>
+												<p>Bridesmaid</p>
 											</div>
 										</div>
 									</div>
-								</li>
-								<li>
-									<div class="ch-item devon-img">
-										<div class="ch-info-wrap">
-											<div class="ch-info">
-												<div class="ch-info-front devon-img"></div>
-												<div class="ch-info-back">
-													<h3>
-														Devon<br>Jaynes
-													</h3>
-													<p>Groomsman</p>
-												</div>
+								</div>
+							</li>
+							<li>
+								<div class="ch-item devon-img">
+									<div class="ch-info-wrap">
+										<div class="ch-info">
+											<div class="ch-info-front devon-img"></div>
+											<div class="ch-info-back">
+												<h3>
+													Devon<br>Jaynes
+												</h3>
+												<p>Groomsman</p>
 											</div>
 										</div>
 									</div>
-								</li>
-							</ul>
-						</div>
+								</div>
+							</li>
+						</ul>
 					</div>
 					<div class="item">
-						<div class="container">
-							<ul class="ch-grid">
-								<li>
-									<div class="ch-item lindsay-img">
-										<div class="ch-info-wrap">
-											<div class="ch-info">
-												<div class="ch-info-front lindsay-img"></div>
-												<div class="ch-info-back">
-													<h3>
-														Lindsay<br>Welsh
-													</h3>
-													<p>Bridesmaid</p>
-												</div>
+						<ul class="ch-grid">
+							<li>
+								<div class="ch-item lindsay-img">
+									<div class="ch-info-wrap">
+										<div class="ch-info">
+											<div class="ch-info-front lindsay-img"></div>
+											<div class="ch-info-back">
+												<h3>
+													Lindsay<br>Welsh
+												</h3>
+												<p>Bridesmaid</p>
 											</div>
 										</div>
 									</div>
-								</li>
-								<li>
-									<div class="ch-item ryan-img">
-										<div class="ch-info-wrap">
-											<div class="ch-info">
-												<div class="ch-info-front ryan-img"></div>
-												<div class="ch-info-back">
-													<h3>
-														Ryan<br>Balbaugh
-													</h3>
-													<p>Groomsman</p>
-												</div>
+								</div>
+							</li>
+							<li>
+								<div class="ch-item ryan-img">
+									<div class="ch-info-wrap">
+										<div class="ch-info">
+											<div class="ch-info-front ryan-img"></div>
+											<div class="ch-info-back">
+												<h3>
+													Ryan<br>Balbaugh
+												</h3>
+												<p>Groomsman</p>
 											</div>
 										</div>
 									</div>
-								</li>
-							</ul>
-						</div>
+								</div>
+							</li>
+						</ul>
 					</div>
 					<div class="item">
-						<div class="container">
-							<ul class="ch-grid">
-								<li>
-									<div class="ch-item andrea-img">
-										<div class="ch-info-wrap">
-											<div class="ch-info">
-												<div class="ch-info-front andrea-img"></div>
-												<div class="ch-info-back">
-													<h3>
-														Andrea<br>Sydor
-													</h3>
-													<p>Bridesmaid</p>
-												</div>
+						<ul class="ch-grid">
+							<li>
+								<div class="ch-item andrea-img">
+									<div class="ch-info-wrap">
+										<div class="ch-info">
+											<div class="ch-info-front andrea-img"></div>
+											<div class="ch-info-back">
+												<h3>
+													Andrea<br>Sydor
+												</h3>
+												<p>Bridesmaid</p>
 											</div>
 										</div>
 									</div>
-								</li>
-								<li>
-									<div class="ch-item ian-img">
-										<div class="ch-info-wrap">
-											<div class="ch-info">
-												<div class="ch-info-front ian-img"></div>
-												<div class="ch-info-back">
-													<h3>
-														Ian<br>Beals
-													</h3>
-													<p>Groomsman</p>
-												</div>
+								</div>
+							</li>
+							<li>
+								<div class="ch-item ian-img">
+									<div class="ch-info-wrap">
+										<div class="ch-info">
+											<div class="ch-info-front ian-img"></div>
+											<div class="ch-info-back">
+												<h3>
+													Ian<br>Beals
+												</h3>
+												<p>Groomsman</p>
 											</div>
 										</div>
 									</div>
-								</li>
-							</ul>
-						</div>
+								</div>
+							</li>
+						</ul>
 					</div>
 				</div>
 				<a class="left carousel-control" data-target="#myCarousel"

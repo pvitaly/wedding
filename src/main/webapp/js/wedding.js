@@ -20,15 +20,6 @@ function initialize() {
 
 $(document).ready(function() {
 	
-	$(window).scroll(function() {
-		var top = $(this).scrollTop();
-		if (top > 36) {
-			$('.purpnav').fadeIn(500);
-		} else {
-			$('.purpnav').fadeOut(500);
-		}
-	});
-
 	$('#fixednav li a').on('click', function() {
 		
 		if (($(this).data('id') == '#hotel') && $('#hotel').hasClass('gmap') == false) {
@@ -38,6 +29,7 @@ $(document).ready(function() {
 		
 		if ($(this).data('id') == 'home') {
 			$('#fixednav li').each(function() {
+				$(this).find('a').css('color', '');
 				$($(this).find('a').data('id')).fadeOut("slow", "linear");
 			});
 			return;
@@ -45,7 +37,9 @@ $(document).ready(function() {
 		
 		$('#fixednav li').each(function() {
 			$($(this).find('a').data('id')).css('display', 'none');
+			$(this).find('a').css('color', '');
 		});
+		$(this).css('color', '#999');
 		$($(this).data('id')).fadeIn("slow", "linear");
 		google.maps.event.trigger(map, 'resize');
 	});

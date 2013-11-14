@@ -12,7 +12,7 @@
 }
 
 .bannerbox {
-	margin-top: 55px;
+	margin-top: 43px;
 }
 
 #banneritems {
@@ -26,8 +26,7 @@
 /* } */
 .sloopy {
 	font-family: mySloopFont, "Montserrat", sans-serif;
-	font-size: 70px;
-	letter-spacing: 3px;
+	font-size: 55px;
 	font-weight: normal;
 	-webkit-font-smoothing: antialiased;
 }
@@ -35,7 +34,6 @@
 .sloopy-small {
 	font-family: mySloopFont, "Montserrat", sans-serif;
 	font-size: 40px;
-	letter-spacing: 3px;
 	font-weight: normal;
 	-webkit-font-smoothing: antialiased;
 }
@@ -45,16 +43,16 @@
 }
 
 .info {
-	height: 10px;
+	height: 5px;
 }
 
 .garamond {
-	font-family: 'Garamond', 'Georgia', serif;
+	font-family: 'Garamond';
 	font-variant: small-caps;
-	font-size: 24px;
+	font-size: 20px;
+	font-weight: bold;
 	letter-spacing: 4px;
-	color: rgba(219, 249, 162, 1);
-	font-weight: normal;
+	color: #B8FF9E;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -89,10 +87,9 @@ h1 .amp {
 }
 
 .rsvpNav {
-	padding-top: 8px;
-	width: 940px;
+	width: 1000px;
 	margin: auto;
-	background-color: rgba(255, 255, 255, .35);
+	background-color: rgba(73, 35, 101, 1);
 	border-color: transparent;
 }
 
@@ -118,7 +115,11 @@ h1 .amp {
 }
 
 .purple-emphasis {
-	color: rgba(166, 13, 145, 1);
+	color: rgba(73, 35, 101, 1);
+}
+
+.white-emphasis {
+	color: white;
 	font-weight: 400 !important;
 }
 
@@ -127,9 +128,8 @@ h1 .amp {
 }
 
 #fixednav li a {
-	font-family: 'Garamond', "Montserrat", sans-serif;
 	font-variant: small-caps;
-	font-size: 16px;
+	font-size: 18px;
 	letter-spacing: 2px;
 	color: white;
 }
@@ -138,26 +138,30 @@ h1 .amp {
 	color: #999;
 }
 
+.hovergrey {
+	color: #999;
+}
+
 .center.navbar .nav,.center.navbar .nav>li {
 	float: none;
 	display: inline-block;
-/* 	*display: inline; ie7 fix */
-/* 	*zoom: 1; hasLayout ie7 trigger */
+	/* 	*display: inline; ie7 fix */
+	/* 	*zoom: 1; hasLayout ie7 trigger */
 	vertical-align: top;
 }
 
 .center .container {
-	width: 940px;
+	width: 1000px;
 	text-align: center;
 }
 
 body {
-	background: url(../images/main2_bg.jpg) no-repeat center center fixed;
+	background: url(../images/main_bg.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	font-family: 'Garamond', 'Georgia', serif;
+	font-family: 'Garamond';
 	font-size: 15px;
 }
 
@@ -290,12 +294,11 @@ body {
 
 /*Circles Common*/
 .ch-grid {
-	margin: 20px 0 0 0;
+	margin: auto;
 	padding: 0;
 	list-style: none;
 	display: block;
 	text-align: center;
-	width: 900px;
 }
 
 .ch-grid:after,.ch-item:before {
@@ -493,10 +496,11 @@ body {
 /* Carousel base class */
 .carousel {
 	height: 420px;
-	margin: 0;
-	border: none;
+	width: 900px; margin : auto; border : none;
 	padding: 0;
 	position: relative;
+	border: none;
+	margin: auto;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -523,7 +527,7 @@ body {
 
 .container {
 	border: 0;
-	width: 900px;
+	width: 1050px;
 	padding: 0;
 }
 
@@ -531,12 +535,12 @@ body {
 	background-image: none;
 	width: 50px;
 	color: #202020;
+	cursor: pointer;
 }
 
 .carousel-control.left .glyphicon,.carousel-control.right .glyphicon {
 	top: 180px;
 	font-size: 30px;
-	cursor: pointer;
 }
 
 .carousel-indicators {
