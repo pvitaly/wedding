@@ -12,7 +12,7 @@
 }
 
 .bannerbox {
-	margin-top: 50px;
+	margin-top: 55px;
 }
 
 #banneritems {
@@ -26,8 +26,8 @@
 /* } */
 .sloopy {
 	font-family: mySloopFont, "Montserrat", sans-serif;
-	font-size: 75px;
-	letter-spacing: 8px;
+	font-size: 70px;
+	letter-spacing: 3px;
 	font-weight: normal;
 	-webkit-font-smoothing: antialiased;
 }
@@ -52,6 +52,7 @@
 	font-family: 'Garamond', 'Georgia', serif;
 	font-variant: small-caps;
 	font-size: 24px;
+	letter-spacing: 4px;
 	color: rgba(219, 249, 162, 1);
 	font-weight: normal;
 	-webkit-font-smoothing: antialiased;
@@ -151,7 +152,7 @@ h1 .amp {
 }
 
 body {
-	background: url(../images/rsvp_bg.jpg) no-repeat center center fixed;
+	background: url(../images/main2_bg.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
