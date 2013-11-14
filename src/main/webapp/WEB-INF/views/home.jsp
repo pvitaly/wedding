@@ -32,7 +32,9 @@
 		<div class="container">
 			<div class="navbar-collapse collapse">
 				<ul id="fixednav" class="nav navbar-nav">
-					<li><a data-id='#welcome' href="javascript:void(0)">welcome</a></li>
+					<li><a data-id='home' href="javascript:void(0)">home</a></li>
+					<li><a data-id='#aboutus' href="javascript:void(0)">about
+							us</a></li>
 					<li><a data-id='#ceremony' href="javascript:void(0)">ceremony</a></li>
 					<li><a data-id='#reception' href="javascript:void(0)">reception</a></li>
 					<li><a data-id='#weddingparty' href="javascript:void(0)">wedding
@@ -52,7 +54,9 @@
 		<div class="container">
 			<div class="navbar-collapse collapse">
 				<ul id="fixednav" class="nav navbar-nav">
-					<li><a data-id='#welcome' href="javascript:void(0)">welcome</a></li>
+					<li><a data-id='home' href="javascript:void(0)">home</a></li>
+					<li><a data-id='#aboutus' href="javascript:void(0)">about
+							us</a></li>
 					<li><a data-id='#ceremony' href="javascript:void(0)">ceremony</a></li>
 					<li><a data-id='#reception' href="javascript:void(0)">reception</a></li>
 					<li><a data-id='#weddingparty' href="javascript:void(0)">wedding
@@ -83,9 +87,9 @@
 			</div>
 		</div>
 
-		<div id="welcome" class="row whitebox" style="display: none;">
-
-			Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+		<div id="aboutus" class="row whitebox" style="display: none;">
+			A little known fact <span class="purple-emphasis sloopy-small">About
+				Us,</span> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
 			commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
 			et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
 			felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
@@ -104,12 +108,12 @@
 			odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis
 			faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus
 			tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec
-			sodales sagittis magna.</div>
+			sodales sagittis magna.
+		</div>
 		<div id="ceremony" class="row whitebox" style="display: none;">
-			<!-- 			<div class="sectionhead"> -->
-			<!-- 				<h2>the</h2> -->
-			<!-- 				<h1>ceremony</h1> -->
-			<!-- 			</div> -->
+			<div class="row" style="text-align: center;">
+				<span class='purple-emphasis sloopy-small'>The Ceremony</span>
+			</div>
 			<div class="col-md-6">Lorem ipsum dolor sit amet, consectetuer
 				adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
 				sociis natoque penatibus et magnis dis parturient montes, nascetur
@@ -140,9 +144,8 @@
 				ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.</div>
 		</div>
 		<div id="reception" class="row whitebox" style="display: none;">
-			<div class="sectionhead">
-				<h2>the</h2>
-				<h1>reception</h1>
+			<div class="row" style="text-align: center;">
+				<span class='purple-emphasis sloopy-small'>The Reception</span>
 			</div>
 			<div class="">Lorem ipsum dolor sit amet, consectetuer
 				adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -158,6 +161,11 @@
 				tellus. Phasellus viverra nulla ut metus varius laoreet.</div>
 		</div>
 		<div id="weddingparty" class="row whitebox" style="display: none;">
+			<div class="row" style="text-align: center;">
+				We would be nowhere without <span
+					class='purple-emphasis sloopy-small'>The Wedding Party</span> Below
+				is a collection of our best friends!
+			</div>
 			<!-- Carousel
     ================================================== -->
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -398,11 +406,10 @@
 			<!-- /.carousel -->
 		</div>
 		<div id="hotel" class="row whitebox" style="display: none;">
-			<div class="sectionhead">
-				<h2>the</h2>
-				<h1>hotel</h1>
+			<div class="row" style="text-align: center;">
+				<span class='purple-emphasis sloopy-small'>The Hotel</span>
 			</div>
-			<div class="">
+			<div class="col-md-6" style="text-align: center;">
 				To help you enjoy our wedding to the fullest, we have reserved a
 				block of rooms at the Courtyard Detroit Brighton. Click <strong><a
 					href="http://cwp.marriott.com/dtwbr/jaynespekerwedding/"
@@ -411,19 +418,21 @@
 				receive a special rate! For your convenience, we are providing a
 				shuttle that will take you from the hotel to the ceremony, from the
 				ceremony to the reception, and from the reception back to the hotel!
-				<img src="../images/hotel.jpg">
+			</div>
+			<div class='col-md-6' style="text-align: center;">
+				<div id='gmap' style="width: 425px; height: 300px;"></div>
 			</div>
 		</div>
 		<div id="registry" class="row whitebox" style="display: none;">
-			<div class="sectionhead">
-				<h2>the</h2>
-				<h1>registry</h1>
+			<div class="row" style="text-align: center;">
+				<span class='purple-emphasis sloopy-small'>The Registry</span>
 			</div>
-			<div class="">Lorem ipsum dolor sit amet, consectetuer
-				adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-				sociis natoque penatibus et magnis dis parturient montes, nascetur
-				ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-				pretium quis, sem. Nulla consequat massa quis enim.</div>
+			<div class="col-md-6" style="text-align: center;">
+				<img alt="KOHLS" src="/images/amazon-logo.png">
+			</div>
+			<div class="col-md-6" style="text-align: center;">
+				<img alt="KOHLS" src="/images/Kohls-Logo.jpg">
+			</div>
 		</div>
 
 
@@ -435,7 +444,7 @@
 						<button type="button" class="close" data-dismiss="modal"
 							aria-hidden="true">&times;</button>
 						<h4 class="modal-title" id="myModalLabel" align="center">Répondez
-							S'il Vous Plaît</h4>
+							s'il Vous Plaît</h4>
 					</div>
 					<div class="modal-body" align="center">
 
@@ -480,7 +489,7 @@
 	<script
 		src="//netdna.bootstrapcdn.com/bootstrap/3.0.1/js/bootstrap.min.js"></script>
 	<script type="text/javascript"
-		src="<c:url value='js/jquery.smooth-scroll.js' />"></script>
+		src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
 	<script type="text/javascript" src="<c:url value='js/wedding.js' />"></script>
 </body>
 </html>

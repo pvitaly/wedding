@@ -32,6 +32,14 @@
 	-webkit-font-smoothing: antialiased;
 }
 
+.sloopy-small {
+	font-family: mySloopFont, "Montserrat", sans-serif;
+	font-size: 40px;
+	letter-spacing: 3px;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+}
+
 .names {
 	height: 40px;
 }
@@ -81,7 +89,7 @@ h1 .amp {
 
 .rsvpNav {
 	padding-top: 8px;
-	width: 850px;
+	width: 940px;
 	margin: auto;
 	background-color: rgba(255, 255, 255, .35);
 	border-color: transparent;
@@ -132,13 +140,13 @@ h1 .amp {
 .center.navbar .nav,.center.navbar .nav>li {
 	float: none;
 	display: inline-block;
-	*display: inline; /* ie7 fix */
-	*zoom: 1; /* hasLayout ie7 trigger */
+/* 	*display: inline; ie7 fix */
+/* 	*zoom: 1; hasLayout ie7 trigger */
 	vertical-align: top;
 }
 
 .center .container {
-	width: 850px;
+	width: 940px;
 	text-align: center;
 }
 
@@ -149,6 +157,7 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 	font-family: 'Garamond', 'Georgia', serif;
+	font-size: 15px;
 }
 
 #content {
@@ -160,7 +169,7 @@ body {
 }
 
 .whitebox {
-	background: rgba(255, 255, 255, 0.5);
+	background: rgba(255, 255, 255, 0.75);
 	padding: 15px;
 }
 
@@ -487,7 +496,6 @@ body {
 	border: none;
 	padding: 0;
 	position: relative;
-	top: 50px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -533,4 +541,8 @@ body {
 .carousel-indicators {
 	bottom: 0;
 	color: #202020;
+}
+
+.carousel-indicators .active {
+	background-color: rgba(166, 13, 145, 1);
 }
