@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Vitaly and Kendra's Wedding | 6.7.13</title>
+<title>Kendra and Vitaly's Wedding | 6.7.14</title>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
