@@ -39,9 +39,10 @@
 }
 
 .names {
-	font-family: 'Garamond';
+	font-family: mySloopFont;
+	font-size:50px;
 	font-style: italic;
-	height: 20px;
+	height: 38px;
 }
 
 .info {
@@ -52,7 +53,6 @@
 	font-family: 'Garamond';
 	font-variant: small-caps;
 	font-size: 20px;
-	font-weight: bold;
 	letter-spacing: 4px;
 	color: #B8FF9E;
 	-webkit-font-smoothing: antialiased;
@@ -165,7 +165,7 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	font-family: 'Garamond';
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 /* 	font-style: italic;	*/
 	font-size: 18px;
 }
