@@ -39,7 +39,9 @@
 }
 
 .names {
-	height: 40px;
+	font-family: 'Garamond';
+	font-style: italic;
+	height: 20px;
 }
 
 .info {
@@ -128,8 +130,10 @@ h1 .amp {
 }
 
 #fixednav li a {
+	font-family: 'Garamond';
 	font-variant: small-caps;
 	font-size: 18px;
+	font-style: normal;
 	letter-spacing: 2px;
 	color: white;
 }
@@ -162,11 +166,16 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 	font-family: 'Garamond';
-	font-size: 15px;
+/* 	font-style: italic;	*/
+	font-size: 18px;
 }
 
 #content {
 	background: url(../images/stripes.png) no-repeat center center;
+}
+
+.italics {
+	font-style: italic;	
 }
 
 .hidden {
