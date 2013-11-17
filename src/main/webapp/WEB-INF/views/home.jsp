@@ -30,6 +30,13 @@
 	<div class="navbar navbar-inverse navbar-fixed-top rsvpNav center"
 		role="navigation">
 		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target=".navbar-collapse">
+					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+			</div>
 			<div class="navbar-collapse collapse">
 				<ul id="fixednav" class="nav navbar-nav">
 					<li><a data-id='home' href="javascript:void(0)">home</a></li>
@@ -56,15 +63,16 @@
 					<span class="white-emphasis">Kendra &amp; Vitaly</span>
 				</h1>
 				<h3 class="info">
-					<span class="garamond">June 7, 2014</span>
+					<span class="garamondGreen">June 7, 2014</span>
 				</h3>
 				<h3>
-					<span class="garamond">howell, michigan</span>
+					<span class="garamondGreen">howell, michigan</span>
 				</h3>
 			</div>
 		</div>
 
-		<div id="aboutus" class="row whitebox italics" style="display: none;">
+		<div id="aboutus" class="row whitebox garamondItalic"
+			style="display: none;">
 			A little known fact <span class="purple-emphasis sloopy-small">About
 				Us,</span> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
 			commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
@@ -87,7 +95,8 @@
 			tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec
 			sodales sagittis magna.
 		</div>
-		<div id="ceremony" class="row whitebox italics" style="display: none;">
+		<div id="ceremony" class="row whitebox garamondItalic"
+			style="display: none;">
 			<div class="row" style="text-align: center;">
 				<span class='purple-emphasis sloopy-small'>The Ceremony</span>
 			</div>
@@ -120,7 +129,8 @@
 				rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur
 				ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.</div>
 		</div>
-		<div id="reception" class="row whitebox italics" style="display: none;">
+		<div id="reception" class="row whitebox garamondItalic"
+			style="display: none;">
 			<div class="row" style="text-align: center;">
 				<span class='purple-emphasis sloopy-small'>The Reception</span>
 			</div>
@@ -137,7 +147,8 @@
 				ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
 				tellus. Phasellus viverra nulla ut metus varius laoreet.</div>
 		</div>
-		<div id="weddingparty" class="row whitebox italics" style="display: none;">
+		<div id="weddingparty" class="row whitebox garamondItalic"
+			style="display: none;">
 			<div class="row" style="text-align: center;">
 				We would be nowhere without <span
 					class='purple-emphasis sloopy-small'>The Wedding Party</span> Below
@@ -370,7 +381,8 @@
 			</div>
 			<!-- /.carousel -->
 		</div>
-		<div id="hotel" class="row whitebox italics" style="display: none;">
+		<div id="hotel" class="row whitebox garamondItalic"
+			style="display: none;">
 			<div class="row" style="text-align: center;">
 				<span class='purple-emphasis sloopy-small'>The Hotel</span>
 			</div>
@@ -388,7 +400,8 @@
 				<div id='gmap' style="width: 425px; height: 300px;"></div>
 			</div>
 		</div>
-		<div id="registry" class="row whitebox italics" style="display: none;">
+		<div id="registry" class="row whitebox garamondItalic"
+			style="display: none;">
 			<div class="row" style="text-align: center;">
 				<span class='purple-emphasis sloopy-small'>The Registry</span>
 			</div>
