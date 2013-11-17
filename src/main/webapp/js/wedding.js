@@ -23,13 +23,6 @@ $(document).ready(function() {
 	
 	$('#fixednav li a').on('click', function() {
 		
-		if (($(this).data('id') == '#hotel')) {
-			if ($('#hotel').hasClass('gmap') == false) {
-				initialize();	
-				$('#hotel').addClass('gmap');				
-			}
-		}
-		
 		if ($(this).data('id') == 'home') {
 			$('#fixednav li').each(function() {
 				$(this).find('a').css('color', '');
@@ -42,9 +35,16 @@ $(document).ready(function() {
 			$($(this).find('a').data('id')).css('display', 'none');
 			$(this).find('a').css('color', '');
 		});
+		
 		$(this).css('color', '#999');
 		$($(this).data('id')).fadeIn("slow", "linear");
 		
+		if (($(this).data('id') == '#hotel')) {
+			if ($('#hotel').hasClass('gmap') == false) {
+				initialize();	
+				$('#hotel').addClass('gmap');				
+			}
+		}
 	});
 
 	$('#accepted').on('click', function() {
