@@ -1,34 +1,35 @@
+@media ( max-width : 898px) {
+	.navbar-toggle {
+		display: inline-block;
+	}
+	.navbar-collapse.collapse {
+		display: none !important;
+	}
+	.navbar-header {
+		float: none;
+	}
+}
+
 @font-face {
 	font-family: mySloopFont;
 	src: url("../fonts/sloop-scriptthree-74283.ttf"),
 		url("../fonts/sloop-scriptthree-74283.eot"); /* EOT file for IE */
 }
 
-.brandonrow {
-	padding-top: 45px;
-	width: 1000px;
-	margin: 0 auto 0 auto;
-	height: 600px;
+@font-face {
+	font-family: myGaramondRegular;
+	src: url("../fonts/GaramondMTStd-Regular.woff");
+	/* 		url("../fonts/sloop-scriptthree-74283.eot"); EOT file for IE */
+}
+
+@font-face {
+	font-family: myGaramondItalic;
+	src: url("../fonts/GaramondMTStd-Italic.woff");
+	/* 		url("../fonts/sloop-scriptthree-74283.eot"); EOT file for IE */
 }
 
 .bannerbox {
 	margin-top: 43px;
-}
-
-#banneritems {
-	list-style-type: none;
-}
-
-/* h1 { */
-/* 	font-family: mySloopFont, "Montserrat", sans-serif; */
-/* 	font-size: 75px; */
-/* 	letter-spacing: 8px; */
-/* } */
-.sloopy {
-	font-family: mySloopFont, "Montserrat", sans-serif;
-	font-size: 55px;
-	font-weight: normal;
-	-webkit-font-smoothing: antialiased;
 }
 
 .sloopy-small {
@@ -39,53 +40,26 @@
 }
 
 .names {
-	font-family: 'Garamond';
-	font-style: italic;
+	font-family: myGaramondItalic;
 	height: 20px;
 }
 
 .info {
+	font-family: myGaramondRegular;
 	height: 5px;
 }
 
-.garamond {
-	font-family: 'Garamond';
+.garamondItalic {
+	font-family: myGaramondItalic;
+}
+
+.garamondGreen {
+	font-family: myGaramondRegular;
 	font-variant: small-caps;
-	font-size: 20px;
-	font-weight: bold;
+	font-size: 19px;
 	letter-spacing: 4px;
 	color: #B8FF9E;
 	-webkit-font-smoothing: antialiased;
-}
-
-h1 .amp {
-	font-size: 50px;
-}
-
-/* h2 { */
-/* 	font-family: "Montserrat", sans-serif; */
-/* 	text-transform: uppercase; */
-/* 	font-size: 20px; */
-/* 	letter-spacing: 4px; */
-/* 	font-weight: bold; */
-/* 	margin-bottom: -25px; */
-/* } */
-.amp {
-	font-family: Baskerville, 'Goudy Old Style', Palatino, 'Book Antiqua',
-		serif;
-	font-style: italic;
-	font-weight: normal;
-}
-
-.rsvpbg {
-	background-image: url(../images/rsvp_bg.jpg);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: top;
-	-webkit-background-size: auto;
-	-moz-background-size: auto;
-	-o-background-size: auto;
-	background-size: auto;
 }
 
 .rsvpNav {
@@ -93,27 +67,6 @@ h1 .amp {
 	margin: auto;
 	background-color: rgba(73, 35, 101, 1);
 	border-color: transparent;
-}
-
-.rsvprow {
-	padding: 5px;
-	width: 350px;
-	margin-left: 95px;
-	margin-top: 250px;
-	background-color: rgba(255, 255, 255, .35);
-}
-
-.greetingRow {
-	margin-left: 110px;
-	margin-top: 110px;
-}
-
-.innernav {
-	text-align: center;
-	position: relative;
-	width: 940px;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .purple-emphasis {
@@ -130,19 +83,16 @@ h1 .amp {
 }
 
 #fixednav li a {
-	font-family: 'Garamond';
+	font-family: myGaramondRegular;
 	font-variant: small-caps;
 	font-size: 18px;
 	font-style: normal;
 	letter-spacing: 2px;
 	color: white;
+	font-variant: small-caps;
 }
 
 #fixednav li a:hover {
-	color: #999;
-}
-
-.hovergrey {
 	color: #999;
 }
 
@@ -155,8 +105,12 @@ h1 .amp {
 }
 
 .center .container {
-	width: 1000px;
+	width: 100%;
 	text-align: center;
+}
+
+.navbar-toggle {
+	float: none;
 }
 
 body {
@@ -165,135 +119,15 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	font-family: 'Garamond';
-/* 	font-style: italic;	*/
+	font-family: myGaramondRegular;
+	/* 	font-style: italic;	*/
 	font-size: 18px;
-}
-
-#content {
-	background: url(../images/stripes.png) no-repeat center center;
-}
-
-.italics {
-	font-style: italic;	
-}
-
-.hidden {
-	display: none;
 }
 
 .whitebox {
 	background: rgba(255, 255, 255, 0.75);
 	padding: 15px;
-}
-
-.purpnav {
-	background-color: #73207c;
-	border-color: transparent;
-}
-
-/*Page Elements*/
-.sectionhead,.bodytext {
-	position: relative;
-}
-
-/*Ceremony Page*/
-#ceremony .sectionhead {
-	color: #ece9e2;
-	left: 320px;
-	top: 50px;
-	width: 450px;
-}
-
-#ceremony h2 {
-	color: #202020;
-}
-
-#ceremony .bodytext {
-	color: #ece9e2;
-	width: 450px;
-	left: 320px;
-	top: 50px;
-}
-
-/*Reception Page*/
-#reception .sectionhead {
-	color: #aab180;
-	left: 520px;
-	top: 114px;
-	width: 380px;
-}
-
-#reception h2 {
-	color: #ece9e2;
-}
-
-#reception .bodytext {
-	color: #202020;
-	width: 370px;
-	left: 520px;
-	top: 114px;
-}
-
-/*Wedding Party Page*/
-#weddingparty .sectionhead {
-	color: #ece9e2;
-	left: 30px;
-	top: 30px;
-	width: 580px;
-}
-
-.sectionhead .purple {
-	color: #73207c;
-}
-
-#weddingparty h2 {
-	color: #202020;
-}
-
-#weddingparty .bodytext {
-	color: #ece9e2;
-	width: 450px;
-	left: 320px;
-	top: 50px;
-}
-
-/*Hotel Page*/
-#hotel .sectionhead {
-	color: #ece9e2;
-	left: 0;
-	top: 85px;
-	width: 450px;
-}
-
-#hotel h2 {
-	color: #aab180;
-}
-
-#hotel .bodytext {
-	color: #ece9e2;
-	width: 450px;
-	left: 0;
-	top: 85px;
-}
-
-/*Registry Page*/
-#registry .sectionhead {
-	color: #202020;
-	left: 480px;
-	top: 50px;
-	width: 350px;
-}
-
-#registry h2 {
-	color: #ece9e2;
-}
-
-#registry .bodytext {
-	color: #202020;
-	width: 400px;
-	left: 480px;
-	top: 50px;
+	margin: 15px;
 }
 
 #rsvpModal .modal-body {
@@ -334,6 +168,7 @@ body {
 	position: relative;
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 	cursor: default;
+	width: 100%;
 }
 
 .ch-info-wrap {
@@ -438,6 +273,10 @@ body {
 	background-image: url(../images/melissa.jpg);
 }
 
+.devon-img {
+	background-image: url(../images/devon.jpg);
+}
+
 .ian-img {
 	/* 	background-image: url(../images/ian.jpg); */
 	
@@ -466,24 +305,6 @@ body {
 	border-top: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-.ch-info p a {
-	display: block;
-	color: #fff;
-	color: rgba(255, 255, 255, 0.7);
-	font-style: normal;
-	font-weight: 700;
-	text-transform: uppercase;
-	font-size: 9px;
-	letter-spacing: 1px;
-	padding-top: 4px;
-	font-family: 'Open Sans', Arial, sans-serif;
-}
-
-.ch-info p a:hover {
-	color: #fff222;
-	color: rgba(255, 242, 34, 0.8);
-}
-
 .ch-item:hover .ch-info-wrap {
 	box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.8), inset 0 0 3px
 		rgba(115, 114, 23, 0.8);
@@ -505,15 +326,74 @@ body {
 /* Carousel base class */
 .carousel {
 	height: 420px;
-	width: 900px; margin : auto; border : none;
+	width: 100%;
+	margin: auto;
+	border: none;
 	padding: 0;
 	position: relative;
-	border: none;
-	margin: auto;
 }
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-	z-index: 10;
+
+@media ( max-width : 999px) {
+	.rsvpNav {
+		width: 100%;
+	}
+}
+
+@media ( max-width : 991px) {
+	.carousel {
+		height: 775px;
+	}
+	.carousel-inner {
+		overflow: visible;
+	}
+}
+
+@media ( min-width : 1201px) {
+	.carousel {
+		width: 80%;
+	}
+}
+
+@media ( max-width : 479px) {
+	.ch-grid li {
+		width: 160px;
+		height: 160px;
+	}
+	.ch-info-wrap {
+		width: 140px;
+		height: 140px;
+		top: 10px;
+		left: 10px;
+	}
+	.ch-info {
+		width: 140px;
+		height: 140px;
+	}
+	.ch-info>div {
+		-webkit-background-size: 160px 160px;
+		-moz-background-size: 160px 160px;
+		-o-background-size: 160px 160px;
+		background-size: 160px 160px;
+	}
+	.ch-item {
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-position: center center;
+	}
+	.carousel {
+		height: 435px;
+	}
+	.ch-info h3 {
+		line-height: 11px;
+		font-size: 8px;
+		height: 65px;
+		padding-top: 30px;
+	}
+	.ch-info p {
+		font-size: 13px;
+	}
 }
 
 /* Declare heights because of positioning of img element */
@@ -522,21 +402,12 @@ body {
 	border: none;
 }
 
-.carousel-inner>.item>img {
-	position: absolute;
-	top: 0;
-	left: 0;
-	min-width: 100%;
-	height: 320px;
-}
-
 .item {
 	border: none;
 }
 
 .container {
 	border: 0;
-	width: 1050px;
 	padding: 0;
 }
 
@@ -548,7 +419,7 @@ body {
 }
 
 .carousel-control.left .glyphicon,.carousel-control.right .glyphicon {
-	top: 180px;
+	top: 46%;
 	font-size: 30px;
 }
 
