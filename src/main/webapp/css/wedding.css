@@ -99,8 +99,6 @@
 .center.navbar .nav,.center.navbar .nav>li {
 	float: none;
 	display: inline-block;
-	/* 	*display: inline; ie7 fix */
-	/* 	*zoom: 1; hasLayout ie7 trigger */
 	vertical-align: top;
 }
 
@@ -115,27 +113,9 @@
 
 body {
 	background: url(../images/main_bg.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
 	background-size: cover;
 	font-family: myGaramondRegular;
 	font-size: 18px;
-/* 	font-style: italic;	*/
-	font-size: 16px;
-}
-
-#content {
-	background: url(../images/stripes.png) no-repeat center center;
-}
-
-.italics {
-	font-style: italic;	
-}
-
-.hidden {
-	display: none;
->>>>>>> branch 'vitaly' of https://github.com/pvitaly/wedding.git
 }
 
 .whitebox {
@@ -384,15 +364,9 @@ body {
 		height: 140px;
 	}
 	.ch-info>div {
-		-webkit-background-size: 160px 160px;
-		-moz-background-size: 160px 160px;
-		-o-background-size: 160px 160px;
 		background-size: 160px 160px;
 	}
 	.ch-item {
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
 		background-size: cover;
 		background-position: center center;
 	}
