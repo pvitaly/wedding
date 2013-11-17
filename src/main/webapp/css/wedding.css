@@ -120,8 +120,22 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 	font-family: myGaramondRegular;
-	/* 	font-style: italic;	*/
 	font-size: 18px;
+/* 	font-style: italic;	*/
+	font-size: 16px;
+}
+
+#content {
+	background: url(../images/stripes.png) no-repeat center center;
+}
+
+.italics {
+	font-style: italic;	
+}
+
+.hidden {
+	display: none;
+>>>>>>> branch 'vitaly' of https://github.com/pvitaly/wedding.git
 }
 
 .whitebox {
