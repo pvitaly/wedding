@@ -28,6 +28,7 @@
 	/* 		url("../fonts/sloop-scriptthree-74283.eot"); EOT file for IE */
 }
 
+
 .bannerbox {
 	margin-top: 43px;
 }
@@ -39,13 +40,15 @@
 	-webkit-font-smoothing: antialiased;
 }
 
+.small-font {
+	font-size: 30px;
+}
+
 .names {
-	font-family: myGaramondItalic;
 	height: 20px;
 }
 
 .info {
-	font-family: myGaramondRegular;
 	height: 5px;
 }
 
@@ -53,12 +56,14 @@
 	font-family: myGaramondItalic;
 }
 
-.garamondGreen {
-	font-family: myGaramondRegular;
+.green-emphasis {
+	color: #B8FF9E;
+}
+
+.garamond {
 	font-variant: small-caps;
 	font-size: 19px;
 	letter-spacing: 4px;
-	color: #B8FF9E;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -83,13 +88,11 @@
 }
 
 #fixednav li a {
-	font-family: myGaramondRegular;
 	font-variant: small-caps;
 	font-size: 18px;
 	font-style: normal;
 	letter-spacing: 2px;
 	color: white;
-	font-variant: small-caps;
 }
 
 #fixednav li a:hover {
@@ -114,7 +117,7 @@
 body {
 	background: url(../images/main_bg.jpg) no-repeat center center fixed;
 	background-size: cover;
-	font-family: myGaramondRegular;
+	font-family: 'Garamond';
 	font-size: 18px;
 }
 
@@ -225,6 +228,15 @@ body {
 	-ms-transform: rotate3d(0, 1, 0, 180deg);
 	transform: rotate3d(0, 1, 0, 180deg);
 	background: #202020;
+}
+
+.img-style {
+	box-shadow: 0 0 5px 0;
+	width: 100%;
+}
+
+.color-run-img {
+	background-image: url(../images/kendra_vitaly_colorrun.jpg);
 }
 
 .brandon-img {

@@ -59,93 +59,123 @@
 
 		<div class='row bannerbox'>
 			<div class="row" style="text-align: center;">
-				<h1 class="names">
+				<h1 class="names garamondItalic">
 					<span class="white-emphasis">Kendra &amp; Vitaly</span>
 				</h1>
 				<h3 class="info">
-					<span class="garamondGreen">June 7, 2014</span>
+					<span class="garamond green-emphasis">June 7, 2014</span>
 				</h3>
 				<h3>
-					<span class="garamondGreen">howell, michigan</span>
+					<span class="garamond green-emphasis">howell, michigan</span>
 				</h3>
 			</div>
 		</div>
 
 		<div id="aboutus" class="row whitebox garamondItalic"
 			style="display: none;">
-			A little known fact <span class="purple-emphasis sloopy-small">About
-				Us,</span> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-			commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-			et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-			felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
-			consequat massa quis enim. Donec pede justo, fringilla vel, aliquet
-			nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
-			venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
-			Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
-			Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu,
-			consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in,
-			viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus
-			varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies
-			nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
-			Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem
-			quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam
-			nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec
-			odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis
-			faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus
-			tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec
-			sodales sagittis magna.
+			<div class="row" style="text-align: center">
+				A little known fact <span class="purple-emphasis sloopy-small">About
+					Us,</span> is that we watch the movie Fight Club exactly one time a year:
+				on Valentine's Day.
+			</div>
+			<div class="col-md-4">
+				Thank you for visiting our wedding website! We figured that since it
+				is the year 2013, it is probably a good idea to embrace technology!
+				So, Vitaly decided to make this site.
+				<p>
+					It is a place where we have general information <span
+						class="purple-emphasis sloopy-small small-font">about us</span>,
+					the wedding, and even a place where you can RSVP instead of sending
+					us real mail. Real mail is so 2003!
+				<p>We welcome you to browse the site and hopefully you will
+					enjoy it and find it useful! If you have any complaints about how
+					it works... we don't care :). Just kidding! All complaints go to
+					Kendra.
+				<p>
+					Anyway, here is a random photo of us from a random time during our
+					relationship. Also, check out some facts <span
+						class="purple-emphasis sloopy-small small-font">about us</span> on
+					the other side of that picture!
+			</div>
+			<div class="col-md-4">
+				<img class="img-style" alt="Us at Color Run"
+					src="/images/kendra_vitaly_colorrun.jpg">
+			</div>
+			<div class="col-md-4">
+				<span class="purple-emphasis sloopy-small small-font">In the
+					early</span> stages of a budding romance, as well as a general boycott of
+				the holiday, we started a tradition of watching Fight Club at the
+				end of every valentine's day. Little did we know, this was just the
+				beginning of many traditions and rituals to come.
+				<p>
+					<span class="purple-emphasis sloopy-small small-font">Since
+						we met</span> while working at GFS in 2007, we have made a habit of
+					occasional late night appetizers at Applebees.
+				<p>
+					<span class="purple-emphasis sloopy-small small-font">It is
+						our</span> ritual to equally partake (and avoid) laundry duty.
+				<p>
+					<span class="purple-emphasis sloopy-small small-font">Our
+						tradition</span> is to cut down our own Christmas tree each year.
+				<p>
+					<span class="purple-emphasis sloopy-small small-font">Vitaly
+						proposed to Kendra</span> in their home in Ann Arbor. It was a
+					beautifully elegant proposal, filled with music, rose petals, and a
+					not-so-attractive cry from Kendra. Now, six years after meeting, we
+					embrace those current habits, traditions, and rituals. Even more
+					excitingly, we look forward to making many more together!
+			</div>
 		</div>
-		<div id="ceremony" class="row whitebox garamondItalic"
-			style="display: none;">
+		<div id="ceremony" class="row whitebox" style="display: none;">
 			<div class="row" style="text-align: center;">
 				<span class='purple-emphasis sloopy-small'>The Ceremony</span>
 			</div>
-			<div class="col-md-6">Lorem ipsum dolor sit amet, consectetuer
-				adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-				sociis natoque penatibus et magnis dis parturient montes, nascetur
-				ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-				pretium quis, sem. Nulla consequat massa quis enim. Donec pede
-				justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim
-				justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam
-				dictum felis eu pede mollis pretium. Integer tincidunt. Cras
-				dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend
-				tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend
-				ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
-				tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque
-				rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur
-				ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.</div>
-			<div class="col-md-6">Lorem ipsum dolor sit amet, consectetuer
-				adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-				sociis natoque penatibus et magnis dis parturient montes, nascetur
-				ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-				pretium quis, sem. Nulla consequat massa quis enim. Donec pede
-				justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim
-				justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam
-				dictum felis eu pede mollis pretium. Integer tincidunt. Cras
-				dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend
-				tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend
-				ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
-				tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque
-				rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur
-				ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.</div>
+			<div class="col-md-6" style="text-align: center;">
+				<div class="row>">
+					<ul style="list-style: none;">
+						<li style="height: 47px;"><span
+							class="purple-emphasis sloopy-small">June 7th, 2014</span></li>
+						<li><span class="garamond">4:30 P.M.</span></li>
+						<li><span class="garamond">S. Hickory Ridge Picnic
+								Area</span></li>
+						<li><span class="garamond">Kensington Metro Park</span></li>
+						<li><span class="garamond">Brighton, MI</span></li>
+					</ul>
+				</div>
+				<div class="row garamondItalic" style="text-align: center;">...
+					Here are some more random photos of us!</div>
+				<div class="row" style="text-align: center; padding-bottom: 5px;">
+					<img style="width: 71%;" class="img-style"
+						alt="Us in St. Joseph, MI" src="/images/kendra_vitaly_stjoe.jpg">
+				</div>
+			</div>
+			<div class="col-md-6" style="text-align: center;">
+				<img style="width: 75%;" class="img-style"
+					alt="Us in Central Park, NYC" src="/images/kendra_vitaly_nyc.jpg">
+			</div>
 		</div>
-		<div id="reception" class="row whitebox garamondItalic"
-			style="display: none;">
+		<div id="reception" class="row whitebox" style="display: none;">
 			<div class="row" style="text-align: center;">
 				<span class='purple-emphasis sloopy-small'>The Reception</span>
 			</div>
-			<div class="">Lorem ipsum dolor sit amet, consectetuer
-				adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-				sociis natoque penatibus et magnis dis parturient montes, nascetur
-				ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-				pretium quis, sem. Nulla consequat massa quis enim. Donec pede
-				justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim
-				justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam
-				dictum felis eu pede mollis pretium. Integer tincidunt. Cras
-				dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend
-				tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend
-				ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
-				tellus. Phasellus viverra nulla ut metus varius laoreet.</div>
+			<div class="col-md-6" style="text-align: center;padding-bottom: 5px;">
+				<img class="img-style" alt="Us at Steven's Wedding"
+					src="/images/kendra_vitaly_yakwedding.jpg">
+			</div>
+			<div class="col-md-6" style="text-align: center;">
+				<div class="row">
+					<ul style="list-style: none;">
+						<li style="height: 47px;"><span
+							class="purple-emphasis sloopy-small">June 7th, 2014</span></li>
+						<li><span class="garamond">4:30 P.M.</span></li>
+						<li><span class="garamond">Celebrity Room</span></li>
+						<li><span class="garamond">Crystal Gardens</span></li>
+						<li><span class="garamond">Howell, MI</span></li>
+					</ul>
+				</div>
+				<div class="row garamondItalic" style="text-align: center;">...
+					And there's another photo!</div>
+			</div>
 		</div>
 		<div id="weddingparty" class="row whitebox garamondItalic"
 			style="display: none;">
@@ -409,10 +439,9 @@
 				<img alt="KOHLS" src="/images/amazon-logo.png">
 			</div>
 			<div class="col-md-6" style="text-align: center;">
-				<img alt="KOHLS" src="/images/Kohls-Logo.jpg">
+				<img alt="KOHLS" src="/images/cratelogo.png">
 			</div>
 		</div>
-
 
 		<div class="modal fade" id="rsvpModal" tabindex="-1" role="dialog"
 			aria-labelledby="myModalLabel" aria-hidden="true">
