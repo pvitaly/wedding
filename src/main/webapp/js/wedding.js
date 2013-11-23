@@ -2,6 +2,12 @@ $(document).ready(function() {
 	
 	$('#fixednav li a').on('click', function() {
 		
+		$('.navbar-toggle').click();
+		
+		if ($(this).data('id') == 'rsvp') {
+			return;
+		}
+		
 		if ($(this).data('id') == 'home') {
 			$('#fixednav li').each(function() {
 				$(this).find('a').css('color', '');

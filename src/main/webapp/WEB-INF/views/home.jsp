@@ -48,7 +48,7 @@
 							party</a></li>
 					<li><a data-id='#hotel' href="javascript:void(0)">hotel</a></li>
 					<li><a data-id='#registry' href="javascript:void(0)">registry</a></li>
-					<li><a href="" data-toggle="modal" data-target="#rsvpModal">rsvp</a></li>
+					<li><a data-id="rsvp" href="" data-toggle="modal" data-target="#rsvpModal">rsvp</a></li>
 				</ul>
 			</div>
 			<!--/.nav-collapse -->
