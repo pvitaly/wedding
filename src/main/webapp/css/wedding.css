@@ -1,4 +1,4 @@
-@media ( max-width : 898px) {
+@media ( max-width : 908px) {
 	.navbar-toggle {
 		display: inline-block;
 	}
@@ -28,6 +28,15 @@
 	/* 		url("../fonts/sloop-scriptthree-74283.eot"); EOT file for IE */
 }
 
+ul {
+	padding: 0;
+	list-style-type: none;
+}
+
+li {
+	font-variant: small-caps;
+	font-size: x-large;
+}
 
 .bannerbox {
 	margin-top: 43px;
@@ -37,6 +46,7 @@
 	font-family: mySloopFont, "Montserrat", sans-serif;
 	font-size: 40px;
 	font-weight: normal;
+	font-variant: normal;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -64,7 +74,6 @@
 	font-variant: small-caps;
 	font-size: 19px;
 	letter-spacing: 4px;
-	-webkit-font-smoothing: antialiased;
 }
 
 .rsvpNav {
@@ -119,6 +128,13 @@ body {
 	background-size: cover;
 	font-family: 'Garamond';
 	font-size: 18px;
+}
+
+.aboutus-header {
+	font-family: garamond;
+	font-style: normal;
+	font-variant: small-caps;
+	font-size: large;
 }
 
 .whitebox {
@@ -337,6 +353,12 @@ body {
 	border: none;
 	padding: 0;
 	position: relative;
+}
+
+@media ( min-width : 768px) {
+	.modal-dialog {
+		width: 700px;
+	}
 }
 
 @media ( max-width : 999px) {

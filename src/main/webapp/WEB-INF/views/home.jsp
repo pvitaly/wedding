@@ -72,58 +72,56 @@
 		</div>
 
 		<div id="aboutus" class="row whitebox garamondItalic"
-			style="display: none;">
+			style="display: none; font-weight: bold;">
 			<div class="row" style="text-align: center">
-				A little known fact <span class="purple-emphasis sloopy-small">About
-					Us,</span> is that we watch the movie Fight Club exactly one time a year:
-				on Valentine's Day.
+				<span class="purple-emphasis sloopy-small">About Us</span>
 			</div>
-			<div class="col-md-4">
-				Thank you for visiting our wedding website! We figured that since it
-				is the year 2013, it is probably a good idea to embrace technology!
-				So, Vitaly decided to make this site.
+			<div class="col-md-4" style="text-align: center;">
+				<span class="aboutus-header">welcome to our wedding website,
+					and thank you for visiting!</span>
+
+				<p>Vitaly has poured a great deal of work into this website, so
+					we are planning to use it to its fullest potential! Feel free to
+					read some information about us!
+				<p>In exciting news, we are hip and forging a new way in RSVP
+					traditions! We have decided to embrace Vitaly's tech-savvy self,
+					and are opting for a complete on-line RSVP area. Look forward to
+					this in the formal invitation!
+				<p>Anyway, please enjoy browsing the website; hopefully you find
+					some useful maps or information. If you don't find anything
+					useful...well, our apologies. Field all complaints to Kendra (at
+					your own risk).
 				<p>
-					It is a place where we have general information <span
-						class="purple-emphasis sloopy-small small-font">about us</span>,
-					the wedding, and even a place where you can RSVP instead of sending
-					us real mail. Real mail is so 2003!
-				<p>We welcome you to browse the site and hopefully you will
-					enjoy it and find it useful! If you have any complaints about how
-					it works... we don't care :). Just kidding! All complaints go to
-					Kendra.
-				<p>
-					Anyway, here is a random photo of us from a random time during our
-					relationship. Also, check out some facts <span
-						class="purple-emphasis sloopy-small small-font">about us</span> on
-					the other side of that picture!
+					<span class="aboutus-header">thanks for your support, we
+						look forward to the party in june!</span>
 			</div>
 			<div class="col-md-4">
 				<img class="img-style" alt="Us at Color Run"
 					src="/images/kendra_vitaly_colorrun.jpg">
 			</div>
 			<div class="col-md-4">
-				<span class="purple-emphasis sloopy-small small-font">In the
-					early</span> stages of a budding romance, as well as a general boycott of
-				the holiday, we started a tradition of watching Fight Club at the
-				end of every valentine's day. Little did we know, this was just the
-				beginning of many traditions and rituals to come.
+				<div class="row" style="text-align: center;">
+					<span class="aboutus-header">so really. you clicked on this
+						part to get the dish on us, right? well, let's give you what you
+						want then!</span>
+				</div>
 				<p>
-					<span class="purple-emphasis sloopy-small small-font">Since
-						we met</span> while working at GFS in 2007, we have made a habit of
-					occasional late night appetizers at Applebees.
+					<span class="purple-emphasis sloopy-small small-font">We met
+						in 2007,</span> when we both worked as sales associates at GFS. Kendra
+					decided early on that she was going to date Vitaly one day, and she
+					set the wheels in motion to make that happen. Her acts of valor
+					included dragging her roommate to KFC to bring Vitaly lunch,
+					meeting Vitaly at midnight to get coney island food from a sketchy
+					establishment, and saving up dirty laundry so she could stay at
+					Vitaly's for hours while completing it (free laundry for a college
+					student is a great incentive).
 				<p>
-					<span class="purple-emphasis sloopy-small small-font">It is
-						our</span> ritual to equally partake (and avoid) laundry duty.
-				<p>
-					<span class="purple-emphasis sloopy-small small-font">Our
-						tradition</span> is to cut down our own Christmas tree each year.
-				<p>
-					<span class="purple-emphasis sloopy-small small-font">Vitaly
-						proposed to Kendra</span> in their home in Ann Arbor. It was a
-					beautifully elegant proposal, filled with music, rose petals, and a
-					not-so-attractive cry from Kendra. Now, six years after meeting, we
-					embrace those current habits, traditions, and rituals. Even more
-					excitingly, we look forward to making many more together!
+					<span class="purple-emphasis sloopy-small small-font">We've
+						come a long way </span>since then. Vitaly proposed to Kendra in November
+					of 2012. There was music, rose petals, notes, and ugly-sobs of
+					celebration (we'll let you guess from whom). It's been an awesome
+					journey, and we are grateful to our friends and family for having a
+					hand in making the people we are today.
 			</div>
 		</div>
 		<div id="ceremony" class="row whitebox" style="display: none;">
@@ -132,18 +130,20 @@
 			</div>
 			<div class="col-md-6" style="text-align: center;">
 				<div class="row>">
-					<ul style="list-style: none;">
-						<li style="height: 47px;"><span
-							class="purple-emphasis sloopy-small">June 7th, 2014</span></li>
-						<li><span class="garamond">4:30 P.M.</span></li>
-						<li><span class="garamond">S. Hickory Ridge Picnic
-								Area</span></li>
-						<li><span class="garamond">Kensington Metro Park</span></li>
-						<li><span class="garamond">Brighton, MI</span></li>
+					<ul>
+						<li>Come See Us Tie The Knot</li>
+						<li><span class="garamond">4:00 P.M.</span></li>
+						<li><span class="garamond"><a
+								style="text-decoration: none;" href="" data-toggle="modal"
+								data-target="#ceremonyMap">south hickory ridge picnic area</a></span></li>
+						<li style="font-weight: bold;"><span class="garamond"><a
+								style="text-decoration: none;"
+								href="http://maps.google.com/maps?daddr=Kensington+Metropark,+Milford+Township+MI,+48380"
+								target="_blank">kensington metropark</a></span></li>
 					</ul>
 				</div>
-				<div class="row garamondItalic" style="text-align: center;">...
-					Here are some more random photos of us!</div>
+				<div class="row garamondItalic" style="text-align: center;">Here
+					are some more random photos of us!</div>
 				<div class="row" style="text-align: center; padding-bottom: 5px;">
 					<img style="width: 71%;" class="img-style"
 						alt="Us in St. Joseph, MI" src="/images/kendra_vitaly_stjoe.jpg">
@@ -154,27 +154,41 @@
 					alt="Us in Central Park, NYC" src="/images/kendra_vitaly_nyc.jpg">
 			</div>
 		</div>
-		<div id="reception" class="row whitebox" style="display: none;">
-			<div class="row" style="text-align: center;">
-				<span class='purple-emphasis sloopy-small'>The Reception</span>
-			</div>
-			<div class="col-md-6" style="text-align: center;padding-bottom: 5px;">
-				<img class="img-style" alt="Us at Steven's Wedding"
-					src="/images/kendra_vitaly_yakwedding.jpg">
-			</div>
-			<div class="col-md-6" style="text-align: center;">
+		<div id="reception" class="row whitebox"
+			style="display: none; text-align: center;">
+			<div class="row">
 				<div class="row">
-					<ul style="list-style: none;">
-						<li style="height: 47px;"><span
-							class="purple-emphasis sloopy-small">June 7th, 2014</span></li>
-						<li><span class="garamond">4:30 P.M.</span></li>
-						<li><span class="garamond">Celebrity Room</span></li>
-						<li><span class="garamond">Crystal Gardens</span></li>
-						<li><span class="garamond">Howell, MI</span></li>
-					</ul>
+					<span class='purple-emphasis sloopy-small'>The Reception</span>
 				</div>
-				<div class="row garamondItalic" style="text-align: center;">...
-					And there's another photo!</div>
+				<div class="col-md-6">
+					<div class="row">
+						<ul>
+							<li>Join Us For Food, Drinks and Dancing</li>
+							<li><span class="garamond">6:00 P.M.</span></li>
+							<li><span class="garamond">celebrity room</span></li>
+							<li style="font-weight: bold;"><span class="garamond"><a
+									style="text-decoration: none;"
+									href="http://maps.google.com/maps?daddr=Crystal+Gardens,+Howell+MI,+48843"
+									target="_blank">crystal gardens</a></span></li>
+						</ul>
+					</div>
+					<div class="row garamondItalic">... And more photos!</div>
+					<div class="row" style="text-align: center; padding-bottom: 5px;">
+						<img style="width: 71%;" class="img-style"
+							alt="Us in St. Igance, MI" src="/images/us_best.jpg">
+					</div>
+				</div>
+				<div class="col-md-6" style="padding-top: 5px;">
+					<div class="row">
+						<img style="width: 60%;" class="img-style" alt="Us On Bikes"
+							src="/images/us_bikes.jpg">
+					</div>
+					<div class="row" style="padding-top: 10px;">
+						<img style="width: 60%;" class="img-style"
+							alt="Us at Steven's Wedding"
+							src="/images/kendra_vitaly_yakwedding.jpg">
+					</div>
+				</div>
 			</div>
 		</div>
 		<div id="weddingparty" class="row whitebox garamondItalic"
@@ -412,35 +426,51 @@
 			<!-- /.carousel -->
 		</div>
 		<div id="hotel" class="row whitebox garamondItalic"
-			style="display: none;">
+			style="display: none;font-weight: bold;font-size: x-large;">
 			<div class="row" style="text-align: center;">
 				<span class='purple-emphasis sloopy-small'>The Hotel</span>
 			</div>
 			<div class="col-md-6" style="text-align: center;">
-				To help you enjoy our wedding to the fullest, we have reserved a
-				block of rooms at the Courtyard Detroit Brighton. Click <strong><a
-					href="http://cwp.marriott.com/dtwbr/jaynespekerwedding/"
-					target="_blank">here</a></strong> to reserve your room or call <strong>(810)
-					225-9200</strong> and mention the <strong>Peker/Jaynes Wedding</strong> and
-				receive a special rate! For your convenience, we are providing a
-				shuttle that will take you from the hotel to the ceremony, from the
-				ceremony to the reception, and from the reception back to the hotel!
+				We appreciate the fact that many of you will be coming from out of
+				town to make our day very special.
+
+				<p>So, to make your visit more convenient, we have reserved a
+					block of rooms at the <span class="purple-emphasis">Courtyard Marriot in Brighton.</span>
+				<p>
+					Click <strong><a style="text-decoration: none;"
+						href="http://cwp.marriott.com/dtwbr/jaynespekerwedding/"
+						target="_blank">here</a></strong> to reserve your room or call <strong><a
+						style="text-decoration: none;" href="tel:8102259200">(810)
+							225-9200</a></strong> and mention the <strong><span class="purple-emphasis">Peker/Jaynes Wedding</span></strong>
+					and receive a special rate!
+				<p>For your convenience, we are providing a shuttle that will
+					take you from the hotel to the ceremony, from the ceremony to the
+					reception, and from the reception back to the hotel!
 			</div>
 			<div class='col-md-6' style="text-align: center;">
-				<div id='gmap' style="width: 425px; height: 300px;"></div>
+				<div class="row">
+					<img style="width: 75%;" class="img-style"
+						alt="Us In Niagara Falls" src="/images/us_wine.jpg">
+				</div>
 			</div>
 		</div>
 		<div id="registry" class="row whitebox garamondItalic"
-			style="display: none;">
+			style="display: none;font-weight: bold;font-size: x-large;">
 			<div class="row" style="text-align: center;">
 				<span class='purple-emphasis sloopy-small'>The Registry</span>
 			</div>
-			<div class="col-md-6" style="text-align: center;">
-				<img alt="KOHLS" src="/images/amazon-logo.png">
+			<div class="row" style="text-align: center;padding: 5px;">Having
+				you at our wedding is something we will cherish and remember
+				forever. However, if you would like to give us a gift, we won't stop
+				you! We are registered at a few different stores, so to make it
+				easier - we have listed them all on the knot. Click on the image
+				below to see our gift list!</div>
+			<div class="row" style="text-align: center;">
+				<a target="_blank"
+					href="http://registry.theknot.com/kendra-jaynes-vitaly-peker-june-2014-mi/6271242"><img
+					alt="theknot" src="/images/theknot.png"></a>
 			</div>
-			<div class="col-md-6" style="text-align: center;">
-				<img alt="KOHLS" src="/images/cratelogo.png">
-			</div>
+
 		</div>
 
 		<div class="modal fade" id="rsvpModal" tabindex="-1" role="dialog"
@@ -489,6 +519,37 @@
 			<!-- /.modal-dialog -->
 		</div>
 		<!-- /.modal -->
+
+		<div class="modal fade garamond" id="ceremonyMap" tabindex="-1"
+			role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal"
+							aria-hidden="true">&times;</button>
+						<h4 class="modal-title" id="myModalLabel" align="center">map
+							of kensington metropark</h4>
+					</div>
+					<div class="modal-body" align="center">
+						<div id="ceremony-map" class="row">
+							<img class="img-style" alt="Map to the ceremony"
+								src="/images/kensington_park.jpg">
+						</div>
+						<div class="modal-footer" style="text-align: center;">
+							<button class="btn" data-dismiss="modal">Close</button>
+						</div>
+
+					</div>
+				</div>
+				<!-- /.modal-content -->
+			</div>
+			<!-- /.modal-dialog -->
+		</div>
+		<!-- /.modal -->
+
+
+
+
 	</div>
 
 	<script type="text/javascript"
@@ -496,7 +557,7 @@
 	<script
 		src="//netdna.bootstrapcdn.com/bootstrap/3.0.1/js/bootstrap.min.js"></script>
 	<script type="text/javascript"
-		src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+		src="<c:url value='js/jquery.zoom.min.js' />"></script>
 	<script type="text/javascript" src="<c:url value='js/wedding.js' />"></script>
 </body>
 </html>
