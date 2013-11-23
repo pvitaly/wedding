@@ -1,24 +1,3 @@
-var map;
-function initialize() {
-
-	var hotel = new google.maps.LatLng(42.552163,-83.796376);
-
-	var mapOptions = {
-		zoom : 12,
-		center : hotel,
-		mapTypeId : google.maps.MapTypeId.ROADMAP
-	};
-	map = new google.maps.Map(document.getElementById('gmap'), mapOptions);
-
-
-	var marker = new google.maps.Marker({
-		position : hotel,
-		map : map,
-		title : 'Courtyard Marriot Brighton'
-	});
-	google.maps.event.trigger(map, 'resize');
-}
-
 $(document).ready(function() {
 	
 	$('#fixednav li a').on('click', function() {
@@ -39,12 +18,10 @@ $(document).ready(function() {
 		$(this).css('color', '#999');
 		$($(this).data('id')).fadeIn("slow", "linear");
 		
-		if (($(this).data('id') == '#hotel')) {
-			if ($('#hotel').hasClass('gmap') == false) {
-				initialize();	
-				$('#hotel').addClass('gmap');				
-			}
-		}
+	});
+	
+	$('#ceremony-map').zoom({
+		magnify : 1
 	});
 
 	$('#accepted').on('click', function() {
