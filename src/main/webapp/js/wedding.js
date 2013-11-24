@@ -1,53 +1,43 @@
+var insta_next_url;
 
-    function createPhotoElement(photo) {
-      var innerHtml = $('<img style="padding:2px">')
-        .addClass('instagram-image')
-        .attr('src', photo.images.thumbnail.url);
+function createPhotoElement(photo) {
+	
+    var innerHtml = $('<img style="padding:2px;">')
+      .addClass('instagram-image')
+      .attr('src', photo.images.thumbnail.url);
 
-      innerHtml = $('<a>')
-        .attr('target', '_blank')
-        .attr('href', photo.link)
-        .append(innerHtml);
+    innerHtml = $('<a>')
+      .attr('target', '_blank')
+      .attr('href', photo.link)
+      .append(innerHtml);
 
-      return innerHtml;
-    }
+    return innerHtml;
+}
 
-    function didLoadInstagram(event, response) {
-      var that = this;
-
-      $.each(response.data, function(i, photo) {
-        $(that).append(createPhotoElement(photo));
-      });
-    }
+function didLoadInstagram(event, response) {
+	
+	var that = this;
+	insta_next_url = response.pagination.next_url;
+	$.each(response.data, function(i, photo) {
+		$(that).append(createPhotoElement(photo));
+	});
+}
 
 $(document).ready(function() {
 	
 	var clientId = '26dbb2b64b414f6599c6e02103c7f55d';
 	
-	var insta_container = $(".instagram"), insta_next_url = "";
-	
-    $('.instagram.tag').on('didLoadInstagram', didLoadInstagram);
+    $('.instagram').on('didLoadInstagram', didLoadInstagram);
     
-    $('.instagram.tag').on('didLoadInstagram', function(event, response) {
-		insta_next_url = response.pagination.next_url;
-	});
-    
-    $('.instagram.tag').instagram({
+    $('.instagram').instagram({
       hash: 'wedding',
-      clientId: clientId,
-       onComplete : function (photos, data) {
-          insta_next_url = data.pagination.next_url;
-      }
+      clientId: clientId
     });
     
     $('#moreinsta').on('click', function() {
-    	$('.instagram.tag').on('didLoadInstagram', function(event, response) {
-    		insta_next_url = response.pagination.next_url;
-    	  });
-    	
-    	insta_container.instagram({
-        	clientId: clientId,
+    	$('.instagram').instagram({
         	hash: 'wedding',
+        	clientId: clientId,
             url : insta_next_url
         });
     });
