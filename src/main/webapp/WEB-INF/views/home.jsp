@@ -2,29 +2,23 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <%@ page session="false"%>
 <!DOCTYPE html>
-<html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" ><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
 <head>
 <title>Kendra and Vitaly's Wedding | 6.7.14</title>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
 <link rel="icon" type="image/x-icon" href="favicon.ico" />
-<link href='http://fonts.googleapis.com/css?family=Fjalla+One'
-	rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700'
-	rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css"
-	href="<c:url value='css/normalize.css' />" />
+
+<link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 <link rel="stylesheet"
 	href="//netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/wedding.css" />
-
-<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
+<!--[if IE]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
 </head>
 <body>
@@ -133,7 +127,7 @@
 			</div>
 			<div class="col-md-6" style="text-align: center;">
 				<div class="row>">
-					<ul>
+					<ul class="details-list">
 						<li>Come See Us Tie The Knot</li>
 						<li><span class="garamond">4:00 P.M.</span></li>
 						<li><span class="garamond"><a
@@ -165,7 +159,7 @@
 				</div>
 				<div class="col-md-6">
 					<div class="row">
-						<ul>
+						<ul class="details-list">
 							<li>Join Us For Food, Drinks and Dancing</li>
 							<li><span class="garamond">6:00 P.M.</span></li>
 							<li><span class="garamond">celebrity room</span></li>
@@ -491,7 +485,7 @@
 				pictures will instantly be posted here and we can relive our day
 				instantly!
 			</div>
-			<div class="row instagram tag"></div>
+			<div class="row instagram"></div>
 			<div class="row" style="padding: 15px;">
 				<button id="moreinsta" class="btn btn-success">Load More</button>
 			</div>
@@ -561,7 +555,8 @@
 								src="/images/kensington_park.jpg">
 						</div>
 						<div class="modal-footer" style="text-align: center;">
-							<button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+							<button type="button" class="btn btn-success"
+								data-dismiss="modal">Close</button>
 						</div>
 
 					</div>
