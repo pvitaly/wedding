@@ -24,9 +24,14 @@ $(document).ready(function() {
 	
 	var clientId = '26dbb2b64b414f6599c6e02103c7f55d';
 	
-	var insta_container = $(".instagram"), insta_next_url;
-    
+	var insta_container = $(".instagram"), insta_next_url = "";
+	
     $('.instagram.tag').on('didLoadInstagram', didLoadInstagram);
+    
+    $('.instagram.tag').on('didLoadInstagram', function(event, response) {
+		insta_next_url = response.pagination.next_url;
+	});
+    
     $('.instagram.tag').instagram({
       hash: 'wedding',
       clientId: clientId,
@@ -36,13 +41,14 @@ $(document).ready(function() {
     });
     
     $('#moreinsta').on('click', function() {
+    	$('.instagram.tag').on('didLoadInstagram', function(event, response) {
+    		insta_next_url = response.pagination.next_url;
+    	  });
+    	
     	insta_container.instagram({
         	clientId: clientId,
         	hash: 'wedding',
-            next_url : insta_next_url
-          , onComplete : function(photos, data) {
-            insta_next_url = data.pagination.next_url;
-          }
+            url : insta_next_url
         });
     });
 	
