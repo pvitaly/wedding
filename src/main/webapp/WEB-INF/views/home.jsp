@@ -8,6 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<link rel="icon" type="image/x-icon" href="favicon.ico" />
 <link href='http://fonts.googleapis.com/css?family=Fjalla+One'
 	rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700'
@@ -48,7 +49,9 @@
 							party</a></li>
 					<li><a data-id='#hotel' href="javascript:void(0)">hotel</a></li>
 					<li><a data-id='#registry' href="javascript:void(0)">registry</a></li>
-					<li><a data-id="rsvp" href="" data-toggle="modal" data-target="#rsvpModal">rsvp</a></li>
+					<li><a data-id='#instagram' href="javascript:void(0)">#pekerwedding</a></li>
+					<li><a data-id="rsvp" href="" data-toggle="modal"
+						data-target="#rsvpModal">rsvp</a></li>
 				</ul>
 			</div>
 			<!--/.nav-collapse -->
@@ -193,7 +196,7 @@
 		</div>
 		<div id="weddingparty" class="row whitebox garamondItalic"
 			style="display: none;">
-			<div class="row" style="text-align: center;">
+			<div class="row strong-font" style="text-align: center;">
 				We would be nowhere without <span
 					class='purple-emphasis sloopy-small'>The Wedding Party</span> Below
 				is a collection of our best friends!
@@ -425,8 +428,8 @@
 			</div>
 			<!-- /.carousel -->
 		</div>
-		<div id="hotel" class="row whitebox garamondItalic"
-			style="display: none;font-weight: bold;font-size: x-large;">
+		<div id="hotel" class="row whitebox garamondItalic strong-font"
+			style="display: none;">
 			<div class="row" style="text-align: center;">
 				<span class='purple-emphasis sloopy-small'>The Hotel</span>
 			</div>
@@ -434,15 +437,19 @@
 				We appreciate the fact that many of you will be coming from out of
 				town to make our day very special.
 
-				<p>So, to make your visit more convenient, we have reserved a
-					block of rooms at the <span class="purple-emphasis">Courtyard Marriot in Brighton.</span>
+				<p>
+					So, to make your visit more convenient, we have reserved a block of
+					rooms at the <a style="text-decoration: none;"
+						href="http://maps.google.com/maps?daddr=Courtyard+Detroit+Brighton+7799+Conference+Center+Dr,+Brighton+MI+48114"
+						target="_blank">Courtyard Marriot in Brighton</a>.
 				<p>
 					Click <strong><a style="text-decoration: none;"
 						href="http://cwp.marriott.com/dtwbr/jaynespekerwedding/"
 						target="_blank">here</a></strong> to reserve your room or call <strong><a
 						style="text-decoration: none;" href="tel:8102259200">(810)
-							225-9200</a></strong> and mention the <strong><span class="purple-emphasis">Peker/Jaynes Wedding</span></strong>
-					and receive a special rate!
+							225-9200</a></strong> and mention the <strong><span
+						class="purple-emphasis">Peker/Jaynes Wedding</span></strong> to receive a
+					special rate!
 				<p>For your convenience, we are providing a shuttle that will
 					take you from the hotel to the ceremony, from the ceremony to the
 					reception, and from the reception back to the hotel!
@@ -454,12 +461,12 @@
 				</div>
 			</div>
 		</div>
-		<div id="registry" class="row whitebox garamondItalic"
-			style="display: none;font-weight: bold;font-size: x-large;">
+		<div id="registry" class="row whitebox garamondItalic strong-font"
+			style="display: none;">
 			<div class="row" style="text-align: center;">
 				<span class='purple-emphasis sloopy-small'>The Registry</span>
 			</div>
-			<div class="row" style="text-align: center;padding: 5px;">Having
+			<div class="row" style="text-align: center; padding: 5px;">Having
 				you at our wedding is something we will cherish and remember
 				forever. However, if you would like to give us a gift, we won't stop
 				you! We are registered at a few different stores, so to make it
@@ -469,6 +476,24 @@
 				<a target="_blank"
 					href="http://registry.theknot.com/kendra-jaynes-vitaly-peker-june-2014-mi/6271242"><img
 					alt="theknot" src="/images/theknot.png"></a>
+			</div>
+
+		</div>
+		<div id="instagram" class="row whitebox"
+			style="display: none; text-align: center;">
+			<div class="row">
+				<span class='purple-emphasis garamond'>#PEKERWEDDING</span>
+			</div>
+			<div class="row garamondItalic strong-font" style="padding: 15px;">
+				Instagram is so cool! If you are going to be taking pictures with
+				your smart phone and posting them on instagram, please use the
+				hashtag <span class='purple-emphasis'>#pekerwedding</span>. The
+				pictures will instantly be posted here and we can relive our day
+				instantly!
+			</div>
+			<div class="row instagram tag"></div>
+			<div class="row" style="padding: 15px;">
+				<button id="moreinsta" class="btn btn-success">Load More</button>
 			</div>
 
 		</div>
@@ -536,7 +561,7 @@
 								src="/images/kensington_park.jpg">
 						</div>
 						<div class="modal-footer" style="text-align: center;">
-							<button class="btn" data-dismiss="modal">Close</button>
+							<button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
 						</div>
 
 					</div>
@@ -558,6 +583,7 @@
 		src="//netdna.bootstrapcdn.com/bootstrap/3.0.1/js/bootstrap.min.js"></script>
 	<script type="text/javascript"
 		src="<c:url value='js/jquery.zoom.min.js' />"></script>
+	<script type="text/javascript" src="js/instafeed.min.js"></script>
 	<script type="text/javascript" src="<c:url value='js/wedding.js' />"></script>
 </body>
 </html>

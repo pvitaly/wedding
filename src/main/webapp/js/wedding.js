@@ -1,4 +1,50 @@
+
+    function createPhotoElement(photo) {
+      var innerHtml = $('<img style="padding:2px">')
+        .addClass('instagram-image')
+        .attr('src', photo.images.thumbnail.url);
+
+      innerHtml = $('<a>')
+        .attr('target', '_blank')
+        .attr('href', photo.link)
+        .append(innerHtml);
+
+      return innerHtml;
+    }
+
+    function didLoadInstagram(event, response) {
+      var that = this;
+
+      $.each(response.data, function(i, photo) {
+        $(that).append(createPhotoElement(photo));
+      });
+    }
+
 $(document).ready(function() {
+	
+	var clientId = '26dbb2b64b414f6599c6e02103c7f55d';
+	
+	var insta_container = $(".instagram"), insta_next_url;
+    
+    $('.instagram.tag').on('didLoadInstagram', didLoadInstagram);
+    $('.instagram.tag').instagram({
+      hash: 'wedding',
+      clientId: clientId,
+       onComplete : function (photos, data) {
+          insta_next_url = data.pagination.next_url;
+      }
+    });
+    
+    $('#moreinsta').on('click', function() {
+    	insta_container.instagram({
+        	clientId: clientId,
+        	hash: 'wedding',
+            next_url : insta_next_url
+          , onComplete : function(photos, data) {
+            insta_next_url = data.pagination.next_url;
+          }
+        });
+    });
 	
 	$('#fixednav li a').on('click', function() {
 		
