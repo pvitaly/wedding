@@ -4,10 +4,15 @@
 		url("../fonts/sloop-scriptthree-74283.eot"); /* EOT file for IE */
 }
 
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */
 @font-face {
-	font-family: myGaramondRegular;
-	src: url("../fonts/GaramondMTStd-Regular.woff");
-	/* 		url("../fonts/sloop-scriptthree-74283.eot"); EOT file for IE */
+	font-family: "EB Garamond Regular SmallCaps";
+	src: url("/fonts/EBGaramondSC.eot?") format("eot"),
+		url("/fonts/EBGaramondSC.woff") format("woff"),
+		url("/fonts/EBGaramondSC.ttf") format("truetype"),
+		url("/fonts/EBGaramondSC.svg#EBGaramondSC") format("svg");
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
@@ -22,7 +27,6 @@ ul {
 }
 
 li {
-	font-variant: small-caps;
 	font-size: x-large;
 }
 
@@ -59,16 +63,17 @@ li {
 }
 
 .garamond {
-	font-family: 'EB Garamond';
-	font-variant: small-caps;
+	font-family: 'EB Garamond Regular SmallCaps';
 	font-size: 19px;
 	letter-spacing: 4px;
 }
 
 .rsvpNav {
+	width: 1050px;
 	margin: auto;
 	background-color: rgba(73, 35, 101, 1);
 	border-color: transparent;
+	margin: auto;
 }
 
 .purple-emphasis {
@@ -85,8 +90,7 @@ li {
 }
 
 #fixednav li a {
-	font-variant: small-caps;
-	font-size: 18px;
+	font-size: 16px;
 	font-style: normal;
 	letter-spacing: 2px;
 	color: white;
@@ -114,14 +118,13 @@ li {
 body {
 	background: url(../images/main_bg.jpg) no-repeat center center fixed;
 	background-size: cover;
-	font-family: 'EB Garamond';
-	font-size: 18px;
+	font-family: "EB Garamond Regular SmallCaps";
+	/* 	font-size: 18px; */
 }
 
 .aboutus-header {
-	font-family: garamond;
+	font-family: "EB Garamond Regular SmallCaps";
 	font-style: normal;
-	font-variant: small-caps;
 	font-size: 20px;
 }
 
@@ -354,13 +357,13 @@ body {
 	}
 }
 
-@media ( max-width : 1099px) {
+@media ( max-width : 1049px) {
 	.rsvpNav {
 		width: 100%;
 	}
 }
 
-@media ( max-width : 1084px) {
+@media ( max-width : 1045px) {
 	.bannerbox {
 		margin-top: 90px;
 	}
@@ -423,7 +426,7 @@ body {
 	}
 	.ch-info h3 {
 		line-height: 11px;
-		font-size: 8px;
+		/* 		font-size: 8px; */
 		height: 65px;
 		padding-top: 30px;
 	}

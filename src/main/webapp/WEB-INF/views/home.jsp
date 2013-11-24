@@ -13,8 +13,6 @@
 <link rel="icon" type="image/x-icon" href="favicon.ico" />
 
 <link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 <link rel="stylesheet"
 	href="//netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/wedding.css" />
@@ -69,11 +67,11 @@
 		</div>
 
 		<div id="aboutus" class="row whitebox garamondItalic"
-			style="display: none; font-weight: bold;">
+			style="display: none;">
 			<div class="row" style="text-align: center">
 				<span class="purple-emphasis sloopy-small">About Us</span>
 			</div>
-			<div class="col-md-4" style="text-align: center;">
+			<div class="col-md-4" style="text-align: center;font-size:130%;">
 				<span class="aboutus-header">welcome to our wedding website,
 					and thank you for visiting!</span>
 
@@ -96,7 +94,7 @@
 				<img class="img-style" alt="Us at Color Run"
 					src="/images/kendra_vitaly_colorrun.jpg">
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4" style="font-size:130%">
 				<div class="row" style="text-align: center;">
 					<span class="aboutus-header">so really. you clicked on this
 						part to get the dish on us, right? well, let's give you what you
