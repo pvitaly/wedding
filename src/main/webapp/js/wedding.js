@@ -1,4 +1,5 @@
 var insta_next_url;
+var clientId = '26dbb2b64b414f6599c6e02103c7f55d';
 
 function createPhotoElement(photo) {
 	
@@ -18,6 +19,7 @@ function didLoadInstagram(event, response) {
 	
 	var that = this;
 	insta_next_url = response.pagination.next_url;
+	
 	$.each(response.data, function(i, photo) {
 		$(that).append(createPhotoElement(photo));
 	});
@@ -25,15 +27,13 @@ function didLoadInstagram(event, response) {
 
 $(document).ready(function() {
 	
-	var clientId = '26dbb2b64b414f6599c6e02103c7f55d';
-	
     $('.instagram').on('didLoadInstagram', didLoadInstagram);
     
     $('.instagram').instagram({
       hash: 'wedding',
       clientId: clientId
     });
-    
+	
     $('#moreinsta').on('click', function() {
     	$('.instagram').instagram({
         	hash: 'wedding',

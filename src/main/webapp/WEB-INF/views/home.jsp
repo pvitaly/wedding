@@ -3,7 +3,9 @@
 <%@ page session="false"%>
 <!DOCTYPE html>
 <!--[if IE 8]><html class="no-js lt-ie9" lang="en" ><![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
 <head>
 <title>Kendra and Vitaly's Wedding | 6.7.14</title>
 <meta charset="UTF-8">
@@ -12,7 +14,8 @@
 
 <link rel="icon" type="image/x-icon" href="favicon.ico" />
 
-<link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=EB+Garamond'
+	rel='stylesheet' type='text/css'>
 <link rel="stylesheet"
 	href="//netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/wedding.css" />
@@ -71,7 +74,7 @@
 			<div class="row" style="text-align: center">
 				<span class="purple-emphasis sloopy-small">About Us</span>
 			</div>
-			<div class="col-md-4" style="text-align: center;font-size:130%;">
+			<div class="col-md-4" style="text-align: center; font-size: 130%;">
 				<span class="aboutus-header">welcome to our wedding website,
 					and thank you for visiting!</span>
 
@@ -94,7 +97,7 @@
 				<img class="img-style" alt="Us at Color Run"
 					src="/images/kendra_vitaly_colorrun.jpg">
 			</div>
-			<div class="col-md-4" style="font-size:130%">
+			<div class="col-md-4" style="font-size: 130%">
 				<div class="row" style="text-align: center;">
 					<span class="aboutus-header">so really. you clicked on this
 						part to get the dish on us, right? well, let's give you what you
@@ -477,9 +480,10 @@
 				<span class='purple-emphasis garamond'>#PEKERWEDDING</span>
 			</div>
 			<div class="row garamondItalic strong-font" style="padding: 15px;">
-				Instagram is so cool! If you are going to be taking pictures with
+				Instagrammers unite! If you are going to be taking pictures with
 				your smart phone and posting them on instagram, please use the
-				hashtag <span class='purple-emphasis'>#pekerwedding</span>. The
+				hashtag <span class='purple-emphasis'>#pekerwedding</span>. Even if
+				you are taking a picture of your hand, we would love to see it! The
 				pictures will instantly be posted here and we can relive our day
 				instantly!
 			</div>
@@ -537,8 +541,8 @@
 		</div>
 		<!-- /.modal -->
 
-		<div class="modal fade" id="ceremonyMap" tabindex="-1"
-			role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal fade" id="ceremonyMap" tabindex="-1" role="dialog"
+			aria-labelledby="myModalLabel" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">
 					<div class="modal-header">
