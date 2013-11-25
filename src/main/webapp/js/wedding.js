@@ -1,5 +1,9 @@
 var insta_next_url;
 var clientId = '26dbb2b64b414f6599c6e02103c7f55d';
+var noMorePages = false;
+var firstGet = true;
+var min_tag_id;
+var tag = "wedding";
 
 function createPhotoElement(photo) {
 	
@@ -16,13 +20,38 @@ function createPhotoElement(photo) {
 }
 
 function didLoadInstagram(event, response) {
-	
+
 	var that = this;
-	insta_next_url = response.pagination.next_url;
-	
-	$.each(response.data, function(i, photo) {
-		$(that).append(createPhotoElement(photo));
-	});
+
+	if (!noMorePages) {
+		if (response.pagination.next_url != undefined) {
+			insta_next_url = response.pagination.next_url;
+			if (firstGet) {
+				min_tag_id = response.pagination.min_tag_id;
+				firstGet = false;
+			}
+		} else {
+			noMorePages = true;
+			insta_next_url = "https://api.instagram.com/v1/tags/" + tag + "/media/recent?min_tag_id="
+				+ min_tag_id;
+		}
+	} else {
+		if (response.pagination.next_url != undefined) {
+			insta_next_url = response.pagination.next_url;
+		} else {
+			if (response.pagination.min_tag_id != undefined) {
+				insta_next_url = "https://api.instagram.com/v1/tags/" + tag + "/media/recent?min_tag_id="
+						+ response.pagination.min_tag_id;
+			} 
+		}
+		
+	}
+
+	if (response.data.length > 0) {
+		$.each(response.data, function(i, photo) {
+			$(that).append(createPhotoElement(photo));
+		});
+	}
 }
 
 $(document).ready(function() {
@@ -30,14 +59,15 @@ $(document).ready(function() {
     $('.instagram').on('didLoadInstagram', didLoadInstagram);
     
     $('.instagram').instagram({
-      hash: 'wedding',
-      clientId: clientId
+    	 clientId: clientId,
+    	 hash: tag,
+    	 url : insta_next_url
     });
 	
     $('#moreinsta').on('click', function() {
     	$('.instagram').instagram({
-        	hash: 'wedding',
-        	clientId: clientId,
+    		clientId: clientId,
+       	 	hash: tag,
             url : insta_next_url
         });
     });
