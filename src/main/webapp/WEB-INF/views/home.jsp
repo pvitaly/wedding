@@ -214,10 +214,10 @@
 						<ul class="ch-grid">
 							<li>
 								<div class="ch-item shelby-img">
-									<div class="ch-info-wrap">
+									<div class="ch-info-wrap wrap">
 										<div class="ch-info">
-											<div class="ch-info-front shelby-img"></div>
-											<div class="ch-info-back">
+											<div class="side-a shelby-img"></div>
+											<div class="side-b">
 												<h3>
 													Shelby<br>Jaynes
 												</h3>
@@ -229,10 +229,10 @@
 							</li>
 							<li>
 								<div class="ch-item jason-img">
-									<div class="ch-info-wrap">
+									<div class="ch-info-wrap wrap">
 										<div class="ch-info">
-											<div class="ch-info-front jason-img"></div>
-											<div class="ch-info-back">
+											<div class="side-a jason-img"></div>
+											<div class="side-b ">
 												<h3>
 													Jason<br>Sydor
 												</h3>
@@ -248,10 +248,10 @@
 						<ul class="ch-grid">
 							<li>
 								<div class="ch-item melissa-img">
-									<div class="ch-info-wrap">
+									<div class="ch-info-wrap wrap">
 										<div class="ch-info">
-											<div class="ch-info-front melissa-img"></div>
-											<div class="ch-info-back">
+											<div class="side-a melissa-img"></div>
+											<div class="side-b">
 												<h3>
 													Melissa<br>Beals
 												</h3>
@@ -263,10 +263,10 @@
 							</li>
 							<li>
 								<div class="ch-item brandon-img">
-									<div class="ch-info-wrap">
+									<div class="ch-info-wrap wrap">
 										<div class="ch-info">
-											<div class="ch-info-front brandon-img"></div>
-											<div class="ch-info-back">
+											<div class="side-a brandon-img"></div>
+											<div class="side-b">
 												<h3>
 													Brandon<br>Lynn
 												</h3>
@@ -282,10 +282,10 @@
 						<ul class="ch-grid">
 							<li>
 								<div class="ch-item bailey-img">
-									<div class="ch-info-wrap">
+									<div class="ch-info-wrap wrap">
 										<div class="ch-info">
-											<div class="ch-info-front bailey-img"></div>
-											<div class="ch-info-back">
+											<div class="side-a bailey-img"></div>
+											<div class="side-b">
 												<h3>
 													Bailey<br>Hall
 												</h3>
@@ -297,10 +297,10 @@
 							</li>
 							<li>
 								<div class="ch-item nate-img">
-									<div class="ch-info-wrap">
+									<div class="ch-info-wrap wrap">
 										<div class="ch-info">
-											<div class="ch-info-front nate-img"></div>
-											<div class="ch-info-back">
+											<div class="side-a nate-img"></div>
+											<div class="side-b">
 												<h3>
 													Nate<br>Jackson
 												</h3>
@@ -316,10 +316,10 @@
 						<ul class="ch-grid">
 							<li>
 								<div class="ch-item brittany-img">
-									<div class="ch-info-wrap">
+									<div class="ch-info-wrap wrap">
 										<div class="ch-info">
-											<div class="ch-info-front brittany-img"></div>
-											<div class="ch-info-back">
+											<div class="side-a brittany-img"></div>
+											<div class="side-b">
 												<h3>
 													Brittany<br>Hernandez
 												</h3>
@@ -331,10 +331,10 @@
 							</li>
 							<li>
 								<div class="ch-item devon-img">
-									<div class="ch-info-wrap">
+									<div class="ch-info-wrap wrap">
 										<div class="ch-info">
-											<div class="ch-info-front devon-img"></div>
-											<div class="ch-info-back">
+											<div class="side-a devon-img"></div>
+											<div class="side-b">
 												<h3>
 													Devon<br>Jaynes
 												</h3>
@@ -350,10 +350,10 @@
 						<ul class="ch-grid">
 							<li>
 								<div class="ch-item lindsay-img">
-									<div class="ch-info-wrap">
+									<div class="ch-info-wrap wrap">
 										<div class="ch-info">
-											<div class="ch-info-front lindsay-img"></div>
-											<div class="ch-info-back">
+											<div class="side-a lindsay-img"></div>
+											<div class="side-b">
 												<h3>
 													Lindsay<br>Welsh
 												</h3>
@@ -365,10 +365,10 @@
 							</li>
 							<li>
 								<div class="ch-item ryan-img">
-									<div class="ch-info-wrap">
+									<div class="ch-info-wrap wrap">
 										<div class="ch-info">
-											<div class="ch-info-front ryan-img"></div>
-											<div class="ch-info-back">
+											<div class="side-a ryan-img"></div>
+											<div class="side-b">
 												<h3>
 													Ryan<br>Balbaugh
 												</h3>
@@ -384,10 +384,10 @@
 						<ul class="ch-grid">
 							<li>
 								<div class="ch-item andrea-img">
-									<div class="ch-info-wrap">
+									<div class="ch-info-wrap wrap">
 										<div class="ch-info">
-											<div class="ch-info-front andrea-img"></div>
-											<div class="ch-info-back">
+											<div class="side-a andrea-img"></div>
+											<div class="side-b">
 												<h3>
 													Andrea<br>Sydor
 												</h3>
@@ -399,10 +399,10 @@
 							</li>
 							<li>
 								<div class="ch-item ian-img">
-									<div class="ch-info-wrap">
+									<div class="ch-info-wrap wrap">
 										<div class="ch-info">
-											<div class="ch-info-front ian-img"></div>
-											<div class="ch-info-back">
+											<div class="side-a ian-img"></div>
+											<div class="side-b">
 												<h3>
 													Ian<br>Beals
 												</h3>
