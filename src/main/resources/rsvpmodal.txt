@@ -1,0 +1,152 @@
+		<div class="modal fade" id="rsvpModal" tabindex="-1" role="dialog"
+			aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal"
+							aria-hidden="true">&times;</button>
+						<h4 class="modal-title" id="myModalLabel" align="center">Répondez
+							s'il Vous Plaît</h4>
+					</div>
+					<div class="modal-body" align="center">
+
+						<form:form role="form" action="rsvp" method="put">
+							<div class="form-group" align="center">
+								<input type="text" name="uniqueId"
+									class="form-control input-small" id="rsvpCode"
+									placeholder="RSVP CODE FROM INVITATION"
+									style="text-align: center;">
+							</div>
+							<div class="form-group" align="center">
+								<input type="hidden" name="response" id="response">
+
+								<div class="input-group">
+									<span class="input-group-addon"> <input id="accepted"
+										name="rsvpResponse" type="radio" class="radio-margin">Accept
+										With Pleasure
+									</span> <span class="input-group-addon"> <input id="declined"
+										name="rsvpResponse" type="radio" class="radio-margin">Reject
+										With Regret
+									</span>
+								</div>
+								<!-- /input-group -->
+							</div>
+							<div class="form-group" align="center">
+								<button type="reset" class="btn" data-dismiss="modal">Close</button>
+								<button type="submit" class="btn btn-primary">Submit</button>
+							</div>
+						</form:form>
+
+					</div>
+				</div>
+				<!-- /.modal-content -->
+			</div>
+			<!-- /.modal-dialog -->
+		</div>
+		<!-- /.modal -->
+		
+		
+		
+		
+		###################################################################################
+		
+		
+		$('#plusOne').click(function() {
+		$.ajax({
+			url : "rsvp/setPlusOne",
+			type : "POST",
+			data : {
+				id : $(this).data('id'),
+				plusOne : true
+			},
+			dataType : "json"
+		}).done(function(data) {
+			$('#plusOneFirstName').val(data.plusOneFirstName);
+			$('#plusOneLastName').val(data.plusOneLastName);
+			$('#plusOneForm').fadeIn("fast", "linear");
+		});
+	});
+
+	$('#comingAlone').click(function() {
+		$('#plusOneForm').fadeOut("fast", "linear");
+
+		$.ajax({
+			url : "rsvp/setPlusOne",
+			type : "POST",
+			data : {
+				id : $(this).data('id'),
+				plusOne : false
+			}
+		});
+
+	});
+
+	$('#yesKids').click(function() {
+		$.ajax({
+			url : "rsvp/setKids",
+			type : "POST",
+			data : {
+				id : $(this).data('id'),
+				bringingKids : true
+			}
+		}).done(function() {
+			$('#kids').fadeIn("fast", "linear");
+		});
+	});
+
+	$('#noKids').click(function() {
+		$.ajax({
+			url : "rsvp/setKids",
+			type : "POST",
+			data : {
+				id : $(this).data('id'),
+				bringingKids : false
+			}
+		}).done(function() {
+			$('#kids').fadeOut("fast", "linear");
+		});
+	});
+
+	$('#numberOfKids').on('change', function() {
+		$('#kidsNames').text("");
+		if ($(this).val() != 'How Many Kids?') {
+			for ( var i = 0; i < $(this).val(); i++) {
+				$('#kidsNames').append("<div class='form-group' style='margin-top:5px;'><input class='kidName' type='text' placeholder='Full Name' style='text-align: center;'></div>");
+			}
+			var namesBtn = 'Save Names';
+			if ($(this).val() == 1) {
+				namesBtn = 'Save Name';
+			}
+			$('#kidsNames').append("<div style='margin-top:5px;'><button type='button' id='saveNames' class='btn btn-primary'>" + namesBtn + "</button></div>");
+			$('#kidsNames').fadeIn("fast", "linear");
+		} 
+	});
+	
+	$('#kidsNames').on('click', '#saveNames', function() {
+		var names = "";
+		$('.kidName').each(function() {
+			names += $(this).val() + ",";
+		});
+		names = names.substring(0,names.length-1);
+		
+		$.ajax({
+			url: 'rsvp/saveKidsNames',
+			type: "POST",
+			data: {id:$('#kids').data('id'), names: names}
+		}).done(function(){
+			$('#kidSuccess').remove();
+			$('#kidsNames').append("<div id='kidSuccess' class='alert alert-success' style='margin-top:5px'><button type='button' class='close' data-dismiss='alert'>&times;</button><strong>Success! Names Have Been Saved!</strong></div>");
+		});
+	});
+	
+	$('#savePlusOneName').on('click', function() {
+		$.ajax({
+			url: 'rsvp/savePlusOneName',
+			type: "POST",
+			data: {id:$(this).data('id'), firstName: $('#plusOneFirstName').val(), lastName: $('#plusOneLastName').val()}
+		}).done(function(data){
+			$('#plusOneSuccess').remove();
+			$('#plusOneForm').append("<div id='plusOneSuccess' class='alert alert-success' style='margin-top:5px'><button type='button' class='close' data-dismiss='alert'>&times;</button><strong>Success! " + data +  " is coming with you!</strong></div>");
+		});
+	});
+		
