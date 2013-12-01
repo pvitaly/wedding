@@ -1,3 +1,18 @@
+.dashed-link,.dashed-link:visited,.dashed-link:active {
+	text-decoration: none;
+	border-bottom: 1px #428bca dashed;
+}
+
+.dashed-link:hover {
+	text-decoration: none;
+	border-bottom: none;
+}
+
+.theknot {
+	opacity: 0.4;
+	filter: alpha(opacity = 40); /* For IE8 and earlier */
+}
+
 @font-face {
 	font-family: mySloopFont;
 	src: url("../fonts/sloop-scriptthree-74283.ttf"),
@@ -276,8 +291,7 @@ body {
 }
 
 .ian-img {
-	/* 	background-image: url(../images/ian.jpg); */
-	
+	background-image: url(../images/ian.jpg);
 }
 
 .ch-info h3 {
