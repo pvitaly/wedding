@@ -22,6 +22,23 @@
 <script type="text/javascript" src="js/vendor/custom-modernizr.js"></script>
 <!--[if IE]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
+<script>
+	(function(i, s, o, g, r, a, m) {
+		i['GoogleAnalyticsObject'] = r;
+		i[r] = i[r] || function() {
+			(i[r].q = i[r].q || []).push(arguments)
+		}, i[r].l = 1 * new Date();
+		a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+		a.async = 1;
+		a.src = g;
+		m.parentNode.insertBefore(a, m)
+	})(window, document, 'script', '//www.google-analytics.com/analytics.js',
+			'ga');
+
+	ga('create', 'UA-46090647-1', 'kendraandvitalywedding.com');
+	ga('send', 'pageview');
+</script>
+
 </head>
 <body>
 	<div class="navbar navbar-inverse navbar-fixed-top rsvpNav center"
@@ -132,11 +149,11 @@
 					<ul class="details-list">
 						<li>Come See Us Tie The Knot</li>
 						<li><span class="garamond">4:00 P.M.</span></li>
-						<li><span class="garamond"><a
-								style="text-decoration: none;" href="" data-toggle="modal"
-								data-target="#ceremonyMap">south hickory ridge picnic area</a></span></li>
+						<li><span class="garamond"><a class="dashed-link"
+								href="" data-toggle="modal" data-target="#ceremonyMap">south
+									hickory ridge picnic area</a></span></li>
 						<li style="font-weight: bold;"><span class="garamond"><a
-								style="text-decoration: none;"
+								class="dashed-link"
 								href="http://maps.google.com/maps?daddr=Kensington+Metropark,+Milford+Township+MI,+48380"
 								target="_blank">kensington metropark</a></span></li>
 					</ul>
@@ -166,7 +183,7 @@
 							<li><span class="garamond">6:00 P.M.</span></li>
 							<li><span class="garamond">celebrity room</span></li>
 							<li style="font-weight: bold;"><span class="garamond"><a
-									style="text-decoration: none;"
+									class="dashed-link"
 									href="http://maps.google.com/maps?daddr=Crystal+Gardens,+Howell+MI,+48843"
 									target="_blank">crystal gardens</a></span></li>
 						</ul>
@@ -197,6 +214,9 @@
 					class='purple-emphasis sloopy-small'>The Wedding Party</span> Below
 				is a collection of our best friends!
 			</div>
+			<div class="row strong-font" style="text-align: center;">Hover
+				over a picture for more details.</div>
+
 			<!-- Carousel
     ================================================== -->
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -435,17 +455,16 @@
 
 				<p>
 					So, to make your visit more convenient, we have reserved a block of
-					rooms at the <a style="text-decoration: none;"
+					rooms at the <a class="dashed-link"
 						href="http://maps.google.com/maps?daddr=Courtyard+Detroit+Brighton+7799+Conference+Center+Dr,+Brighton+MI+48114"
 						target="_blank">Courtyard Marriot in Brighton</a>.
 				<p>
-					Click <strong><a style="text-decoration: none;"
+					Click <strong><a class="dashed-link"
 						href="http://cwp.marriott.com/dtwbr/jaynespekerwedding/"
 						target="_blank">here</a></strong> to reserve your room or call <strong><a
-						style="text-decoration: none;" href="tel:8102259200">(810)
-							225-9200</a></strong> and mention the <strong><span
-						class="purple-emphasis">Peker/Jaynes Wedding</span></strong> to receive a
-					special rate!
+						class="dashed-link" href="tel:8102259200">(810) 225-9200</a></strong> and
+					mention the <strong><span class="purple-emphasis">Peker/Jaynes
+							Wedding</span></strong> to receive a special rate!
 				<p>For your convenience, we are providing a shuttle that will
 					take you from the hotel to the ceremony, from the ceremony to the
 					reception, and from the reception back to the hotel!
@@ -469,10 +488,11 @@
 				easier - we have listed them all on the knot. Click on the image
 				below to see our gift list!</div>
 			<div class="row" style="text-align: center;">
-				<a target="_blank"
+				<a target="_blank" class="theknot"
 					href="http://registry.theknot.com/kendra-jaynes-vitaly-peker-june-2014-mi/6271242"><img
 					alt="theknot" src="/images/theknot.png"></a>
 			</div>
+			<div class="row" style="text-align: center;padding-top:10px;"><img class="img-style" style="width:80%;" alt="Day After Engagement" src="/images/engaged.jpg"></div>
 
 		</div>
 		<div id="instagram" class="row whitebox"
@@ -506,34 +526,14 @@
 							s'il Vous Plaît</h4>
 					</div>
 					<div class="modal-body" align="center">
-
-						<form:form role="form" action="rsvp" method="put">
-							<div class="form-group" align="center">
-								<input type="text" name="uniqueId"
-									class="form-control input-small" id="rsvpCode"
-									placeholder="RSVP CODE FROM INVITATION"
-									style="text-align: center;">
-							</div>
-							<div class="form-group" align="center">
-								<input type="hidden" name="response" id="response">
-
-								<div class="input-group">
-									<span class="input-group-addon"> <input id="accepted"
-										name="rsvpResponse" type="radio" class="radio-margin">Accept
-										With Pleasure
-									</span> <span class="input-group-addon"> <input id="declined"
-										name="rsvpResponse" type="radio" class="radio-margin">Reject
-										With Regret
-									</span>
-								</div>
-								<!-- /input-group -->
-							</div>
-							<div class="form-group" align="center">
-								<button type="reset" class="btn" data-dismiss="modal">Close</button>
-								<button type="submit" class="btn btn-primary">Submit</button>
-							</div>
-						</form:form>
-
+						<div class="row">
+							<img alt="Under Construction" src="/images/construction.gif">
+						</div>
+						<div class="row strong-font">please excuse the dust, this
+							section is under construction!</div>
+					</div>
+					<div class="modal-footer" style="text-align: center;">
+						<button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
 					</div>
 				</div>
 				<!-- /.modal-content -->

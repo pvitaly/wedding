@@ -25,99 +25,49 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
 
+<script>
+	(function(i, s, o, g, r, a, m) {
+		i['GoogleAnalyticsObject'] = r;
+		i[r] = i[r] || function() {
+			(i[r].q = i[r].q || []).push(arguments)
+		}, i[r].l = 1 * new Date();
+		a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+		a.async = 1;
+		a.src = g;
+		m.parentNode.insertBefore(a, m)
+	})(window, document, 'script', '//www.google-analytics.com/analytics.js',
+			'ga');
+
+	ga('create', 'UA-46090647-1', 'kendraandvitalywedding.com');
+	ga('send', 'pageview');
+</script>
+
 </head>
 <body>
-	<div>
+	<div class="row whitebox">
 
-		<div class="navbar navbar-inverse navbar-fixed-top rsvpNav">
-			<div class="container">
-				<div class="innernav">
-					<ul id="fixednav" class="nav navbar-nav">
-						<li><a href="/">Go Back</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-
-		<div class="greetingRow">
-			<h3>
-				<span class="purple-emphasis"> Thank you <strong>${guest.firstName}&nbsp${guest.lastName
-						}</strong>!
-				</span>
-			</h3>
-		</div>
-
-		<div class="rsvprow">
-			<h4>
-				We are very <span class="purple-emphasis">excited</span> for you to
-				be a part of our special day!
-			</h4>
-
-			<c:if test="${guest.plusOneAllowed == 'true'}">
-				<h4>Are you bringing a guest?</h4>
-
-				<div class="input-group" style="width: 300px">
-					<span class="input-group-addon"> <input id="plusOne"
-						name="plusOneResponse" type="radio" class="radio-margin"
-						data-id="${guest.id }">Yes
-					</span> <span class="input-group-addon"> <input id="comingAlone"
-						name="plusOneResponse" type="radio" class="radio-margin"
-						data-id="${guest.id }">No, Coming Alone
-					</span>
-				</div>
-
-				<div id="plusOneForm" style="display: none">
-					<fieldset>
-						<h4>
-							<span class="purple-emphasis">Plus One Name</span>
-						</h4>
-						<div class="form-group">
-							<input id="plusOneFirstName" type="text" data-id="${guest.id }"
-								placeholder="First Name" style="text-align: center;"> <input
-								id="plusOneLastName" type="text" data-id="${guest.id }"
-								placeholder="Last Name" style="text-align: center;">
-						</div>
-						<div style='margin-top: 5px;'>
-							<button type='button' data-id="${guest.id }" id='savePlusOneName'
-								class='btn btn-primary'>Save Name</button>
-						</div>
-					</fieldset>
-				</div>
-			</c:if>
-
-			<c:if test="${guest.kidsAllowed == 'true'}">
-				<h4>Are you bringing your kids?</h4>
-				<div class="input-group" style="width: 300px">
-					<span class="input-group-addon"> <input id="yesKids"
-						name="kidsResponse" type="radio" class="radio-margin"
-						data-id="${guest.id }">Yes
-					</span> <span class="input-group-addon"> <input id="noKids"
-						name="kidsResponse" type="radio" class="radio-margin"
-						data-id="${guest.id }">No, Coming Without Kids
-					</span>
-				</div>
-
-				<div id="kids" data-id="${guest.id }" style="display: none">
-					<div class="row">
-						<div class="col-xs-3">
-							<select id="numberOfKids" class="form-control"
-								style="margin-top: 5px;">
-								<option>How Many Kids?</option>
-								<option>1</option>
-								<option>2</option>
-								<option>3</option>
-							</select>
-						</div>
-					</div>
-
-					<div id="kidsNames" style="display: none"></div>
-				</div>
-			</c:if>
-		</div>
 
 		<!-- 		<div id="tableChart" class="rsvprow"> -->
 		<!-- 			<h1>TABLES GO HERE!!!!</h1> -->
 		<!-- 		</div> -->
+
+
+
+
+
+
+
+		<div class="wrap">
+			<div>
+				<div class="side-a shelby-img">lalalalal</div>
+				<div class="side-b">
+					<h3>
+						Shelby<br>Jaynes
+					</h3>
+					<p>Maid of Honor</p>
+				</div>
+			</div>
+		</div>
 	</div>
 
 	<script type="text/javascript"
