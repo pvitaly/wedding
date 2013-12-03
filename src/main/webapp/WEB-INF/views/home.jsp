@@ -71,7 +71,7 @@
 		</div>
 	</div>
 
-	<div class="container">
+	<div class="container" id="content">
 
 		<div class='row bannerbox'>
 			<div class="row" style="text-align: center;">
@@ -492,7 +492,10 @@
 					href="http://registry.theknot.com/kendra-jaynes-vitaly-peker-june-2014-mi/6271242"><img
 					alt="theknot" src="/images/theknot.png"></a>
 			</div>
-			<div class="row" style="text-align: center;padding-top:10px;"><img class="img-style" style="width:80%;" alt="Day After Engagement" src="/images/engaged.jpg"></div>
+			<div class="row" style="text-align: center; padding-top: 10px;">
+				<img class="img-style" style="width: 80%;"
+					alt="Day After Engagement" src="/images/engaged.jpg">
+			</div>
 
 		</div>
 		<div id="instagram" class="row whitebox"
@@ -501,12 +504,13 @@
 				<span class='purple-emphasis garamond'>#PEKERWEDDING</span>
 			</div>
 			<div class="row garamondItalic strong-font" style="padding: 15px;">
-				Instagrammers unite! If you are going to be taking pictures with
-				your smart phone and posting them on instagram, please use the
-				hashtag <span class='purple-emphasis'>#pekerwedding</span>. Even if
-				you are taking a picture of your hand, we would love to see it! The
-				pictures will instantly be posted here and we can relive our day
-				instantly!
+				Instagrammers unite! We want to see every bit of our special day
+				from your point of view! If you are going to be taking pictures with
+				your smart phone and posting them on Instagram, include the hashtag
+				<span class='purple-emphasis'>#pekerwedding</span>. Your pictures
+				will be instantly uploaded to this site, so we can see your journey
+				here, your dancing face, or your foot (if you so choose). We can't
+				wait to see every part of this event!
 			</div>
 			<div class="row instagram"></div>
 			<div class="row" style="padding: 15px;">
@@ -569,10 +573,6 @@
 			<!-- /.modal-dialog -->
 		</div>
 		<!-- /.modal -->
-
-
-
-
 	</div>
 
 	<script type="text/javascript"
