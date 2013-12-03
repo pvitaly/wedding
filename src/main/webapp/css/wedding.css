@@ -130,11 +130,20 @@ li {
 	float: none;
 }
 
+html {
+	height: 100%;
+}
+
 body {
+	min-height: 100%;
 	background: url(../images/main_bg.jpg) no-repeat center center fixed;
 	background-size: cover;
 	font-family: "EB Garamond Regular SmallCaps";
-	/* 	font-size: 18px; */
+}
+
+#content {
+    position: relative;
+    overflow: hidden;
 }
 
 .aboutus-header {
