@@ -32,8 +32,7 @@
 		a.async = 1;
 		a.src = g;
 		m.parentNode.insertBefore(a, m)
-	})(window, document, 'script', '//www.google-analytics.com/analytics.js',
-			'ga');
+	})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
 	ga('create', 'UA-46090647-1', 'kendraandvitalywedding.com');
 	ga('send', 'pageview');
@@ -87,29 +86,28 @@
 			</div>
 		</div>
 
-		<div id="aboutus" class="row whitebox garamondItalic"
-			style="display: none;">
+		<div id="aboutus" class="row whitebox" style="display: none;">
 			<div class="row" style="text-align: center">
 				<span class="purple-emphasis sloopy-small">About Us</span>
 			</div>
 			<div class="col-md-4" style="text-align: center; font-size: 130%;">
-				<span class="aboutus-header">welcome to our wedding website,
+				<span class="aboutus-header">Welcome to our wedding website,
 					and thank you for visiting!</span>
 
 				<p>Vitaly has poured a great deal of work into this website, so
 					we are planning to use it to its fullest potential! Feel free to
 					read some information about us!
-				<p>In exciting news, we are hip and forging a new way in RSVP
-					traditions! We have decided to embrace Vitaly's tech-savvy self,
-					and are opting for a complete on-line RSVP area. Look forward to
-					this in the formal invitation!
+				<p>In exciting news, we are changing RSVP traditions! We have
+					decided to embrace Vitaly's tech-savvy self, and are opting for a
+					complete on-line RSVP area. Look forward to this in the formal
+					invitation!
 				<p>Anyway, please enjoy browsing the website; hopefully you find
 					some useful maps or information. If you don't find anything
 					useful...well, our apologies. Field all complaints to Kendra (at
 					your own risk).
 				<p>
-					<span class="aboutus-header">thanks for your support, we
-						look forward to the party in june!</span>
+					<span class="aboutus-header">Thanks for your support, we
+						look forward to the party in June!</span>
 			</div>
 			<div class="col-md-4">
 				<img class="img-style" alt="Us at Color Run"
@@ -117,22 +115,22 @@
 			</div>
 			<div class="col-md-4" style="font-size: 130%">
 				<div class="row" style="text-align: center;">
-					<span class="aboutus-header">so really. you clicked on this
+					<span class="aboutus-header">So really. you clicked on this
 						part to get the dish on us, right? well, let's give you what you
 						want then!</span>
 				</div>
 				<p>
-					<span class="purple-emphasis sloopy-small small-font">We met
-						in 2007,</span> when we both worked as sales associates at GFS. Kendra
-					decided early on that she was going to date Vitaly one day, and she
-					set the wheels in motion to make that happen. Her acts of valor
-					included dragging her roommate to KFC to bring Vitaly lunch,
+					<span class="purple-emphasis garamondItalic small-font">We
+						met in 2007,</span> when we both worked as sales associates at GFS.
+					Kendra decided early on that she was going to date Vitaly one day,
+					and she set the wheels in motion to make that happen. Her acts of
+					valor included dragging her roommate to KFC to bring Vitaly lunch,
 					meeting Vitaly at midnight to get coney island food from a sketchy
 					establishment, and saving up dirty laundry so she could stay at
 					Vitaly's for hours while completing it (free laundry for a college
 					student is a great incentive).
 				<p>
-					<span class="purple-emphasis sloopy-small small-font">We've
+					<span class="purple-emphasis garamondItalic small-font">We've
 						come a long way </span>since then. Vitaly proposed to Kendra in November
 					of 2012. There was music, rose petals, notes, and ugly-sobs of
 					celebration (we'll let you guess from whom). It's been an awesome
@@ -147,13 +145,12 @@
 			<div class="col-md-6" style="text-align: center;">
 				<div class="row>">
 					<ul class="details-list">
-						<li>Come See Us Tie The Knot</li>
-						<li><span class="garamond">4:00 P.M.</span></li>
+						<li class="first-item">Come See Us Tie The Knot</li>
+						<li><span class="garamond">4:00 p.m.</span></li>
 						<li><span class="garamond"><a class="dashed-link"
 								href="" data-toggle="modal" data-target="#ceremonyMap">south
 									hickory ridge picnic area</a></span></li>
-						<li style="font-weight: bold;"><span class="garamond"><a
-								class="dashed-link"
+						<li><span class="garamond"><a class="dashed-link"
 								href="http://maps.google.com/maps?daddr=Kensington+Metropark,+Milford+Township+MI,+48380"
 								target="_blank">kensington metropark</a></span></li>
 					</ul>
@@ -179,11 +176,10 @@
 				<div class="col-md-6">
 					<div class="row">
 						<ul class="details-list">
-							<li>Join Us For Food, Drinks and Dancing</li>
-							<li><span class="garamond">6:00 P.M.</span></li>
+							<li class="first-item">Join Us For Food, Drinks and Dancing</li>
+							<li><span class="garamond">6:00 p.m.</span></li>
 							<li><span class="garamond">celebrity room</span></li>
-							<li style="font-weight: bold;"><span class="garamond"><a
-									class="dashed-link"
+							<li><span class="garamond"><a class="dashed-link"
 									href="http://maps.google.com/maps?daddr=Crystal+Gardens,+Howell+MI,+48843"
 									target="_blank">crystal gardens</a></span></li>
 						</ul>
@@ -207,15 +203,15 @@
 				</div>
 			</div>
 		</div>
-		<div id="weddingparty" class="row whitebox garamondItalic"
-			style="display: none;">
+		<div id="weddingparty" class="row whitebox" style="display: none;">
 			<div class="row strong-font" style="text-align: center;">
 				We would be nowhere without <span
 					class='purple-emphasis sloopy-small'>The Wedding Party</span> Below
 				is a collection of our best friends!
 			</div>
-			<div class="row strong-font" style="text-align: center;">Hover
-				over a picture for more details.</div>
+			<div class="row strong-font garamondItalic"
+				style="text-align: center;">Hover over a picture for more
+				details.</div>
 
 			<!-- Carousel
     ================================================== -->
@@ -239,7 +235,7 @@
 											<div class="side-a shelby-img"></div>
 											<div class="side-b">
 												<h3>
-													Shelby<br>Jaynes
+													shelby<br>jaynes
 												</h3>
 												<p>Maid of Honor</p>
 											</div>
@@ -254,7 +250,7 @@
 											<div class="side-a jason-img"></div>
 											<div class="side-b ">
 												<h3>
-													Jason<br>Sydor
+													jason<br>sydor
 												</h3>
 												<p>Best Man</p>
 											</div>
@@ -273,7 +269,7 @@
 											<div class="side-a melissa-img"></div>
 											<div class="side-b">
 												<h3>
-													Melissa<br>Beals
+													melissa<br>beals
 												</h3>
 												<p>Matron of Honor</p>
 											</div>
@@ -288,7 +284,7 @@
 											<div class="side-a brandon-img"></div>
 											<div class="side-b">
 												<h3>
-													Brandon<br>Lynn
+													brandon<br>lynn
 												</h3>
 												<p>Groomsman</p>
 											</div>
@@ -307,7 +303,7 @@
 											<div class="side-a bailey-img"></div>
 											<div class="side-b">
 												<h3>
-													Bailey<br>Hall
+													bailey<br>hall
 												</h3>
 												<p>Bridesmaid</p>
 											</div>
@@ -322,7 +318,7 @@
 											<div class="side-a nate-img"></div>
 											<div class="side-b">
 												<h3>
-													Nate<br>Jackson
+													nate<br>jackson
 												</h3>
 												<p>Groomsman</p>
 											</div>
@@ -341,7 +337,7 @@
 											<div class="side-a brittany-img"></div>
 											<div class="side-b">
 												<h3>
-													Brittany<br>Hernandez
+													brittany<br>hernandez
 												</h3>
 												<p>Bridesmaid</p>
 											</div>
@@ -356,7 +352,7 @@
 											<div class="side-a devon-img"></div>
 											<div class="side-b">
 												<h3>
-													Devon<br>Jaynes
+													devon<br>jaynes
 												</h3>
 												<p>Groomsman</p>
 											</div>
@@ -375,7 +371,7 @@
 											<div class="side-a lindsay-img"></div>
 											<div class="side-b">
 												<h3>
-													Lindsay<br>Welsh
+													lindsay<br>welsh
 												</h3>
 												<p>Bridesmaid</p>
 											</div>
@@ -390,7 +386,7 @@
 											<div class="side-a ryan-img"></div>
 											<div class="side-b">
 												<h3>
-													Ryan<br>Balbaugh
+													ryan<br>balbaugh
 												</h3>
 												<p>Groomsman</p>
 											</div>
@@ -409,7 +405,7 @@
 											<div class="side-a andrea-img"></div>
 											<div class="side-b">
 												<h3>
-													Andrea<br>Sydor
+													andrea<br>sydor
 												</h3>
 												<p>Bridesmaid</p>
 											</div>
@@ -424,7 +420,7 @@
 											<div class="side-a ian-img"></div>
 											<div class="side-b">
 												<h3>
-													Ian<br>Beals
+													ian<br>beals
 												</h3>
 												<p>Groomsman</p>
 											</div>
@@ -444,7 +440,7 @@
 			</div>
 			<!-- /.carousel -->
 		</div>
-		<div id="hotel" class="row whitebox garamondItalic strong-font"
+		<div id="hotel" class="row whitebox strong-font"
 			style="display: none;">
 			<div class="row" style="text-align: center;">
 				<span class='purple-emphasis sloopy-small'>The Hotel</span>
@@ -455,16 +451,17 @@
 
 				<p>
 					So, to make your visit more convenient, we have reserved a block of
-					rooms at the <a class="dashed-link"
+					rooms at the <strong><a class="dashed-link"
 						href="http://maps.google.com/maps?daddr=Courtyard+Detroit+Brighton+7799+Conference+Center+Dr,+Brighton+MI+48114"
-						target="_blank">Courtyard Marriot in Brighton</a>.
+						target="_blank">Courtyard Marriot in Brighton</a></strong>.
 				<p>
 					Click <strong><a class="dashed-link"
 						href="http://cwp.marriott.com/dtwbr/jaynespekerwedding/"
 						target="_blank">here</a></strong> to reserve your room or call <strong><a
 						class="dashed-link" href="tel:8102259200">(810) 225-9200</a></strong> and
-					mention the <strong><span class="purple-emphasis">Peker/Jaynes
-							Wedding</span></strong> to receive a special rate!
+					mention the <strong><span
+						class="purple-emphasis garamondItalic">Peker/Jaynes Wedding</span></strong>
+					to receive a special rate!
 				<p>For your convenience, we are providing a shuttle that will
 					take you from the hotel to the ceremony, from the ceremony to the
 					reception, and from the reception back to the hotel!
@@ -476,7 +473,7 @@
 				</div>
 			</div>
 		</div>
-		<div id="registry" class="row whitebox garamondItalic strong-font"
+		<div id="registry" class="row whitebox strong-font"
 			style="display: none;">
 			<div class="row" style="text-align: center;">
 				<span class='purple-emphasis sloopy-small'>The Registry</span>
@@ -503,14 +500,14 @@
 			<div class="row">
 				<span class='purple-emphasis garamond'>#PEKERWEDDING</span>
 			</div>
-			<div class="row garamondItalic strong-font" style="padding: 15px;">
+			<div class="row strong-font" style="padding: 15px;">
 				Instagrammers unite! We want to see every bit of our special day
 				from your point of view! If you are going to be taking pictures with
 				your smart phone and posting them on Instagram, include the hashtag
-				<span class='purple-emphasis'>#pekerwedding</span>. Your pictures
-				will be instantly uploaded to this site, so we can see your journey
-				here, your dancing face, or your foot (if you so choose). We can't
-				wait to see every part of this event!
+				<span class='purple-emphasis garamondItalic'>#pekerwedding</span>.
+				Your pictures will be instantly uploaded to this site, so we can see
+				your journey here, your dancing face, or your foot (if you so
+				choose). We can't wait to see every part of this event!
 			</div>
 			<div class="row instagram"></div>
 			<div class="row" style="padding: 15px;">
@@ -533,7 +530,8 @@
 						<div class="row">
 							<img alt="Under Construction" src="/images/construction.gif">
 						</div>
-						<div class="row strong-font">please excuse the dust, this
+						<div class="row garamondItalic strong-font"
+							style="font-size: 22px">Please excuse the dust, this
 							section is under construction!</div>
 					</div>
 					<div class="modal-footer" style="text-align: center;">
