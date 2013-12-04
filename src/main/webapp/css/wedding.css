@@ -1,3 +1,18 @@
+.dashed-link,.dashed-link:visited,.dashed-link:active {
+	text-decoration: none;
+	border-bottom: 1px #428bca dashed;
+}
+
+.dashed-link:hover {
+	text-decoration: none;
+	border-bottom: none;
+}
+
+.theknot {
+	opacity: 0.4;
+	filter: alpha(opacity = 40); /* For IE8 and earlier */
+}
+
 @font-face {
 	font-family: mySloopFont;
 	src: url("../fonts/sloop-scriptthree-74283.ttf"),
@@ -115,11 +130,21 @@ li {
 	float: none;
 }
 
+html {
+	height: 100%;
+}
+
 body {
+	min-height: 100%;
 	background: url(../images/main_bg.jpg) no-repeat center center fixed;
 	background-size: cover;
 	font-family: "EB Garamond Regular SmallCaps";
-	/* 	font-size: 18px; */
+	color: black;
+}
+
+#content {
+    position: relative;
+    overflow: hidden;
 }
 
 .aboutus-header {
@@ -184,8 +209,6 @@ body {
 	width: 280px;
 	height: 280px;
 	border-radius: 50%;
-	-webkit-transition: all 0.4s ease-in-out;
-	transition: all 0.4s ease-in-out;
 	top: 20px;
 	left: 20px;
 	background: white;
@@ -198,10 +221,10 @@ body {
 	width: 280px;
 	height: 280px;
 	border-radius: 50%;
-	-webkit-transition: all 0.4s ease-in-out;
-	transition: all 0.4s ease-in-out;
-	-webkit-transform-style: preserve-3d;
-	transform-style: preserve-3d;
+	/* 	-webkit-transition: all 0.4s ease-in-out; */
+	/* 	transition: all 0.4s ease-in-out; */
+	/* 	-webkit-transform-style: preserve-3d; */
+	/* 	transform-style: preserve-3d; */
 }
 
 .ch-info>div {
@@ -211,16 +234,16 @@ body {
 	height: 100%;
 	border-radius: 50%;
 	background-position: center center;
-	-webkit-backface-visibility: hidden;
-	-moz-backface-visibility: hidden;
-	-ms-backface-visibility: hidden;
-	backface-visibility: hidden;
+	/* 	-webkit-backface-visibility: hidden; */
+	/* 	-moz-backface-visibility: hidden; */
+	/* 	-ms-backface-visibility: hidden; */
+	/* 	backface-visibility: hidden; */
 }
 
 .ch-info .ch-info-back {
-	-webkit-transform: rotateY(180deg);
-	-ms-transform: rotateY(180deg);
-	transform: rotateY(180deg);
+	/* 	-webkit-transform: rotateY(180deg); */
+	/* 	-ms-transform: rotateY(180deg); */
+	/* 	transform: rotateY(180deg); */
 	background: #202020;
 }
 
@@ -278,8 +301,7 @@ body {
 }
 
 .ian-img {
-	/* 	background-image: url(../images/ian.jpg); */
-	
+	background-image: url(../images/ian.jpg);
 }
 
 .ch-info h3 {
@@ -305,16 +327,16 @@ body {
 	border-top: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-.ch-item:hover .ch-info-wrap {
-	box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.8), inset 0 0 3px
-		rgba(115, 114, 23, 0.8);
-}
+/* .ch-item:hover .ch-info-wrap { */
+/* 	box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.8), inset 0 0 3px */
+/* 		rgba(115, 114, 23, 0.8); */
+/* } */
 
-.ch-item:hover .ch-info {
-	-webkit-transform: rotateY(-180deg);
-	-ms-transform: rotateY(-180deg);
-	transform: rotateY(-180deg);
-}
+/* .ch-item:hover .ch-info { */
+/* 	-webkit-transform: rotateY(-180deg); */
+/* 	-ms-transform: rotateY(-180deg); */
+/* 	transform: rotateY(-180deg); */
+/* } */
 
 /*Carousel*/
 
@@ -384,7 +406,7 @@ body {
 		width: 160px;
 		height: 160px;
 	}
-	.ch-info-wrap {
+	.wrap {
 		width: 140px;
 		height: 140px;
 		top: 10px;
@@ -449,4 +471,53 @@ body {
 
 .carousel-indicators .active {
 	background-color: rgba(73, 35, 101, 1);
+}
+
+/*For when IE adopts preserve-3d*/
+.wrap {
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+/*set Transition and Backface Properties*/
+.wrap div {
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+	position: absolute;
+	-moz-backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+/*Define Side-A*/
+.side-a {
+	z-index: 100;
+	-moz-transform: perspective(800px) rotateY(0deg);
+	-webkit-transform: perspective(800px) rotateY(0deg);
+	transform: perspective(800px) rotateY(0deg);
+}
+
+/*Define Side-B*/
+.side-b {
+	background: #202020;
+	-moz-transform: perspective(800px) rotateY(180deg);
+	-webkit-transform: perspective(800px) rotateY(180deg);
+	transform: perspective(800px) rotateY(180deg);
+}
+
+/*Turns Side-A*/
+.wrap:hover .side-a {
+	-webkit-transform: perspective(800px) rotateY(-180deg);
+	-moz-transform: perspective(800px) rotateY(-180deg);
+	transform: perspective(800px) rotateY(-180deg);
+}
+
+/*Simultaneously Turns Side-B in Opposite Direction*/
+.wrap:hover .side-b {
+	-moz-transform: perspective(800px) rotateY(0);
+	-webkit-transform: perspective(800px) rotateY(0);
+	transform: perspective(800px) rotateY(0);
 }

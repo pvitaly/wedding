@@ -19,7 +19,25 @@
 <link rel="stylesheet"
 	href="//netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/wedding.css" />
+<script type="text/javascript" src="js/vendor/custom-modernizr.js"></script>
 <!--[if IE]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+<script>
+	(function(i, s, o, g, r, a, m) {
+		i['GoogleAnalyticsObject'] = r;
+		i[r] = i[r] || function() {
+			(i[r].q = i[r].q || []).push(arguments)
+		}, i[r].l = 1 * new Date();
+		a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+		a.async = 1;
+		a.src = g;
+		m.parentNode.insertBefore(a, m)
+	})(window, document, 'script', '//www.google-analytics.com/analytics.js',
+			'ga');
+
+	ga('create', 'UA-46090647-1', 'kendraandvitalywedding.com');
+	ga('send', 'pageview');
+</script>
 
 </head>
 <body>
@@ -53,7 +71,7 @@
 		</div>
 	</div>
 
-	<div class="container">
+	<div class="container" id="content">
 
 		<div class='row bannerbox'>
 			<div class="row" style="text-align: center;">
@@ -131,11 +149,11 @@
 					<ul class="details-list">
 						<li>Come See Us Tie The Knot</li>
 						<li><span class="garamond">4:00 P.M.</span></li>
-						<li><span class="garamond"><a
-								style="text-decoration: none;" href="" data-toggle="modal"
-								data-target="#ceremonyMap">south hickory ridge picnic area</a></span></li>
+						<li><span class="garamond"><a class="dashed-link"
+								href="" data-toggle="modal" data-target="#ceremonyMap">south
+									hickory ridge picnic area</a></span></li>
 						<li style="font-weight: bold;"><span class="garamond"><a
-								style="text-decoration: none;"
+								class="dashed-link"
 								href="http://maps.google.com/maps?daddr=Kensington+Metropark,+Milford+Township+MI,+48380"
 								target="_blank">kensington metropark</a></span></li>
 					</ul>
@@ -165,7 +183,7 @@
 							<li><span class="garamond">6:00 P.M.</span></li>
 							<li><span class="garamond">celebrity room</span></li>
 							<li style="font-weight: bold;"><span class="garamond"><a
-									style="text-decoration: none;"
+									class="dashed-link"
 									href="http://maps.google.com/maps?daddr=Crystal+Gardens,+Howell+MI,+48843"
 									target="_blank">crystal gardens</a></span></li>
 						</ul>
@@ -196,6 +214,9 @@
 					class='purple-emphasis sloopy-small'>The Wedding Party</span> Below
 				is a collection of our best friends!
 			</div>
+			<div class="row strong-font" style="text-align: center;">Hover
+				over a picture for more details.</div>
+
 			<!-- Carousel
     ================================================== -->
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -213,10 +234,10 @@
 						<ul class="ch-grid">
 							<li>
 								<div class="ch-item shelby-img">
-									<div class="ch-info-wrap">
+									<div class="ch-info-wrap wrap">
 										<div class="ch-info">
-											<div class="ch-info-front shelby-img"></div>
-											<div class="ch-info-back">
+											<div class="side-a shelby-img"></div>
+											<div class="side-b">
 												<h3>
 													Shelby<br>Jaynes
 												</h3>
@@ -228,10 +249,10 @@
 							</li>
 							<li>
 								<div class="ch-item jason-img">
-									<div class="ch-info-wrap">
+									<div class="ch-info-wrap wrap">
 										<div class="ch-info">
-											<div class="ch-info-front jason-img"></div>
-											<div class="ch-info-back">
+											<div class="side-a jason-img"></div>
+											<div class="side-b ">
 												<h3>
 													Jason<br>Sydor
 												</h3>
@@ -247,10 +268,10 @@
 						<ul class="ch-grid">
 							<li>
 								<div class="ch-item melissa-img">
-									<div class="ch-info-wrap">
+									<div class="ch-info-wrap wrap">
 										<div class="ch-info">
-											<div class="ch-info-front melissa-img"></div>
-											<div class="ch-info-back">
+											<div class="side-a melissa-img"></div>
+											<div class="side-b">
 												<h3>
 													Melissa<br>Beals
 												</h3>
@@ -262,10 +283,10 @@
 							</li>
 							<li>
 								<div class="ch-item brandon-img">
-									<div class="ch-info-wrap">
+									<div class="ch-info-wrap wrap">
 										<div class="ch-info">
-											<div class="ch-info-front brandon-img"></div>
-											<div class="ch-info-back">
+											<div class="side-a brandon-img"></div>
+											<div class="side-b">
 												<h3>
 													Brandon<br>Lynn
 												</h3>
@@ -281,10 +302,10 @@
 						<ul class="ch-grid">
 							<li>
 								<div class="ch-item bailey-img">
-									<div class="ch-info-wrap">
+									<div class="ch-info-wrap wrap">
 										<div class="ch-info">
-											<div class="ch-info-front bailey-img"></div>
-											<div class="ch-info-back">
+											<div class="side-a bailey-img"></div>
+											<div class="side-b">
 												<h3>
 													Bailey<br>Hall
 												</h3>
@@ -296,10 +317,10 @@
 							</li>
 							<li>
 								<div class="ch-item nate-img">
-									<div class="ch-info-wrap">
+									<div class="ch-info-wrap wrap">
 										<div class="ch-info">
-											<div class="ch-info-front nate-img"></div>
-											<div class="ch-info-back">
+											<div class="side-a nate-img"></div>
+											<div class="side-b">
 												<h3>
 													Nate<br>Jackson
 												</h3>
@@ -315,10 +336,10 @@
 						<ul class="ch-grid">
 							<li>
 								<div class="ch-item brittany-img">
-									<div class="ch-info-wrap">
+									<div class="ch-info-wrap wrap">
 										<div class="ch-info">
-											<div class="ch-info-front brittany-img"></div>
-											<div class="ch-info-back">
+											<div class="side-a brittany-img"></div>
+											<div class="side-b">
 												<h3>
 													Brittany<br>Hernandez
 												</h3>
@@ -330,10 +351,10 @@
 							</li>
 							<li>
 								<div class="ch-item devon-img">
-									<div class="ch-info-wrap">
+									<div class="ch-info-wrap wrap">
 										<div class="ch-info">
-											<div class="ch-info-front devon-img"></div>
-											<div class="ch-info-back">
+											<div class="side-a devon-img"></div>
+											<div class="side-b">
 												<h3>
 													Devon<br>Jaynes
 												</h3>
@@ -349,10 +370,10 @@
 						<ul class="ch-grid">
 							<li>
 								<div class="ch-item lindsay-img">
-									<div class="ch-info-wrap">
+									<div class="ch-info-wrap wrap">
 										<div class="ch-info">
-											<div class="ch-info-front lindsay-img"></div>
-											<div class="ch-info-back">
+											<div class="side-a lindsay-img"></div>
+											<div class="side-b">
 												<h3>
 													Lindsay<br>Welsh
 												</h3>
@@ -364,10 +385,10 @@
 							</li>
 							<li>
 								<div class="ch-item ryan-img">
-									<div class="ch-info-wrap">
+									<div class="ch-info-wrap wrap">
 										<div class="ch-info">
-											<div class="ch-info-front ryan-img"></div>
-											<div class="ch-info-back">
+											<div class="side-a ryan-img"></div>
+											<div class="side-b">
 												<h3>
 													Ryan<br>Balbaugh
 												</h3>
@@ -383,10 +404,10 @@
 						<ul class="ch-grid">
 							<li>
 								<div class="ch-item andrea-img">
-									<div class="ch-info-wrap">
+									<div class="ch-info-wrap wrap">
 										<div class="ch-info">
-											<div class="ch-info-front andrea-img"></div>
-											<div class="ch-info-back">
+											<div class="side-a andrea-img"></div>
+											<div class="side-b">
 												<h3>
 													Andrea<br>Sydor
 												</h3>
@@ -398,10 +419,10 @@
 							</li>
 							<li>
 								<div class="ch-item ian-img">
-									<div class="ch-info-wrap">
+									<div class="ch-info-wrap wrap">
 										<div class="ch-info">
-											<div class="ch-info-front ian-img"></div>
-											<div class="ch-info-back">
+											<div class="side-a ian-img"></div>
+											<div class="side-b">
 												<h3>
 													Ian<br>Beals
 												</h3>
@@ -434,17 +455,16 @@
 
 				<p>
 					So, to make your visit more convenient, we have reserved a block of
-					rooms at the <a style="text-decoration: none;"
+					rooms at the <a class="dashed-link"
 						href="http://maps.google.com/maps?daddr=Courtyard+Detroit+Brighton+7799+Conference+Center+Dr,+Brighton+MI+48114"
 						target="_blank">Courtyard Marriot in Brighton</a>.
 				<p>
-					Click <strong><a style="text-decoration: none;"
+					Click <strong><a class="dashed-link"
 						href="http://cwp.marriott.com/dtwbr/jaynespekerwedding/"
 						target="_blank">here</a></strong> to reserve your room or call <strong><a
-						style="text-decoration: none;" href="tel:8102259200">(810)
-							225-9200</a></strong> and mention the <strong><span
-						class="purple-emphasis">Peker/Jaynes Wedding</span></strong> to receive a
-					special rate!
+						class="dashed-link" href="tel:8102259200">(810) 225-9200</a></strong> and
+					mention the <strong><span class="purple-emphasis">Peker/Jaynes
+							Wedding</span></strong> to receive a special rate!
 				<p>For your convenience, we are providing a shuttle that will
 					take you from the hotel to the ceremony, from the ceremony to the
 					reception, and from the reception back to the hotel!
@@ -468,9 +488,13 @@
 				easier - we have listed them all on the knot. Click on the image
 				below to see our gift list!</div>
 			<div class="row" style="text-align: center;">
-				<a target="_blank"
+				<a target="_blank" class="theknot"
 					href="http://registry.theknot.com/kendra-jaynes-vitaly-peker-june-2014-mi/6271242"><img
 					alt="theknot" src="/images/theknot.png"></a>
+			</div>
+			<div class="row" style="text-align: center; padding-top: 10px;">
+				<img class="img-style" style="width: 80%;"
+					alt="Day After Engagement" src="/images/engaged.jpg">
 			</div>
 
 		</div>
@@ -480,12 +504,13 @@
 				<span class='purple-emphasis garamond'>#PEKERWEDDING</span>
 			</div>
 			<div class="row garamondItalic strong-font" style="padding: 15px;">
-				Instagrammers unite! If you are going to be taking pictures with
-				your smart phone and posting them on instagram, please use the
-				hashtag <span class='purple-emphasis'>#pekerwedding</span>. Even if
-				you are taking a picture of your hand, we would love to see it! The
-				pictures will instantly be posted here and we can relive our day
-				instantly!
+				Instagrammers unite! We want to see every bit of our special day
+				from your point of view! If you are going to be taking pictures with
+				your smart phone and posting them on Instagram, include the hashtag
+				<span class='purple-emphasis'>#pekerwedding</span>. Your pictures
+				will be instantly uploaded to this site, so we can see your journey
+				here, your dancing face, or your foot (if you so choose). We can't
+				wait to see every part of this event!
 			</div>
 			<div class="row instagram"></div>
 			<div class="row" style="padding: 15px;">
@@ -505,34 +530,14 @@
 							s'il Vous Plaît</h4>
 					</div>
 					<div class="modal-body" align="center">
-
-						<form:form role="form" action="rsvp" method="put">
-							<div class="form-group" align="center">
-								<input type="text" name="uniqueId"
-									class="form-control input-small" id="rsvpCode"
-									placeholder="RSVP CODE FROM INVITATION"
-									style="text-align: center;">
-							</div>
-							<div class="form-group" align="center">
-								<input type="hidden" name="response" id="response">
-
-								<div class="input-group">
-									<span class="input-group-addon"> <input id="accepted"
-										name="rsvpResponse" type="radio" class="radio-margin">Accept
-										With Pleasure
-									</span> <span class="input-group-addon"> <input id="declined"
-										name="rsvpResponse" type="radio" class="radio-margin">Reject
-										With Regret
-									</span>
-								</div>
-								<!-- /input-group -->
-							</div>
-							<div class="form-group" align="center">
-								<button type="reset" class="btn" data-dismiss="modal">Close</button>
-								<button type="submit" class="btn btn-primary">Submit</button>
-							</div>
-						</form:form>
-
+						<div class="row">
+							<img alt="Under Construction" src="/images/construction.gif">
+						</div>
+						<div class="row strong-font">please excuse the dust, this
+							section is under construction!</div>
+					</div>
+					<div class="modal-footer" style="text-align: center;">
+						<button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
 					</div>
 				</div>
 				<!-- /.modal-content -->
@@ -568,10 +573,6 @@
 			<!-- /.modal-dialog -->
 		</div>
 		<!-- /.modal -->
-
-
-
-
 	</div>
 
 	<script type="text/javascript"
