@@ -155,8 +155,6 @@
 								target="_blank">kensington metropark</a></span></li>
 					</ul>
 				</div>
-				<div class="row garamondItalic" style="text-align: center;">Here
-					are some more random photos of us!</div>
 				<div class="row" style="text-align: center; padding-bottom: 5px;">
 					<img style="width: 71%;" class="img-style"
 						alt="Us in St. Joseph, MI" src="/images/kendra_vitaly_stjoe.jpg">
@@ -184,7 +182,6 @@
 									target="_blank">crystal gardens</a></span></li>
 						</ul>
 					</div>
-					<div class="row garamondItalic">... And more photos!</div>
 					<div class="row" style="text-align: center; padding-bottom: 5px;">
 						<img style="width: 71%;" class="img-style"
 							alt="Us in St. Igance, MI" src="/images/us_best.jpg">
