@@ -139,6 +139,7 @@ body {
 	background: url(../images/main_bg.jpg) no-repeat center center fixed;
 	background-size: cover;
 	font-family: "EB Garamond Regular SmallCaps";
+	color: black;
 }
 
 #content {
