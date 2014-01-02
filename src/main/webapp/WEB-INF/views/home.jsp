@@ -32,7 +32,8 @@
 		a.async = 1;
 		a.src = g;
 		m.parentNode.insertBefore(a, m)
-	})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+	})(window, document, 'script', '//www.google-analytics.com/analytics.js',
+			'ga');
 
 	ga('create', 'UA-46090647-1', 'kendraandvitalywedding.com');
 	ga('send', 'pageview');
@@ -283,7 +284,7 @@
 												<h3>
 													brandon<br>lynn
 												</h3>
-												<p>Groomsman</p>
+												<p>Best Man</p>
 											</div>
 										</div>
 									</div>
@@ -479,8 +480,8 @@
 				you at our wedding is something we will cherish and remember
 				forever. However, if you would like to give us a gift, we won't stop
 				you! We are registered at a few different stores, so to make it
-				easier - we have listed them all on the knot. Click on the image
-				below to see our gift list!</div>
+				easier - we have listed them all on the knot. Click on The Knot
+				image below to see our gift list!</div>
 			<div class="row" style="text-align: center;">
 				<a target="_blank" class="theknot"
 					href="http://registry.theknot.com/kendra-jaynes-vitaly-peker-june-2014-mi/6271242"><img
