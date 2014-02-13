@@ -11,41 +11,53 @@ import com.peker.wedding.util.GuestStatusEnum;
 @Service
 public class GuestService implements IGuestService {
 
-	@Autowired
-	private IGuestRepository	guestRepository;
+    @Autowired
+    private IGuestRepository guestRepository;
 
-	@Autowired
-	private IGuestTableService	guestTableService;
+    @Autowired
+    private IGuestTableService guestTableService;
 
-	@Override
-	@Transactional
-	public void acceptGuest(Guest guest) {
-		guest.setGuestStatusEnum(GuestStatusEnum.ACCEPTED);
-		this.guestRepository.save(guest);
+    @Override
+    @Transactional
+    public Guest acceptGuest(Guest guest) {
+        if (guest.getGuestStatusEnum() == GuestStatusEnum.WAITING) {
+            guest.setGuestStatusEnum(GuestStatusEnum.ACCEPTED);
+        }
 
-	}
+        return this.guestRepository.save(guest);
 
-	@Override
-	@Transactional
-	public void regretGuest(Guest guest) {
-		guest.setGuestStatusEnum(GuestStatusEnum.DECLINED);
-		this.guestRepository.save(guest);
-	}
+    }
 
-	@Override
-	public Guest findByUniqueId(String uniqueId) {
-		return this.guestRepository.findByUniqueId(uniqueId);
-	}
+    @Override
+    @Transactional
+    public Guest regretGuest(Guest guest) {
+        if (guest.getGuestStatusEnum() == GuestStatusEnum.WAITING) {
+            guest.setGuestStatusEnum(GuestStatusEnum.DECLINED);
+        }
 
-	@Override
-	@Transactional
-	public Guest save(Guest guest) {
-		return this.guestRepository.saveAndFlush(guest);
-	}
+        return this.guestRepository.save(guest);
+    }
 
-	@Override
-	public Guest findOne(Integer id) {
-		return this.guestRepository.findOne(id);
-	}
+    @Override
+    public Guest findByUniqueId(String uniqueId) {
+        if (uniqueId != null && uniqueId.length() > 0) {
+            return this.guestRepository.findByUniqueId(uniqueId);
+        }
+        return null;
+    }
+
+    @Override
+    @Transactional
+    public Guest save(Guest guest) {
+        return this.guestRepository.saveAndFlush(guest);
+    }
+
+    @Override
+    public Guest findOne(Integer id) {
+        if (id != null) {
+            return this.guestRepository.findOne(id);
+        }
+        return null;
+    }
 
 }

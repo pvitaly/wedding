@@ -6,9 +6,9 @@ public interface IGuestService {
 
 	Guest findByUniqueId(String uniqueId);
 
-	void acceptGuest(Guest guest);
+	Guest acceptGuest(Guest guest);
 
-	void regretGuest(Guest guest);
+	Guest regretGuest(Guest guest);
 
 	Guest save(Guest guest);
 
