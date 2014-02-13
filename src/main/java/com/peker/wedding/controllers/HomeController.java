@@ -28,6 +28,11 @@ public class HomeController {
 		return "home";
 	}
 
+	@RequestMapping(value = "404", method = RequestMethod.GET)
+	public String pageNotFoundView() {
+		return "404";
+	}
+
 	@RequestMapping(value = "/rsvp", method = RequestMethod.PUT)
 	public RedirectView rsvp(String uniqueId, String response, Model model) {
 		RedirectView view = null;
