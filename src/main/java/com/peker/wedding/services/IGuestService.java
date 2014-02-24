@@ -4,14 +4,14 @@ import com.peker.wedding.entities.Guest;
 
 public interface IGuestService {
 
-	Guest findByUniqueId(String uniqueId);
+    Guest findByUniqueId(String uniqueId);
 
-	Guest acceptGuest(Guest guest);
+    Guest acceptGuest(Guest guest, String guestName, Boolean plusOne, String plusOneName, Integer totalPartySize, String messageFromGuest);
 
-	Guest regretGuest(Guest guest);
+    Guest declineGuest(Guest guest, String messageFromGuest);
 
-	Guest save(Guest guest);
+    Guest save(Guest guest);
 
-	Guest findOne(Integer id);
+    Guest findOne(Integer id);
 
 }

@@ -21,17 +21,13 @@ public class Guest extends BaseEntity {
 
     private String uniqueId;
 
-    private String firstName;
-
-    private String lastName;
+    private String guestName;
 
     private GuestStatusEnum guestStatusEnum;
 
     private NamePrefixEnum namePrefixEnum;
 
-    private String plusOneFirstName;
-
-    private String plusOneLastName;
+    private String plusOneName;
 
     private Boolean plusOne;
 
@@ -41,9 +37,9 @@ public class Guest extends BaseEntity {
 
     private Boolean kidsAllowed;
 
-    private Boolean bringingKids;
+    private Integer totalPartySize;
 
-    private String kidNames;
+    private String messageFromGuest;
 
     @Column(name = "UNIQUE_ID")
     public String getUniqueId() {
@@ -54,22 +50,13 @@ public class Guest extends BaseEntity {
         this.uniqueId = uniqueId;
     }
 
-    @Column(name = "FIRST_NAME")
-    public String getFirstName() {
-        return firstName;
+    @Column(name = "GUEST_NAME")
+    public String getGuestName() {
+        return guestName;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    @Column(name = "LAST_NAME")
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+    public void setGuestName(String guestName) {
+        this.guestName = guestName;
     }
 
     @Enumerated(EnumType.STRING)
@@ -92,22 +79,13 @@ public class Guest extends BaseEntity {
         this.namePrefixEnum = namePrefixEnum;
     }
 
-    @Column(name = "PLUS_ONE_FIRST_NAME")
-    public String getPlusOneFirstName() {
-        return plusOneFirstName;
+    @Column(name = "PLUS_ONE_NAME")
+    public String getPlusOneName() {
+        return plusOneName;
     }
 
-    public void setPlusOneFirstName(String plusOneFirstName) {
-        this.plusOneFirstName = plusOneFirstName;
-    }
-
-    @Column(name = "PLUS_ONE_LAST_NAME")
-    public String getPlusOneLastName() {
-        return plusOneLastName;
-    }
-
-    public void setPlusOneLastName(String plusOneLastName) {
-        this.plusOneLastName = plusOneLastName;
+    public void setPlusOneName(String plusOneName) {
+        this.plusOneName = plusOneName;
     }
 
     @Type(type = "yes_no")
@@ -150,23 +128,23 @@ public class Guest extends BaseEntity {
         this.kidsAllowed = kidsAllowed;
     }
 
-    @Type(type = "yes_no")
-    @Column(name = "BRINGING_KIDS")
-    public Boolean getBringingKids() {
-        return bringingKids;
+    @Column(name = "TOTAL_PARTY_SIZE")
+    public Integer getTotalPartySize() {
+        return totalPartySize;
     }
 
-    public void setBringingKids(Boolean bringingKids) {
-        this.bringingKids = bringingKids;
+    public void setTotalPartySize(Integer totalPartySize) {
+        this.totalPartySize = totalPartySize;
     }
 
-    @Column(name = "KIDS_NAMES")
-    public String getKidNames() {
-        return kidNames;
+    @Column(name = "MESSAGE_FROM_GUEST")
+    @Type(type = "text")
+    public String getMessageFromGuest() {
+        return messageFromGuest;
     }
 
-    public void setKidNames(String kidNames) {
-        this.kidNames = kidNames;
+    public void setMessageFromGuest(String messageFromGuest) {
+        this.messageFromGuest = messageFromGuest;
     }
 
 }
