@@ -33,6 +33,7 @@ public class HomeController {
             Guest guest = this.guestService.findByUniqueId(uniqueId);
 
             if (guest != null && guest.getId() != null) {
+
                 return guest.toString();
             }
         }
